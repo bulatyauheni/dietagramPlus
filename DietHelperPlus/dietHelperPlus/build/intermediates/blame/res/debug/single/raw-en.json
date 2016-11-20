@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\raw-en\\base_create.txt",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\raw-en\\base_create.txt"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\raw-en\\full_base.txt",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\raw-en\\full_base.txt"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\raw-en\\category.txt",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\raw-en\\category.txt"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\raw-en\\fitnes.txt",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\raw-en\\fitnes.txt"
+    }
+]

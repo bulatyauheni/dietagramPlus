@@ -1,0 +1,66 @@
+package bulat.diet.helper_sport.activity;
+
+import java.util.ArrayList;
+import java.util.Map;
+
+import android.app.Activity;
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.RectF;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import bulat.diet.helper_sport.R;
+import bulat.diet.helper_sport.db.TodayDishHelper;
+
+public class Top10 extends Activity {
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		View viewToLoad = LayoutInflater.from(this.getParent()).inflate(
+				R.layout.top10, null);
+		setContentView(viewToLoad);	
+		Button backButton = (Button) viewToLoad.findViewById(R.id.buttonBack);				
+		backButton.setOnClickListener(new OnClickListener() {
+			public void onClick(View v) {
+				onBackPressed();
+			}
+		});
+		}
+
+	
+
+	@Override
+	protected void onDestroy() {
+		// TODO Auto-generated method stub
+		super.onDestroy();
+	}
+
+	@Override
+	protected void onPause() {
+		// TODO Auto-generated method stub
+		super.onPause();
+	}
+
+	@Override
+	protected void onResume() {
+		// TODO Auto-generated method stub
+		super.onResume();
+		LinearLayout linear=(LinearLayout) findViewById(R.id.linearLayoutChart);
+        values=calculateData(values);
+        linear.addView(new MyGraphview(this,values));
+        
+        LinearLayout linear2=(LinearLayout) findViewById(R.id.linearLayoutChart2);
+        values2 = getValues(TodayDishHelper.getStatistic(this));
+        values2=calculateData(values2);
+        linear2.removeAllViews();
+        linear2.addView(new MyGraphview(this,values2));
+	}
+
+}

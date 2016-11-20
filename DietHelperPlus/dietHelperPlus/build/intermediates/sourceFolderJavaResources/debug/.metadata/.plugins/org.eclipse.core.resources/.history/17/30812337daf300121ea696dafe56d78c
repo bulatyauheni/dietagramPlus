@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_color"
+    android:orientation="vertical" >
+<RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title_color" >
+
+        <LinearLayout
+            android:id="@+id/relativeLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/buttonBack" >
+
+            <Button
+                android:id="@+id/buttonExit"
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:layout_margin="5dip"
+                android:background="@drawable/exit_button_xml"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:textSize="12dip" >
+            </Button>
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:layout_weight="0.18"
+                android:ellipsize="end"
+                android:shadowColor="#000000"
+                android:shadowDx="1.2"
+                android:shadowDy="1.2"
+                android:shadowRadius="1.2"
+                android:text="@string/tab_setting"
+                android:textColor="@color/white"
+                android:textSize="20dip"
+                android:textStyle="bold" >
+            </TextView>
+        </LinearLayout>
+    </RelativeLayout>
+     <LinearLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/header_color"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:id="@+id/imageLayout1"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/mainTab"
+                android:layout_width="fill_parent"
+                android:layout_height="35dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/noselected_tab"
+                android:text="@string/tab_mode" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/imageLayout1"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/statTab"
+                android:layout_width="fill_parent"
+                android:layout_height="35dip"
+                android:clickable="true"
+      			android:focusable="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/tab_statistic"
+                android:background="@drawable/selected_tab" >
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/imageLayout1"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/advTab"
+                android:layout_width="fill_parent"
+                android:layout_height="35dip"
+                android:clickable="true"
+      			android:focusable="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/advertise"
+                android:background="@drawable/noselected_tab" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+    
+
+   
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/main_color"
+            android:orientation="vertical" >
+			<RelativeLayout
+                android:id="@+id/relativeLayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/header_color" >
+
+                <TextView
+                    android:id="@+id/textViewLoading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:paddingRight="20dip"
+                    android:text="@string/statistics_parameters"
+                    android:textColor="@color/text_color"
+                    android:textSize="17dip" >
+                </TextView>
+            </RelativeLayout>
+			<ListView
+			        android:id="@+id/listViewStatistics"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_above="@+id/linearLayoutAVG"
+			        android:layout_below="@+id/relativeLayout1"
+			        android:cacheColorHint="#00000000"
+
+			        android:divider="@color/grey_divider"
+			        android:dividerHeight="1dip" >
+			    </ListView>
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,199 @@
+package bulat.diet.helper_ru.activity;
+
+import java.util.List;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
+import android.database.Cursor;
+import android.net.Uri;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.ListView;
+import android.widget.TextView;
+import bulat.diet.helper_ru.R;
+
+public class About extends Activity {
+
+
+	private Cursor c;
+	private ListView listView;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		View viewToLoad = LayoutInflater.from(this.getParent()).inflate(
+				R.layout.about, null);
+		Button infoTab= (Button) viewToLoad.findViewById(R.id.mainTab);
+		infoTab.setOnClickListener(new OnClickListener() {
+
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				try {
+					Intent intent = new Intent();					
+					intent.setClass(getParent(), Info.class);					
+					StatisticActivityGroup activityStack = (StatisticActivityGroup) getParent();
+					activityStack.push("Info", intent);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+		Button statTab= (Button) viewToLoad.findViewById(R.id.statTab);
+		statTab.setOnClickListener(new OnClickListener() {
+
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				try {
+					Intent intent = new Intent();					
+					intent.setClass(getParent(), SelectStatisticsActivity.class);					
+					StatisticActivityGroup activityStack = (StatisticActivityGroup) getParent();
+					activityStack.push("SelectStatisticsActivity", intent);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+		Button exitButton = (Button) viewToLoad.findViewById(R.id.buttonExit);
+		exitButton.setOnClickListener(new OnClickListener() {
+
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				finish();
+				System.exit(0);
+			}
+		});
+
+		setContentView(viewToLoad);	
+		
+		ImageView email = (ImageView)viewToLoad.findViewById(R.id.imageViewEmail);
+		email.setOnClickListener(new OnClickListener() {
+		
+
+			public void onClick(View v) {
+				 	Intent emailIntent = new Intent(Intent.ACTION_SEND);
+				    emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[] { "bulat.yauheni@gmail.com" });
+				    emailIntent.setType("plain/text");
+				    final PackageManager pm = getPackageManager();
+				    final List<ResolveInfo> matches = pm.queryIntentActivities(emailIntent, 0);
+				    ResolveInfo best = null;
+				    for(final ResolveInfo info : matches)
+				        if (info.activityInfo.packageName.endsWith(".gm") || info.activityInfo.name.toLowerCase().contains("gmail"))
+				            best = info;
+				    if (best != null)
+				        emailIntent.setClassName(best.activityInfo.packageName, best.activityInfo.name);
+				    try{
+				    startActivity(emailIntent);
+				    }catch(Exception e){
+				    	e.printStackTrace();
+				    }
+			}
+		});	
+
+		ImageView textViewFacebook = (ImageView)viewToLoad.findViewById(R.id.imageViewFacebook);
+		textViewFacebook.setOnClickListener(new OnClickListener() {
+		
+
+			public void onClick(View v) {
+				Uri uri = Uri.parse("https://www.facebook.com/yauheni.bulat");
+				 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+				 getParent().startActivity(intent);
+			}
+		});	
+		TextView textViewGP = (TextView)viewToLoad.findViewById(R.id.textViewGP);
+		textViewGP.setOnClickListener(new OnClickListener() {
+		
+
+			public void onClick(View v) {
+				Uri uri = Uri.parse("market://details?id=bulat.diet.helper_plus");
+				 Intent intent = new Intent(Intent.ACTION_VIEW, uri);			
+				 try {
+					 getParent().startActivity(intent);
+				} catch (android.content.ActivityNotFoundException anfe) {
+					 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=bulat.diet.helper_plus")));
+				}
+			}
+		});	
+		
+
+		}
+
+
+	@Override
+	protected void onDestroy() {
+		// TODO Auto-generated method stub
+		super.onDestroy();
+	}
+
+	@Override
+	protected void onPause() {
+		// TODO Auto-generated method stub
+		super.onPause();
+	}
+
+	@Override
+	protected void onResume() {
+		// TODO Auto-generated method stub
+		super.onResume();
+		
+		Bundle extras = getIntent().getExtras();
+		
+		if (extras != null) {
+			
+			String name = extras.getString(AddTodayDishActivity.DISH_NAME);
+			Intent intent = new Intent();	
+			intent.putExtra(AddTodayDishActivity.DISH_NAME, name);
+			intent.setClass(getParent(), AdvertActivity.class);
+			
+			StatisticActivityGroup activityStack = (StatisticActivityGroup) getParent();
+				activityStack.push("AdvertActivity", intent);
+		}
+		/*c = AdvertsListHelper.getAllAdvertCategories(getApplicationContext());
+		listView = (ListView) findViewById(R.id.advListView);
+		if (c!=null){
+			if (c.getCount() > 0) {
+				try {
+					AdvAdapter da = new AdvAdapter(getApplicationContext(), c);
+					//TodayDishAdapter  da = new TodayDishAdapter(getApplicationContext(), c,(DishActivityGroup) getParent());					
+					listView.setAdapter(da);
+					listView.setItemsCanFocus(true);	        				
+					
+				}catch (Exception e) {
+					if(c!=null)
+						c.close();
+				}finally{
+					//c.close();
+				}
+			}else{
+				RelativeLayout emptyHeader = (RelativeLayout)findViewById(R.id.relativeLayoutEmpty);
+				emptyHeader.setVisibility(View.VISIBLE);				
+			}
+			
+		}
+		listView.setOnItemClickListener(new OnItemClickListener() {
+
+			public void onItemClick(AdapterView<?> arg0, View v, int arg2,
+					long arg3) {
+				// TODO Auto-generated method stub
+				TextView name = (TextView) v.findViewById(R.id.textViewDay);
+				Intent intent = new Intent();	
+				intent.putExtra(AddTodayDishActivity.DISH_NAME, name.getText());
+				intent.setClass(getParent(), AdvertActivity.class);
+				
+				StatisticActivityGroup activityStack = (StatisticActivityGroup) getParent();
+					activityStack.push("AdvertActivity", intent);
+				
+				
+			}
+		});
+	*/
+	
+	}
+
+	
+}

@@ -1,0 +1,191 @@
+package bulat.diet.helper_sport.db;
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
+
+import android.content.ContentResolver;
+import android.content.ContentUris;
+import android.content.ContentValues;
+import android.content.Context;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.text.format.DateUtils;
+import bulat.diet.helper_sport.db.DishProvider.DatabaseHelper;
+import bulat.diet.helper_sport.item.Day;
+import bulat.diet.helper_sport.item.TodayDish;
+import bulat.diet.helper_sport.utils.SaveUtils;
+
+public class NotificationDishHelper {
+	
+	public static Cursor getAllNotifications(Context context) {
+		ContentResolver cr = context.getContentResolver();
+		//String selection =  DishProvider.TODAY_IS_DAY + " <> " + "1 and "  + DishProvider.TODAY_DISH_DATE_LONG + " > " + "?";
+		Cursor c = cr.query(DishProvider.NOTIFICATION_CONTENT_URI, null, null, null, null);
+		return c;
+	}
+	
+	
+	
+	public static TodayDish getNotificationById(String id, Context context) {
+		
+		ContentResolver cr = context.getContentResolver();
+		String selection = "_id" + "=" + "?" ;
+		String[] columns = new String[] { DishProvider.TODAY_NAME, DishProvider.TODAY_CALORICITY, 
+				DishProvider.TODAY_DISH_WEIGHT, "_id", DishProvider.TODAY_DISH_DATE_LONG, DishProvider.TYPE };
+		String[] val = new String[] { id };
+		Cursor c = cr.query(DishProvider.NOTIFICATION_CONTENT_URI, columns, selection, val,null);
+		TodayDish res = new TodayDish();
+		if (c!=null){
+			try {
+				
+				while (c.moveToNext())
+		        {					
+					res.setName(c.getString(0));
+					res.setCaloricity(c.getInt(1));
+					res.setWeight(c.getInt(2));
+					res.setId(c.getString(3));
+					res.setDateTime(4);
+					res.setType(c.getString(5));
+					return res;
+		        }
+				return null;
+			}catch (Exception e) {
+				e.printStackTrace();
+			}finally{
+				c.close();
+			}
+		}
+		return null;	
+	}
+
+	public static String addNewDish(TodayDish dish, Context context) {
+		
+			ContentResolver cr = context.getContentResolver();
+			ContentValues values = new ContentValues();
+
+			//values.put(DishProvider.DISH_ID, couponId);
+
+			values.put(DishProvider.TODAY_DISH_ID, dish.getBodyweight());
+			values.put(DishProvider.TODAY_NAME, dish.getName());
+			values.put(DishProvider.TODAY_DESCRIPTION, dish.getDescription());
+			values.put(DishProvider.TODAY_CALORICITY, dish.getCaloricity());
+			values.put(DishProvider.TODAY_DISH_CALORICITY, dish.getAbsolutCaloricity());
+			values.put(DishProvider.TODAY_CATEGORY, dish.getCategory());
+			values.put(DishProvider.TODAY_DISH_DATE, dish.getDate());
+			values.put(DishProvider.TODAY_DISH_WEIGHT, dish.getWeight());
+			values.put(DishProvider.TODAY_DISH_DATE_LONG, dish.getDateTime());
+			values.put(DishProvider.TODAY_IS_DAY, dish.getIsdate());
+			values.put(DishProvider.TODAY_TYPE, dish.getType());
+			values.put(DishProvider.TODAY_FAT, dish.getFat());
+			values.put(DishProvider.TODAY_CARBON, dish.getCarbon());
+			values.put(DishProvider.TODAY_PROTEIN, dish.getProtein());
+			values.put(DishProvider.TODAY_DISH_FAT, dish.getAbsFat());
+			values.put(DishProvider.TODAY_DISH_CARBON, dish.getAbsCarbon());
+			values.put(DishProvider.TODAY_DISH_PROTEIN, dish.getAbsProtein());
+			values.put(DishProvider.TODAY_DISH_TIME_HH, dish.getDateTimeHH());
+			values.put(DishProvider.TODAY_DISH_TIME_MM, dish.getDateTimeMM());
+			long id = ContentUris.parseId(cr.insert(DishProvider.NOTIFICATION_CONTENT_URI, values));
+			String f = String.valueOf(id);
+			return f;		
+	}
+	
+	public static boolean updateDish(TodayDish dish, Context context) {
+		
+		ContentResolver cr = context.getContentResolver();
+		ContentValues values = new ContentValues();
+
+		//values.put(DishProvider.DISH_ID, couponId);
+		values.put(DishProvider.TODAY_NAME, dish.getName());
+		values.put(DishProvider.TODAY_DESCRIPTION, dish.getDescription());
+		values.put(DishProvider.TODAY_CALORICITY, dish.getCaloricity());
+		values.put(DishProvider.TODAY_DISH_CALORICITY, dish.getAbsolutCaloricity());
+		values.put(DishProvider.TODAY_FAT, dish.getFat());
+		values.put(DishProvider.TODAY_CARBON, dish.getCarbon());
+		values.put(DishProvider.TODAY_PROTEIN, dish.getProtein());
+		values.put(DishProvider.TODAY_DISH_FAT, dish.getAbsFat());
+		values.put(DishProvider.TODAY_DISH_CARBON, dish.getAbsCarbon());
+		values.put(DishProvider.TODAY_DISH_PROTEIN, dish.getAbsProtein());
+		values.put(DishProvider.TODAY_CATEGORY, dish.getCategory());
+		values.put(DishProvider.TODAY_DISH_WEIGHT, dish.getWeight());
+		values.put(DishProvider.TODAY_DISH_TIME_HH, dish.getDateTimeHH());
+		values.put(DishProvider.TODAY_DISH_TIME_MM, dish.getDateTimeMM());
+		String where = "_id" + " = " + String.valueOf(dish.getId());
+		cr.update(DishProvider.NOTIFICATION_CONTENT_URI, values, where, null);
+		return true;		
+	}
+	
+	public static boolean updateDayWeight( Context context, String date_long, String weight) {
+		
+		ContentResolver cr = context.getContentResolver();
+		ContentValues values = new ContentValues();
+
+		//values.put(DishProvider.DISH_ID, couponId);
+		values.put(DishProvider.TODAY_DISH_ID, weight);		
+		String where = DishProvider.TODAY_DISH_DATE_LONG + " = " + date_long;
+		cr.update(DishProvider.NOTIFICATION_CONTENT_URI, values, where, null);
+		return true;		
+	}
+
+	public static boolean removeDish(String id, Context context) {
+		
+		ContentResolver cr = context.getContentResolver();
+		
+		String where = "_id" + " = " + String.valueOf(id );
+		//String[] val = new String[] { String.valueOf(id )};
+		
+		cr.delete(DishProvider.NOTIFICATION_CONTENT_URI, where, null);
+		return true;		
+	}
+	public static boolean removeDishesByDay(String day, Context context) {
+		
+		ContentResolver cr = context.getContentResolver();
+		
+		String where = DishProvider.TODAY_DISH_DATE + " = " + "'" + String.valueOf(day) + "'" ;
+		//String[] val = new String[] { String.valueOf(id )};
+		
+		cr.delete(DishProvider.NOTIFICATION_CONTENT_URI, where, null);
+		return true;		
+	}
+
+	
+	public static Cursor getDishesByDate(Context context, String date) {
+		ContentResolver cr = context.getContentResolver();
+		String selection =  DishProvider.TODAY_IS_DAY + " <> " + "1 and "  + DishProvider.TODAY_DISH_DATE + " = " + "?";
+		String[] val = new String[] { date };
+		Cursor c = cr.query(DishProvider.NOTIFICATION_CONTENT_URI, null, selection, val, DishProvider.TODAY_DESCRIPTION);
+		return c;
+	}
+
+	public static int getAllCouponsCount(Context context) {
+		ContentResolver cr = context.getContentResolver();
+		Cursor c = cr
+				.query(DishProvider.NOTIFICATION_CONTENT_URI, null, null, null, null);
+		int count = c.getCount();
+		c.close();
+		return count;
+	}
+	
+	public static Cursor getDays(Context context) {
+		
+		//'SELECT date, sum(value) as value  FROM dishs GROUP BY date ORDER BY id';
+		
+		ContentResolver cr = context.getContentResolver();
+		//need to change DishProvider.TODAY_DISH_DATE to DishProvider.TODAY_DISH_DATE_LONG in other version
+		String selection = DishProvider.TODAY_TYPE + "<> '' and " + DishProvider.TODAY_IS_DAY + "<>" + "? ) GROUP BY (" + DishProvider.TODAY_DISH_DATE;
+		String[] columns = new String[] { DishProvider.TODAY_DISH_DATE, "sum("+DishProvider.TODAY_DISH_FAT +") as fat, sum("+DishProvider.TODAY_DISH_CARBON +") as carbon, sum("+DishProvider.TODAY_DISH_PROTEIN +") as protein, sum("+DishProvider.TODAY_DISH_CALORICITY +") as val, sum("+DishProvider.TODAY_DISH_WEIGHT +") as weight, _id, "+DishProvider.TODAY_DISH_ID+" as bodyweight, count(*) as count" , DishProvider.TODAY_DISH_DATE_LONG};
+		String[] val = new String[] { "test" };
+		Cursor c = cr.query(DishProvider.NOTIFICATION_CONTENT_URI, columns, selection, val, DishProvider.TODAY_DISH_DATE_LONG + " DESC");
+		
+		return c;
+	}
+
+	
+	public static void clearAll(Context context) {
+		ContentResolver cr = context.getContentResolver();
+		cr.delete(DishProvider.NOTIFICATION_CONTENT_URI, null, null);
+	}
+
+}

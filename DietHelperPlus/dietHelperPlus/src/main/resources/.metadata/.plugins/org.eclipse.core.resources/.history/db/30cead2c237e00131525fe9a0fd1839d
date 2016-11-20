@@ -1,0 +1,277 @@
+package bulat.diet.helper_ru.activity;
+
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+import java.util.ArrayList;
+
+import org.apache.http.HttpResponse;
+import org.apache.http.StatusLine;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.params.BasicHttpParams;
+import org.apache.http.params.HttpConnectionParams;
+import org.apache.http.params.HttpParams;
+
+import android.app.Activity;
+import android.content.Context;
+import android.graphics.Color;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.view.KeyEvent;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemSelectedListener;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Spinner;
+import android.widget.TextView;
+import android.widget.TextView.OnEditorActionListener;
+import bulat.diet.helper_ru.R;
+import bulat.diet.helper_ru.adapter.BaseLoader;
+import bulat.diet.helper_ru.db.DishListHelper;
+import bulat.diet.helper_ru.item.Dish;
+import bulat.diet.helper_ru.item.DishType;
+import bulat.diet.helper_ru.utils.Constants;
+import bulat.diet.helper_ru.utils.NetworkState;
+
+public class AddDishActivity extends Activity{
+
+	
+	private Spinner typeSpinner;
+	private Button okbutton;
+	EditText nameView;
+	EditText caloricityView;
+	private Button nobutton;
+	private int flag_add = 0;
+	int category;
+	
+	public static final String DISH_NAME = "name";
+	public static final String DISH_TYPE = "type";
+	public static final String DISH_CALORICITY = "caloricity";
+	public static final String ID = "id";
+	public static final String ADD = "add_dish";
+	
+	InputMethodManager imm;
+	private String id;
+	private int typeKey;
+	protected String type;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {		
+		super.onCreate(savedInstanceState);
+		final View viewToLoad = LayoutInflater.from(this.getParent()).inflate(R.layout.add_dish, null);
+		Bundle extras = getIntent().getExtras();
+		nameView = (EditText)viewToLoad.findViewById(R.id.editTextDishName);
+		caloricityView = (EditText)viewToLoad.findViewById(R.id.editTextDishCaloricity);
+		String title = "";
+		if(extras!=null){
+			typeKey = extras.getInt(DISH_TYPE, 0);
+			flag_add = extras.getInt(ADD);
+			String name = extras.getString(AddTodayDishActivity.DISH_NAME);
+			nameView.setText(name);	
+			String caloricity = String.valueOf(extras.getInt(AddTodayDishActivity.DISH_CALORISITY));
+			caloricityView.setText(caloricity);
+			id = extras.getString(ID);
+			title = extras.getString(AddTodayDishActivity.TITLE);
+		}
+		TextView header = (TextView) viewToLoad
+				.findViewById(R.id.textViewTitle);
+		
+		header.setText(title);
+		Button backButton = (Button) viewToLoad.findViewById(R.id.buttonBack);
+		backButton.setOnClickListener(new OnClickListener() {			
+			public void onClick(View v) {				
+				try{
+					DishListActivityGroup activityStack = (DishListActivityGroup) getParent();
+					activityStack.getFirst();
+				}catch (Exception e) {
+					e.printStackTrace();
+				}
+			}			
+		});	
+		
+		okbutton = (Button) viewToLoad.findViewById(R.id.buttonYes);
+		
+		nameView.setOnEditorActionListener(onEditListener);
+		caloricityView.setOnEditorActionListener(onEditListener);
+		okbutton.setOnClickListener(new OnClickListener() {
+		
+
+			public void onClick(View v) {
+				if(!"".endsWith(nameView.getText().toString()) &&  !"".endsWith(caloricityView.getText().toString())){
+					if(flag_add == 1){
+						addString = nameView.getText().toString();
+						calorycity = caloricityView.getText().toString();
+						category =  ((DishType)typeSpinner.getSelectedItem()).getTypeKey();
+						type = BaseLoader.getType(((DishType)typeSpinner.getSelectedItem()).getTypeKey(), AddDishActivity.this);
+						DishListHelper.addNewDish(new Dish(nameView.getText().toString(), "", Integer.valueOf(caloricityView.getText().toString()), ((DishType)typeSpinner.getSelectedItem()).getTypeKey(), 0, 0, type), AddDishActivity.this);
+						
+						if(category != 0){
+							new AddTask().execute();
+						}
+					
+					}else{
+						if(id!=null){
+							DishListHelper.updateDish( new Dish(id, nameView.getText().toString(), "", Integer.valueOf(caloricityView.getText().toString()), ((DishType)typeSpinner.getSelectedItem()).getTypeKey()), AddDishActivity.this);
+							
+						}
+					}				
+					try{
+						DishListActivityGroup activityStack = (DishListActivityGroup) getParent();
+						activityStack.getFirst();
+					}catch (Exception e) {
+						e.printStackTrace();
+					}
+					
+				}else{
+					nameView.setBackgroundColor(Color.RED);
+					caloricityView.setBackgroundColor(Color.RED);
+				}
+			}
+		});	
+		nobutton = (Button) viewToLoad.findViewById(R.id.buttonNo);
+		nobutton.setOnClickListener(new OnClickListener() {
+
+			public void onClick(View v) {				
+				
+					try{
+						DishListActivityGroup activityStack = (DishListActivityGroup) getParent();
+						activityStack.getFirst();
+					}catch (Exception e) {
+						e.printStackTrace();
+					}
+			}
+		});	
+		setContentView(viewToLoad);
+	}
+
+	@Override
+	protected void onDestroy() {
+		// TODO Auto-generated method stub
+		super.onDestroy();
+	}
+
+	@Override
+	protected void onPause() {
+		
+		super.onPause();
+		imm.hideSoftInputFromWindow(nameView.getWindowToken(), 0);
+		imm.hideSoftInputFromWindow(caloricityView.getWindowToken(), 0);
+	}
+
+	@Override
+	protected void onResume() {		
+		super.onResume();
+		getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
+		imm = (InputMethodManager)AddDishActivity.this.getSystemService(Context.INPUT_METHOD_SERVICE);
+		typeSpinner = (Spinner) findViewById(R.id.dihs_type_spinner);
+		
+		addString = "";
+		calorycity = "";
+		
+		ArrayList<DishType> types = DishListHelper.getAllDishCategories(this);
+		if(id==null){
+			types = DishListHelper.getAllDishCategories(this);	
+		}
+
+		ArrayAdapter<DishType> adapter = new ArrayAdapter<DishType>(this, android.R.layout.simple_spinner_item, types);
+		
+		adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+		typeSpinner.setAdapter(adapter);
+		try{
+			if((types.size()-1) < typeKey){
+				typeSpinner.setSelection(0);
+			}else{
+				typeSpinner.setSelection(typeKey);
+			}
+		}catch (Exception e) {
+			e.printStackTrace();
+			// TODO: handle exception
+		}
+		typeSpinner.setOnItemSelectedListener(spinnerListener);
+		
+	}
+	private OnItemSelectedListener spinnerListener = new OnItemSelectedListener(){
+
+		public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2,
+				long arg3) {
+			 ((DishType)typeSpinner.getSelectedItem()).getTypeKey();
+			
+		}
+
+		public void onNothingSelected(AdapterView<?> arg0) {
+			// TODO Auto-generated method stub
+			
+		}		
+	};
+	private OnEditorActionListener onEditListener = new OnEditorActionListener(){
+		
+		public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+			imm.hideSoftInputFromWindow(v.getWindowToken(), 0);
+			//dishCaloricityVTW.setText(String.valueOf(dc*Integer.valueOf(weightView.getText().toString())/100));
+			return false;
+		}
+	};
+	
+	public String addString;
+	public String calorycity;
+	
+	private class AddTask extends AsyncTask<Void, Void, Void> {
+
+		@Override
+		protected void onPreExecute() {
+			
+		}
+
+		@Override
+		protected Void doInBackground(Void... params) {
+
+			if (NetworkState.isOnline(getApplicationContext())) {
+				HttpParams httpParameters = new BasicHttpParams();
+				// Set the timeout in milliseconds until a connection is established.
+				// The default value is zero, that means the timeout is not used. 
+				int timeoutConnection = 6000;
+				HttpConnectionParams.setConnectionTimeout(httpParameters, timeoutConnection);
+				HttpClient client = new DefaultHttpClient(httpParameters);
+				try {
+					addString = URLEncoder.encode(addString,"UTF-8");
+				} catch (UnsupportedEncodingException e1) {
+					e1.printStackTrace();
+				}
+				
+				category =  ((DishType)typeSpinner.getSelectedItem()).getTypeKey();
+				HttpGet httpGet = new HttpGet(
+						Constants.URL_DISHBASE + "?dish=" + addString + "&calory=" + calorycity + "&category=" + category + "&type=" + type);
+				try {
+					HttpResponse response = client.execute(httpGet);
+					StatusLine statusLine = response.getStatusLine();
+					int statusCode = statusLine.getStatusCode();
+					if (statusCode == 200) {
+						
+					} else {
+
+					}					
+					
+				} catch (ClientProtocolException e) {
+					e.printStackTrace();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+				// return builder.toString();
+			}
+			return null;
+		}
+
+		@Override
+		protected void onPostExecute(Void result) {
+		}
+
+	}	
+}

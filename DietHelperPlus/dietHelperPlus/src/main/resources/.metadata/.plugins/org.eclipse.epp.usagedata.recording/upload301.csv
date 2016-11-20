@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+no handler,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.refresh",1390835522703
+no handler,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.refresh",1390835522994
+no handler,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.refresh",1390835523205
+no handler,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.refresh",1390835523569
+no handler,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.refresh",1390835523779
+no handler,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.refresh",1390835523941
+no handler,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.refresh",1390835524151
+no handler,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.refresh",1390835524343
+no handler,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.refresh",1390835524533
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1390835525721
+closed,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1390835525722
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390835526608
+opened,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1390835526820
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1390835526870
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1390835528176
+closed,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1390835528177
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390835529637
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.refresh",1390835530803
+opened,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1390835532466
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1390835532541
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390835543630
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390835546158
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390835553188
+error,log,,,"advert.xml: Failed to parse file F:\\Sencha\\DietHelperPL\\res\\drawable\\back_button_xml.xml",1390835560071
+opened,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390835560536
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390835560620
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1390835582465
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390835588574
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390835590347
+error,log,,,"advert.xml: Failed to parse file F:\\Sencha\\DietHelperPL\\res\\drawable\\back_button_xml.xml",1390835590562
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390835598287
+error,log,,,"about.xml: Failed to parse file F:\\Sencha\\DietHelperPL\\res\\drawable\\exit_button_xml.xml",1390835598709
+opened,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390835598997
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390835599053
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390835615699
+error,log,,,"statistics_import.xml: Failed to parse file F:\\Sencha\\DietHelperPL\\res\\drawable\\back_button_xml.xml",1390835616329
+opened,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390835616444
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390835616494
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1390835636020
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.undo",1390835646109
+closed,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390835652958
+closed,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390835653900
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1390835654901
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1390835670726
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1390835722618
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1390835724402
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1390835737727
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390835741966
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390835747286
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390835759364
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1390835759368
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390835899424
+opened,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390835900046
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390835900103
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1390835921684
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390835922496
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390835950551
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1390835952960
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390835954013
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390835954621
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390835957996
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1390835958009
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390835960070
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390835969219
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390835969423
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390835970713
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390835970732
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390835971933
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390835971969
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390835973567
+closed,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390835973567
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390835974411
+opened,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390835979666
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390835979730
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1390835994782
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390835995744
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390835999302
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390836001872
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390836009132
+activated,view,org.eclipse.search,3.7.0.v20110505-0800,"org.eclipse.search.ui.views.SearchView",1390836009165
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390836010442
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1390836022573
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390836023260
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390836053595
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1390836056698
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1390836059837
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390836064039
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390836090213
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1390836095586
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1390836101678
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390836106251
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390836660792
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390836665136
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390836666453
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.print",1390836666464
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.saveAll",1390836667451
+closed,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390836677748
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390836679616
+opened,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390836679967
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390836680039
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390836682179
+error,log,,,"about1.xml: Failed to parse file F:\\Sencha\\DietHelperPL\\res\\drawable\\exit_button_xml.xml",1390836682538
+opened,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390836682696
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390836682763
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1390836699019
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390836704740
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390838342803
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390838345455
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390838345655
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1390838362628
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390838371129
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390838377869
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390838394506
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390838395944
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390838397383
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390838411902
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390838426448
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390838432753
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390838434878
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1390838434885
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390838437459
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1390838438660
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390838438712
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1390838438741
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1390838442014
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1390838451407
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1390838451480
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1390838454688
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1390838454688
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390838457278
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390838457390
+error,log,,,"statistics.xml: Failed to parse file F:\\Sencha\\DietHelperPL\\res\\drawable\\back_button_xml.xml",1390838457669
+error,log,,,"statistics.xml: Failed to parse file F:\\Sencha\\DietHelperPL\\res\\drawable\\vk_button_xml.xml",1390838457673
+opened,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390838457729
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390838457822
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1390838462962
+error,log,,,"statistics.xml: Failed to parse file F:\\Sencha\\DietHelperPL\\res\\drawable\\back_button_xml.xml",1390838464950
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390838466797
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390838467470
+closed,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390838467476
+closed,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390838468579
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390838470697
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1390838470911
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390838472559
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390838472677
+error,log,,,"statistics_weight.xml: Failed to parse file F:\\Sencha\\DietHelperPL\\res\\drawable\\back_button_xml.xml",1390838472888
+error,log,,,"statistics_weight.xml: Failed to parse file F:\\Sencha\\DietHelperPL\\res\\drawable\\vk_button_xml.xml",1390838472893
+opened,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390838472946
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390838473033
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390838480764
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390838485300
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1390838485339
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390838486019
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1390838486244
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390838488863
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390838489000
+error,log,,,"user_chart_dialog.xml: Failed to parse file F:\\Sencha\\DietHelperPL\\res\\drawable\\ok_button_xml.xml",1390838489244
+error,log,,,"user_chart_dialog.xml: Failed to parse file F:\\Sencha\\DietHelperPL\\res\\drawable\\vk_button_xml.xml",1390838489247
+opened,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390838489304
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390838489382
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390838493385
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1390838493579
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390838500024
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390838507749
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.saveAll",1390838507814
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390838951699
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839069506
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390839074992
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1390839075927
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1390839084269
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390839088519
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839089533
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1390839090153
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839090224
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1390839090233
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1390839092934
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390839109744
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1390839111523
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1390839117620
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390839119171
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1390839120240
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1390839122813
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839123853
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839139990
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390839143142
+opened,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1390839148027
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1390839148123
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839149047
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.findReplace",1390839149079
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1390839149238
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839151639
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1390839152240
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1390839154083
+closed,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1390839154083
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1390839155844
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1390839157543
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390839161914
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1390839173239
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390839178532
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839179676
+error,log,,,"Unhandled event loop exception",1390839221167
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839356565
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839358390
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839358528
+activated,view,com.android.ide.eclipse.ddms,21.1.0.v201302060044-569685,"com.android.ide.eclipse.ddms.views.LogCatView",1390839366503
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390839460299
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1390839460547
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1390839503192
+activated,view,com.android.ide.eclipse.ddms,21.1.0.v201302060044-569685,"com.android.ide.eclipse.ddms.views.LogCatView",1390839532667
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1390839554721
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1390839554874
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1390839554944
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1390839556462
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1390839556463
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839557781
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839557936
+error,log,,,"today_list.xml: Failed to parse file F:\\Sencha\\DietHelperPL\\res\\drawable\\back_button_xml.xml",1390839558241
+error,log,,,"today_list.xml: Failed to parse file F:\\Sencha\\DietHelperPL\\res\\drawable\\exit_button_xml.xml",1390839558245
+error,log,,,"today_list.xml: Failed to parse file F:\\Sencha\\DietHelperPL\\res\\drawable\\fitnes_button_xml.xml",1390839558251
+error,log,,,"today_list.xml: Failed to parse file F:\\Sencha\\DietHelperPL\\res\\drawable\\add_button_today_xml.xml",1390839558254
+opened,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390839559319
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390839559392
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1390839568961
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839570737
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839874024
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839877855
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839881667
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1390839881799
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839883174
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839884865
+activated,view,com.android.ide.eclipse.ddms,21.1.0.v201302060044-569685,"com.android.ide.eclipse.ddms.views.LogCatView",1390839884956
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839885750
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839892365
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839902475
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839915764
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390839915779
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390839940094
+error,log,,,"today_list.xml: Failed to parse file F:\\Sencha\\DietHelperPL\\res\\drawable\\back_button_xml.xml",1390839941588
+error,log,,,"today_list.xml: Failed to parse file F:\\Sencha\\DietHelperPL\\res\\drawable\\exit_button_xml.xml",1390839941591
+error,log,,,"today_list.xml: Failed to parse file F:\\Sencha\\DietHelperPL\\res\\drawable\\fitnes_button_xml.xml",1390839941598
+error,log,,,"today_list.xml: Failed to parse file F:\\Sencha\\DietHelperPL\\res\\drawable\\add_button_today_xml.xml",1390839941601
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1390839958571
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839960541
+activated,view,com.android.ide.eclipse.ddms,21.1.0.v201302060044-569685,"com.android.ide.eclipse.ddms.views.LogCatView",1390839967612
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1390839967628
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1390839967684
+activated,view,com.android.ide.eclipse.ddms,21.1.0.v201302060044-569685,"com.android.ide.eclipse.ddms.views.LogCatView",1390839967709
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390839986373
+activated,view,com.android.ide.eclipse.ddms,21.1.0.v201302060044-569685,"com.android.ide.eclipse.ddms.views.LogCatView",1390839999664
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1390840013396

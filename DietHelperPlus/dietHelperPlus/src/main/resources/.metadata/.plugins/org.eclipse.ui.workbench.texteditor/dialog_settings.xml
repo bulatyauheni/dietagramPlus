@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="257" key="DIALOG_WIDTH"/>
+		<item value="290" key="DIALOG_Y_ORIGIN"/>
+		<item value="380" key="DIALOG_HEIGHT"/>
+		<item value="1064" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="isRegEx"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="carbonAbsView" key="selection"/>
+		<list key="findhistory">
+			<item value="carbonAbsView"/>
+			<item value="dishesList"/>
+			<item value="TEMPLATE"/>
+			<item value="fitWeightSpinner"/>
+			<item value="remo"/>
+			<item value="вес"/>
+			<item value="10"/>
+			<item value="TODAY_DISH_ID"/>
+		</list>
+		<list key="replacehistory">
+			<item value="android:textColor=&quot;@color/white&quot;"/>
+			<item value="2.2"/>
+			<item value="2.1"/>
+			<item value="enabled"/>
+			<item value="(CheckBox)"/>
+			<item value="CB"/>
+			<item value="_sport"/>
+			<item value="allergymap"/>
+		</list>
+	</section>
+</section>

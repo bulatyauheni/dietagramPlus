@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DietHelperPlus.iml" filepath="$PROJECT_DIR$/DietHelperPlus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dietHelperPlus/dietHelperPlus.iml" filepath="$PROJECT_DIR$/dietHelperPlus/dietHelperPlus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zBarScannerActivity/zBarScannerActivity.iml" filepath="$PROJECT_DIR$/zBarScannerActivity/zBarScannerActivity.iml" />
+    </modules>
+  </component>
+</project>

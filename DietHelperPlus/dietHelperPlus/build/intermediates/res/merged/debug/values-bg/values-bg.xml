@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <color name="black">#000000</color>
+    <color name="carbon">#6777F0</color>
+    <color name="contact_color">#FFA444</color>
+    <color name="cyan">#ff00ffff</color>
+    <color name="dark_grey">#474747</color>
+    <color name="day_time">#ff707CFF</color>
+    <color name="fat">#F275A1</color>
+    <color name="green">#109611</color>
+    <color name="grey">#afafaf</color>
+    <color name="grey_divider">#e6ddd5</color>
+    <color name="header_color">#FF9730</color>
+    <color name="light_broun">#977b5d</color>
+    <color name="light_green">#BAD64F</color>
+    <color name="light_grey">#e8e7e6</color>
+    <color name="light_red">#FFB5B5</color>
+    <color name="main_color">#FFF0E5</color>
+    <color name="newmessage_color">#527F3F</color>
+    <color name="protein">#109611</color>
+    <color name="red">#d11111</color>
+    <color name="sec_tab_color">#FF0000</color>
+    <color name="tab_color">#7C9716</color>
+    <color name="tab_selected_color">#FF9730</color>
+    <color name="text_color">#512F10</color>
+    <color name="title_color">#7C9716</color>
+    <color name="user_list">#7F0000</color>
+    <color name="user_name">#55587A</color>
+    <color name="very_LGreen">#C4F2B8</color>
+    <color name="white">#ffffff</color>
+    <color name="widget_green">#ff00ff00</color>
+    <color name="yelow">#ffffff00</color>
+    <string name="Bakery">Хляб, зърнени, макарони, картофи</string>
+    <string name="Diery">Молечни продукти</string>
+    <string name="Fruit">Плодове и зеленчуци</string>
+    <string name="Meat">Месо, риба, яйца, бобови</string>
+    <string name="Sweet">Мазнини и захарни изделия</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Придвижване към „Начало“"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Придвижване нагоре"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Още опции"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Вижте всички"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Изберете приложение"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Изчистване на заявката"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Заявка за търсене"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Търсене"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Изпращане на заявката"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Гласово търсене"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Споделяне със:"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Споделяне със: %s"</string>
+    <string name="about_header">Aвторът на програмата</string>
+    <string name="activity">Ниво на активност</string>
+    <string name="add_dish">Добавяне на ястие</string>
+    <string name="add_fitnes">Добави дейност</string>
+    <string name="add_today_dish">Добавяне на ястие</string>
+    <string name="add_today_fitnes">Добави дейност</string>
+    <string name="age">Възраст</string>
+    <string name="age_colon">Възраст:</string>
+    <string name="amoutnt_of_burn_calory">Изразходвани калории</string>
+    <string name="amoutnt_of_calory">Количество калории</string>
+    <string name="any">Всяко</string>
+    <string name="any_midle">Всяко</string>
+    <string name="app_name">Калориен калкулатор PLUS</string>
+    <string name="avg_label">Дневен прием на калории:</string>
+    <string name="bad_search">Няма намерени резултати :(</string>
+    <string name="balance_clever">При големи умствени натоварвания</string>
+    <string name="balance_fith">С големи физически натоварвания</string>
+    <string name="balance_norm">Нормален начин на живот</string>
+    <string name="balanse_data">Вашият баланс е определен по данни от последните 30 дни.</string>
+    <string name="barcode">Barcode:</string>
+    <string name="belarusian">Беларуская</string>
+    <string name="body_weight">Вашето тегло:</string>
+    <string name="bulgarian">Българска</string>
+    <string name="caloricity">Калоричност (ккал/100г):</string>
+    <string name="calorie_day">калории/ден</string>
+    <string name="carbon">Въгл.</string>
+    <string name="castom_limit">Въведете Вашите лимит</string>
+    <string name="category">В категория:</string>
+    <string name="change_weight_dialog_title">Промяна на теглото</string>
+    <string name="change_weight_label">Тук можете да промените текущите данни за теглото си.</string>
+    <string name="changename">Променете името</string>
+    <string name="choosetemplate">"--Визберете шаблон--"</string>
+    <string msgid="6428604800157361567" name="common_android_wear_notification_needs_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> изисква актуализиране на приложението Android Wear."</string>
+    <string msgid="2453027084525739603" name="common_android_wear_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> няма да стартира, освен ако не актуализирате приложението Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Актуализиране на Android Wear"</string>
+    <string msgid="6534628256897874213" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> изисква една или повече услуги за Google Play, които понастоящем не са налице. Моля, свържете се с програмиста за съдействие."</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Услуги за Google Play: Актив."</string>
+    <string msgid="4896236883690196080" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> няма да работи, освен ако не активирате услугите за Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Активиране на услугите за Google Play"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Заявено от <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Услуги за Google Play: Изтегл."</string>
+    <string msgid="8836325110837822534" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g> няма да се изпълнява, тъй като услугите за Google Play не са инсталирани на телефона ви."</string>
+    <string msgid="542176290824754127" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g> няма да се изпълнява, тъй като услугите за Google Play не са инсталирани на таблета ви."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Изтегляне на услугите за Google Play"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Посоченият профил не съществува на това устройство. Моля, изберете друг."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Невалиден профил"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Приложение изисква активирането на услугите за Google Play."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"За свързване с услугите за Google Play се изисква връзка за данни."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Грешка в мрежата"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Приложение изисква актуализирането на услугите за Google Play."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Грешка в услугите за Google Play"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"При влизането в посочения профил възникна грешка. Моля, изберете друг."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Влизането в профила не бе успешно"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Неизвестен проблем с услугите за Google Play."</string>
+    <string msgid="7682982632307307938" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> разчита на услугите за Google Play, които не се поддържат от устройството ви. Свържете се с производителя за съдействие."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Услуги за Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Актуализиране"</string>
+    <string msgid="5709479369299147668" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> няма да се изпълнява, освен ако не актуализирате услугите за Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Актуализиране на услугите за Google Play"</string>
+    <string msgid="2201289642219771610" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> няма да се изпълнява без услугите за Google Play. Понастоящем те се актуализират."</string>
+    <string msgid="815008177440683245" name="common_google_play_services_updating_title">"Услугите за Google Play се актуализират"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Отваряне в телефона"</string>
+    <string msgid="3156914698180786012" name="common_signin_button_text">"Вход"</string>
+    <string msgid="1483290677806110088" name="common_signin_button_text_long">"Вход с Google"</string>
+    <string name="complex_list">Рецепти</string>
+    <string name="consumption">ккал/час</string>
+    <string name="contacts_header">натиснете тук за да попълните списъка</string>
+    <string name="contacts_list">Списък с контакти</string>
+    <string name="conversation">Общуване</string>
+    <string name="culculated_parameters">Въведете стойности</string>
+    <string name="date">Дата</string>
+    <string name="days">История</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dish_list">Списък</string>
+    <string name="dish_name">Наименование</string>
+    <string name="disonect">Няма връзка с интернет</string>
+    <string name="edit_dish">Редактиране на ястие</string>
+    <string name="edit_today_dish">Редактиране на ястие</string>
+    <string name="edit_today_fitnes">Промяната на дейността</string>
+    <string name="empty_day">Без данни</string>
+    <string name="empty_dish_search">Натиснете тук, за да добавяне на ястие...</string>
+    <string name="empty_list_label">Натиснете тук, за да започнете да попълвате...</string>
+    <string name="energy">Енерг.</string>
+    <string name="english">English</string>
+    <string name="enter_message">Напишете съобщение</string>
+    <string name="enter_news">Добави новина</string>
+    <string name="fat">Маз.</string>
+    <string name="female">Жена</string>
+    <string name="first_name">Име</string>
+    <string name="fitnes_burn_label">Изгаряне на калории за 1 час (ккал/час):</string>
+    <string name="fitnes_list">Упражнения</string>
+    <string name="fitnes_time">Продължителност на занятието (в минути):</string>
+    <string name="gaining_weight">Наддаване на тегло</string>
+    <string name="gram">гр</string>
+    <string name="gram_full">грам</string>
+    <string name="header_in_label">Прието:</string>
+    <string name="header_out_label">Изразходвано:</string>
+    <string name="high">Ръст(см)</string>
+    <string name="high_colon">Ръст(см):</string>
+    <string name="history_download">Текущите данни ще бъдат изтрити. Съгласи ли сте да заредите историята?</string>
+    <string name="idealCheet">Идеален баланс:</string>
+    <string name="indicator">Эфект</string>
+    <string name="information">Информация</string>
+    <string name="kcal">ккал</string>
+    <string name="kcal_day">ккал/ден</string>
+    <string name="keeping_weight">Поддържане на теглото</string>
+    <string name="kgram">кг</string>
+    <string name="level_1">Заседнал начин на живот</string>
+    <string name="level_2">Спортни занимания 1-3 пъти седмично</string>
+    <string name="level_3">Спортни занимания 3-5 пъти седмично</string>
+    <string name="level_4">Спортни занимания 6-7 пъти седмично</string>
+    <string name="level_5">Много голяма дневна физическа активност</string>
+    <string name="limit">Лимит:</string>
+    <string name="load">Зареди</string>
+    <string name="loading">Търсене...</string>
+    <string name="loading_base">Зареждане на базата с продукти...</string>
+    <string name="loading_social">Зареждане...</string>
+    <string name="loadtemplate">Шаблонът е зареден</string>
+    <string name="loadtemplateempty">Зареденият шаблон празен</string>
+    <string name="locale">bg</string>
+    <string name="localebg">bg</string>
+    <string name="localeby">by</string>
+    <string name="localeen">en</string>
+    <string name="localepl">pl</string>
+    <string name="losing">За намаляване на теглото:</string>
+    <string name="losing_weight">Отслабване</string>
+    <string name="maintain">За запазване на теглото:</string>
+    <string name="male">Мъж</string>
+    <string name="mode">Режим:</string>
+    <string msgid="4271159405637008602" name="mr_media_route_button_content_description">"Изходяща мултимедия"</string>
+    <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"Търсят се устройства…"</string>
+    <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"Свързване с устройство"</string>
+    <string msgid="109793632378378069" name="mr_media_route_controller_disconnect">"Прекратяване на връзката"</string>
+    <string msgid="5441529851481176817" name="mr_system_route_name">"Система"</string>
+    <string msgid="7498112907524977311" name="mr_user_route_category_name">"Устройства"</string>
+    <string name="name">Име:</string>
+    <string name="newContactMessage">Новият контакт е записан</string>
+    <string name="new_message">Нови съобщения</string>
+    <string name="new_template_header">Шаблон</string>
+    <string name="newmessage">Новое сообщение в Калориен калкулатор!</string>
+    <string name="newmessage_title">Ново съобщение</string>
+    <string name="no">Не</string>
+    <string name="normal_weight">Нормално тегло</string>
+    <string name="obese">Напълняване</string>
+    <string name="overweight">Наднормено тегло</string>
+    <string name="parameters_header">Въведете Вашите параметри</string>
+    <string name="polish">Polska</string>
+    <string name="popular">Топ</string>
+    <string name="portion_size">Тегло на порция (в грамове):</string>
+    <string name="protein">Бел.</string>
+    <string name="qutstion">Какво Ви липсва в приложението?</string>
+    <string name="real_weight">Тегло на готвена храна(гр):</string>
+    <string name="reminder">Не сте попълнили Калориен калкулатор</string>
+    <string name="reminder_title">Напомняне</string>
+    <string name="remove_chat_dialog">Желаете ли да изтриете цялата кореспонденция с този потребител?</string>
+    <string name="remove_dialog">Сигурни ли сте?</string>
+    <string name="reset_dialog">Желаете ли да изтриете историята и да започнете отново?</string>
+    <string name="russian">Русский</string>
+    <string name="santimetr">см</string>
+    <string name="save">Запази</string>
+    <string name="save_limit">Лимит запазен</string>
+    <string name="save_prove">Параметрите са съхранени успешно</string>
+    <string name="saved_history">История запазена</string>
+    <string name="savetemplate">Шаблонът е запазен</string>
+    <string name="search_in_all">Търсене</string>
+    <string name="search_parameters_title">Параметри на търсенето</string>
+    <string name="sex">Пол</string>
+    <string name="soc_button_conversation">Съобщения</string>
+    <string name="soc_button_favorite">Избрани</string>
+    <string name="soc_button_folovers">Последователи</string>
+    <string name="soc_coment">Добавяне на коментар</string>
+    <string name="soc_start_following">Вие сте се абонирали за новини от този потребител</string>
+    <string name="soc_stop_following">Вие няма да получават новини от този потребител</string>
+    <string name="soc_tab_calendar">Потребителският календар</string>
+    <string name="soc_tab_messages">Контакти</string>
+    <string name="soc_tab_news">Новини</string>
+    <string name="soc_tab_search">Търсене</string>
+    <string name="sport_level">Активност</string>
+    <string name="statistic_FCP">Баланс Б.М.В.</string>
+    <string name="statistic_export">Съхранявайте историята</string>
+    <string name="statistic_export_save">Съхранявайте историята?</string>
+    <string name="statistic_food">Хранителен баланс</string>
+    <string name="statistic_other">Друго</string>
+    <string name="statistic_weight">Промяната на теглото</string>
+    <string name="statistic_weight_empty">Без промяна на теглото</string>
+    <string name="statistics_parameters">Статистика</string>
+    <string name="surplus">Баланс:</string>
+    <string name="tab_about">От автора</string>
+    <string name="tab_calc">Мрежа</string>
+    <string name="tab_calendar">История</string>
+    <string name="tab_calendar_header">Моят календар</string>
+    <string name="tab_dish">Днес</string>
+    <string name="tab_dishlist">Списък</string>
+    <string name="tab_mode">Параметри</string>
+    <string name="tab_setting">Инфо</string>
+    <string name="tab_social_calendar_header">История</string>
+    <string name="tab_social_header">Общество</string>
+    <string name="tab_statistic">Статистика</string>
+    <string name="tab_template_header">Шаблони</string>
+    <string name="target_settings">Избор на режим:</string>
+    <string name="template_download">Текущите данни ще бъдат изтрити. Съгласи ли сте да заредите шаблона?</string>
+    <string name="template_name">Име на шаблона</string>
+    <string name="template_save">Вие можете да запазите текущите данни като шаблон и да го използвате по-късно.</string>
+    <string name="templates">Шаблон</string>
+    <string name="templatesempty">Все още нямате шаблони</string>
+    <string name="time">Време:</string>
+    <string name="timeHHMM">Време(ч:м):</string>
+    <string name="timeHHMMFitnes">Начален час:</string>
+    <string name="time_active">Дневна активност</string>
+    <string name="time_branch">Втора закуска</string>
+    <string name="time_breakfast">Закуска</string>
+    <string name="time_dinner">Обяд</string>
+    <string name="time_lanch">Следобедна закуска</string>
+    <string name="time_supper">Вечеря</string>
+    <string name="tip">Моля, въведете Вашите параметри и натиснете върху OK бутона в долната част на тази страница!</string>
+    <string name="today_fitnes">Дейност</string>
+    <string name="total">Обшо:</string>
+    <string name="total_caloricity">Калории:</string>
+    <string name="total_weight">Тегло:</string>
+    <string name="type">Вид:</string>
+    <string name="type_name">Напишете име на категория</string>
+    <string name="type_save">Можете да добавите своя собствена категория. Внимателно въведете името на категорията, след това не можете да го редактирате.</string>
+    <string name="types">Категория</string>
+    <string name="underweight">Тегло под нормата</string>
+    <string name="update_base">Обнови на базата с продукти...</string>
+    <string name="update_weight_label">Тук можете да промените текущите данни за теглото си за конкретен ден.</string>
+    <string name="user_chart_dialog">График на промяната на теглото</string>
+    <string name="user_history">Потребителска история</string>
+    <string name="user_new_messages_label">Нови съобщения:</string>
+    <string name="user_weight">Тегло:</string>
+    <string name="user_weight_history">Промяната на теглото</string>
+    <string name="username">Вашето име:</string>
+    <string name="username_change_dialog_title">Промяна на името</string>
+    <string name="username_dialog_notregistred">Грешка, опитайте по-късно</string>
+    <string name="username_dialog_registred">Регистрацията Ви е успешна</string>
+    <string name="username_dialog_title">Регистрация</string>
+    <string name="username_hello_label">Тук Вие ще можете да следите за режима на хранене на другите потребители и да намерите съмишленици. За да могат другите потребители да Ви намират, моля въведете Вашето име или псевдоним!</string>
+    <string name="username_label">Вашият псевдоним:</string>
+    <string name="users_calendar_empty">Потребителският календар е празен</string>
+    <string name="users_instruction">Не сте се абонирали за новини от други потребители. </string>
+    <string name="users_newslist_empty">Този потребител не публикувал новини</string>
+    <string name="users_notfound">Потребител с такива данни не е намерен, натиснете тук за да промените параметрите на търсенето</string>
+    <string name="users_notfound2">Не са потребители</string>
+    <string name="voice_error">Гласово въвеждане не е възможно.</string>
+    <string msgid="4184147110658930238" name="wallet_buy_button_place_holder">"Купете с Google"</string>
+    <string name="water_label">Води:</string>
+    <string name="weight">Тегло(кг)</string>
+    <string name="weight_colon">Вашето тегло(кг):</string>
+    <string name="weight_fitnes">Вашето тегло(кг)</string>
+    <string name="welcome">Поздравява Ви Калориен калкулатор\t\nТова приложение ви позволява да изчислите оптималния дневен прием на калории и да следите дневния прием на храна.\t\n Моля, въведете Вашите параметри!</string>
+    <string name="widjet_carb">В:</string>
+    <string name="widjet_fat">М:</string>
+    <string name="widjet_prot">Б:</string>
+    <string name="yes">Да</string>
+    <string name="yourCheet">Вашият баланс:</string>
+</resources>

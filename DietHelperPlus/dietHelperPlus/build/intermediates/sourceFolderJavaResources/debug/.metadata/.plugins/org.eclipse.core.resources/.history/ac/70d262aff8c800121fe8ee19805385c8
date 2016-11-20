@@ -1,0 +1,26 @@
+package bulat.diet.helper_ru.utils;
+
+
+public class Constants {
+	public static final  int BREAKFAST = 0; 
+	public static final  int BRANCH = 1; 	
+	public static final  int DINER = 2; 
+	public static final  int LANCH = 3; 
+	public static final  int SUPPER = 4;
+	
+	public static final  String COSMETIX = "c";
+	public static final  String FOOD = "f";
+	public static final  String SPORT = "s";
+	
+	
+	public static final  int ACTIVITY = 6; 
+	
+//	public static final  String URL_SOCIAL = "http://social.pusku.com/";
+	public static final  String URL_DISHBASE = "http://calorycman.net/";//StartActivity.URLBASE;//"http://calorycounter.16mb.com/";
+	public static final  String URL_ADVERT = "http://calorycman.net/adv.php";//"http://calorycounter.16mb.com/";
+
+	public static final  String URL_SOCIAL = "http://calorycman.net/";//StartActivity.URLSOCIAL;
+	public static final int DAYSCOUNT = 30;
+	
+	public static String API_ID="3583596";
+}

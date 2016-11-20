@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<RelativeLayout    		 	
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/main_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title_color" >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/relativeLayout4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+                <LinearLayout
+            android:id="@+id/relativeLayout4"
+           android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_toLeftOf="@+id/buttonBack"
+            android:background="@drawable/header_bg" >
+
+                <Button
+                    android:id="@+id/buttonExit"
+                    android:layout_width="35dip"
+                    android:layout_height="35dip"
+                    android:layout_margin="5dip"
+                    android:background="@drawable/exit_button_xml"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:textSize="12dip" >
+                </Button>
+
+                <TextView
+                    android:id="@+id/textViewTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.18"
+                    android:ellipsize="end"
+                    android:shadowColor="#000000"
+                    android:shadowDx="1.2"
+                    android:shadowDy="1.2"
+                    android:shadowRadius="1.2"
+                    android:text="Test June 123"
+
+                    android:textColor="@color/white"
+                    android:textSize="18dip"
+                    android:textStyle="bold" >
+                </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/relativeLayout4"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/buttonAddLayout"
+                    android:gravity="right" >
+					<Button
+                        android:id="@+id/buttonReset"
+                        android:layout_width="35dip"
+                        android:layout_height="35dip"
+                        android:layout_margin="5dip"
+                        android:background="@drawable/reset_button_xml"
+                        android:clickable="true"
+                        android:maxLines="1"
+                        android:textSize="12dip"
+                        android:visibility="visible" />
+                    <Button
+                        android:id="@+id/buttonChart"
+                        android:layout_width="35dip"
+                        android:layout_height="35dip"
+                        android:layout_margin="5dip"
+                        android:background="@drawable/chart_button_xml"
+                        android:clickable="true"
+                        android:maxLines="1"
+                        android:textSize="12dip"
+                        android:visibility="visible" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/header_color" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutDishCall"
+                    android:layout_width="0px"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/textViewNameLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="5dip"
+                        android:maxLines="3"
+                        android:text="@string/indicator"
+                        android:textColor="@color/text_color"
+                        android:textSize="12dip" 
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutDishCall"
+                    android:layout_width="0px"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/textViewNameLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical"
+                        android:layout_margin="10dip"
+                        android:maxLines="3"
+                        android:text="@string/date"
+                        android:textColor="@color/text_color"
+                        android:textSize="12dip"
+                        android:textStyle="bold"  />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/textViewCalorValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        android:text="@string/information"
+                        android:textColor="@color/text_color"
+                        android:textSize="12dip"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>	
+    <LinearLayout
+        android:id="@+id/linearLayoutAVG"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:id="@+id/textViewTotalLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:maxLines="3"
+            android:text="@string/avg_label"
+            android:textColor="@color/text_color"
+            android:textSize="12dip" />
+
+        <TextView
+            android:id="@+id/textViewAVGValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"         
+            android:maxLines="3"
+            android:text="TextView"
+            android:textColor="@color/text_color"
+            android:textSize="14dip"
+            android:textStyle="bold" />
+    </LinearLayout>
+	<LinearLayout
+        android:id="@+id/linearLayoutChart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_grey"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/textViewTotalLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:maxLines="3"
+            android:text="@string/user_weight_history"
+            android:textColor="@color/text_color"
+            android:textSize="12dip"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/listViewDays"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayoutAVG"
+        android:layout_below="@+id/relativeLayout1"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/grey_divider"
+        android:dividerHeight="1dip" >
+    </ListView>
+  	
+    
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_below="@+id/relativeLayout1"
+        android:text="" />
+
+</RelativeLayout>
+<ru.wapstart.plus1.sdk.Plus1BannerView
+			android:id="@+id/plus1BannerView"
+			android:layout_width="320dp"
+			android:layout_height="50dp"
+			android:layout_gravity="top|center"
+		/>
+</FrameLayout>

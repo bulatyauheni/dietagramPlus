@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\no_button_xml.xml",1391346527654
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\ok_button_xml.xml",1391346527658
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1391346555725
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1391346556442
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\back_button_xml.xml",1391346557559
+error,log,,,"bulat.diet.helper_sport.controls.NumberPickerFitnes failed to instantiate.",1391346557581
+error,log,,,"bulat.diet.helper_sport.controls.NumberPickerFitnes failed to instantiate.",1391346557587
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\no_button_xml.xml",1391346557595
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\ok_button_xml.xml",1391346557598
+error,log,,,"add_today_fitnes.xml: ScrollView can host only one direct child",1391346557601
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\back_button_xml.xml",1391346562854
+error,log,,,"bulat.diet.helper_sport.controls.NumberPickerFitnes failed to instantiate.",1391346562875
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\no_button_xml.xml",1391346562884
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\ok_button_xml.xml",1391346562888
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.undo",1391346562962
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1391346581987
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1391346583246
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\back_button_xml.xml",1391346584149
+error,log,,,"bulat.diet.helper_sport.controls.NumberPickerFitnes failed to instantiate.",1391346584171
+error,log,,,"bulat.diet.helper_sport.controls.NumberPickerFitnes failed to instantiate.",1391346584179
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\no_button_xml.xml",1391346584189
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\ok_button_xml.xml",1391346584192
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391346670312
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391346672185
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1391346764762
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1391346766640
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391346771174
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391346771311
+opened,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1391346771805
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1391346771879
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1391346775124
+closed,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1391346775124
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1391346776890
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1391346777134
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1391346777201
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391346780441
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391346780541
+error,log,,,"settings.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\ok_button_xml.xml",1391346781089
+opened,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1391346781341
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1391346781405
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1391346782747
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1391346814004
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1391346816847
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1391346830360
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\back_button_xml.xml",1391346842325
+error,log,,,"bulat.diet.helper_sport.controls.NumberPickerFitnes failed to instantiate.",1391346842345
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\no_button_xml.xml",1391346842380
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\ok_button_xml.xml",1391346842383
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391346899520
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391347306131
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.selectAll",1391347317824
+executed,command,org.eclipse.wst.sse.ui,1.3.1.v201108191312,"org.eclipse.wst.sse.ui.format.document",1391347321286
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1391347329802
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1391347331163
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1391347358523
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\back_button_xml.xml",1391347359821
+error,log,,,"bulat.diet.helper_sport.controls.NumberPickerFitnes failed to instantiate.",1391347359842
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\no_button_xml.xml",1391347359868
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\ok_button_xml.xml",1391347359872
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\back_button_xml.xml",1391347360439
+error,log,,,"bulat.diet.helper_sport.controls.NumberPickerFitnes failed to instantiate.",1391347360462
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\no_button_xml.xml",1391347360493
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\ok_button_xml.xml",1391347360496
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391347369085
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391347369188
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1391347369214
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1391347371696
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1391347375052
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391347395025
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391347401441
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1391347427478
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1391347428862
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1391347480776
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1391347482309
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1391347483968
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\back_button_xml.xml",1391347486217
+error,log,,,"bulat.diet.helper_sport.controls.NumberPickerFitnes failed to instantiate.",1391347486240
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\no_button_xml.xml",1391347486268
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\ok_button_xml.xml",1391347486271
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1391347490284
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\back_button_xml.xml",1391347492542
+error,log,,,"bulat.diet.helper_sport.controls.NumberPickerFitnes failed to instantiate.",1391347492561
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\no_button_xml.xml",1391347492588
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\ok_button_xml.xml",1391347492591
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1391347497513
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\back_button_xml.xml",1391347515427
+error,log,,,"bulat.diet.helper_sport.controls.NumberPickerFitnes failed to instantiate.",1391347515452
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\no_button_xml.xml",1391347515476
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\ok_button_xml.xml",1391347515479
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1391347543352
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\back_button_xml.xml",1391347545729
+error,log,,,"bulat.diet.helper_sport.controls.NumberPickerFitnes failed to instantiate.",1391347545749
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\no_button_xml.xml",1391347545775
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\ok_button_xml.xml",1391347545778
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\back_button_xml.xml",1391347561522
+error,log,,,"bulat.diet.helper_sport.controls.NumberPickerFitnes failed to instantiate.",1391347561541
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\no_button_xml.xml",1391347561566
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\ok_button_xml.xml",1391347561570
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\back_button_xml.xml",1391347565086
+error,log,,,"bulat.diet.helper_sport.controls.NumberPickerFitnes failed to instantiate.",1391347565109
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\no_button_xml.xml",1391347565139
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\ok_button_xml.xml",1391347565144
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.undo",1391347565252
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\back_button_xml.xml",1391347566565
+error,log,,,"bulat.diet.helper_sport.controls.NumberPickerFitnes failed to instantiate.",1391347566584
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\no_button_xml.xml",1391347566610
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\ok_button_xml.xml",1391347566614
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.redo",1391347566704
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391347572796
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391347574128
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1391347574209
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\back_button_xml.xml",1391347577690
+error,log,,,"bulat.diet.helper_sport.controls.NumberPickerFitnes failed to instantiate.",1391347577733
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\no_button_xml.xml",1391347577757
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\ok_button_xml.xml",1391347577760
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1391347592531
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1391347597149
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\back_button_xml.xml",1391347598578
+error,log,,,"bulat.diet.helper_sport.controls.NumberPickerFitnes failed to instantiate.",1391347598595
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\no_button_xml.xml",1391347598619
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\ok_button_xml.xml",1391347598622
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1391347637322
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391347637769
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391347637985
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\back_button_xml.xml",1391347639407
+error,log,,,"bulat.diet.helper_sport.controls.NumberPickerFitnes failed to instantiate.",1391347639432
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\no_button_xml.xml",1391347639476
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\ok_button_xml.xml",1391347639480
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.cut",1391347644581
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\back_button_xml.xml",1391347645285
+error,log,,,"bulat.diet.helper_sport.controls.NumberPickerFitnes failed to instantiate.",1391347645305
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\no_button_xml.xml",1391347645331
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\ok_button_xml.xml",1391347645334
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\back_button_xml.xml",1391347649988
+error,log,,,"bulat.diet.helper_sport.controls.NumberPickerFitnes failed to instantiate.",1391347650007
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\no_button_xml.xml",1391347650033
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\ok_button_xml.xml",1391347650036
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1391347655685
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391347656145
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391347656367
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\back_button_xml.xml",1391347657577
+error,log,,,"bulat.diet.helper_sport.controls.NumberPickerFitnes failed to instantiate.",1391347657595
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\no_button_xml.xml",1391347657619
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\ok_button_xml.xml",1391347657623
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1391347686245
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391347686848
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391347687071
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1391347689319
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1391347690100
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1391347695724
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391347696320
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391347696527
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1391347727379
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1391347728608
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\back_button_xml.xml",1391347729840
+error,log,,,"bulat.diet.helper_sport.controls.NumberPickerFitnes failed to instantiate.",1391347729858
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\no_button_xml.xml",1391347729899
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\ok_button_xml.xml",1391347729903
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1391347745442
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1391347750688
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1391347752391
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\back_button_xml.xml",1391347754014
+error,log,,,"bulat.diet.helper_sport.controls.NumberPickerFitnes failed to instantiate.",1391347754031
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\no_button_xml.xml",1391347754063
+error,log,,,"add_today_fitnes.xml: Failed to parse file F:\\Sencha\\DietHelperSport\\res\\drawable\\ok_button_xml.xml",1391347754066
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1391347762869
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391347765687
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391347776505
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1391347776632
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391347786847
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391347788223
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391347790290
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391348001735
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391348019647
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391348034441
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391348036220
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391348210396
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391348212242
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391348214865
+closed,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1391348216142
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1391348217256
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391348554030
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391348554243
+closed,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1391348611603
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1391348613269
+closed,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1391348614230
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1391348616462
+closed,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1391348617852
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1391348619795
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1391348621141
+activated,view,org.eclipse.search,3.7.0.v20110505-0800,"org.eclipse.search.ui.views.SearchView",1391348634526
+executed,command,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.edit.text.java.search.references.in.workspace",1391348634829
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1391348674066
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1391348674281
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1391348715812
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1391348745335
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1391348745394
+activated,view,org.eclipse.search,3.7.0.v20110505-0800,"org.eclipse.search.ui.views.SearchView",1391348754352
+executed,command,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.edit.text.java.search.references.in.workspace",1391348754368
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1391348758472
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1391348767753
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391348768042
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.findReplace",1391348768064
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391348773320
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1391348794383
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391348800851
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391349683514
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391349683754
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391349688299
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391349689404
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391349695654
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391349695809
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391349697489
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391349703059
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391349704527
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391349706461
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1391349706483
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391349708069
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391349712645
+executed,command,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.project.cleanAction",1391349712650
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391349712916
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391349713462
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391349728341
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391349774304
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391349775602
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391349789428
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391349789520
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391349790745
+closed,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1391349791065
+stopped,bundle,org.eclipse.m2e.logback.configuration,1.0.100.20110804-1717,"org.eclipse.m2e.logback.configuration",1391349793429
+stopped,bundle,org.eclipse.m2e.discovery,1.0.100.20110804-1717,"org.eclipse.m2e.discovery",1391349793558
+stopped,bundle,org.eclipse.m2e.refactoring,1.0.100.20110804-1717,"org.eclipse.m2e.refactoring",1391349793613
+stopped,bundle,org.eclipse.m2e.editor,1.0.100.20110804-1717,"org.eclipse.m2e.editor",1391349793693
+stopped,bundle,org.eclipse.m2e.editor.xml,1.0.100.20110804-1717,"org.eclipse.m2e.editor.xml",1391349793693
+stopped,bundle,org.eclipse.m2e.jdt,1.0.100.20110804-1717,"org.eclipse.m2e.jdt",1391349793696
+stopped,bundle,org.eclipse.m2e.launching,1.0.100.20110804-1717,"org.eclipse.m2e.launching",1391349793745
+stopped,bundle,org.eclipse.m2e.usagedata,1.0.100.20110804-1717,"org.eclipse.m2e.usagedata",1391349793746
+stopped,bundle,overlay.com.android.ide.eclipse.adt.overlay,16.0.1.v201112150204-238534,"overlay.com.android.ide.eclipse.adt.overlay",1391349793792
+stopped,bundle,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.adt",1391349793793
+stopped,bundle,org.eclipse.linuxtools.cdt.libhover,1.1.0.201108301805,"org.eclipse.linuxtools.cdt.libhover",1391349793862
+stopped,bundle,org.eclipse.cdt,8.0.0.201109151620,"org.eclipse.cdt",1391349793926
+stopped,bundle,org.eclipse.cdt.doc.user,5.1.0.201109151620,"org.eclipse.cdt.doc.user",1391349794034
+stopped,bundle,org.eclipse.ui.cheatsheets,3.4.100.v20110425,"org.eclipse.ui.cheatsheets",1391349794094
+stopped,bundle,org.eclipse.help.ui,3.5.101.r37_20110819,"org.eclipse.help.ui",1391349794172
+stopped,bundle,org.eclipse.help.webapp,3.6.0.v20110518,"org.eclipse.help.webapp",1391349794258
+stopped,bundle,org.eclipse.epp.mpc.ui,1.1.1.I20110907-0947,"org.eclipse.epp.mpc.ui",1391349794258
+stopped,bundle,org.eclipse.epp.usagedata.ui,1.3.1.R201106061540,"org.eclipse.epp.usagedata.ui",1391349794288
+stopped,bundle,org.eclipse.ui.intro.universal,3.2.500.v20110510,"org.eclipse.ui.intro.universal",1391349794399
+stopped,bundle,org.eclipse.ui.intro,3.4.100.v20110425,"org.eclipse.ui.intro",1391349794495
+stopped,bundle,org.eclipse.help.base,3.6.1.v201109091335,"org.eclipse.help.base",1391349794568

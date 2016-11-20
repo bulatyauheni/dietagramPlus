@@ -1,0 +1,116 @@
+package bulat.diet.helper_ru.activity;
+
+import java.util.Date;
+
+import android.app.TabActivity;
+import android.content.Intent;
+import android.content.res.Resources;
+import android.os.Bundle;
+import android.text.format.DateUtils;
+import android.widget.TabHost;
+import android.widget.TabHost.OnTabChangeListener;
+import android.widget.TextView;
+import bulat.diet.helper_ru.R;
+import bulat.diet.helper_ru.db.AdvertsListHelper;
+import bulat.diet.helper_ru.utils.SaveUtils;
+
+public class DietHelperActivity extends TabActivity implements OnTabChangeListener{
+	TabHost tabHost;
+
+    /** Called when the activity is first created. */
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+    	 super.onCreate(savedInstanceState);
+         setContentView(R.layout.main);
+         
+ 		Resources res = getResources();
+ 		tabHost = getTabHost();
+ 		TabHost.TabSpec spec;
+ 		Intent intent;
+ 		tabHost.setOnTabChangedListener(this);
+ 		intent = new Intent().setClass(this, DishActivityGroup.class);
+ 		spec = tabHost.newTabSpec("today")
+ 				.setIndicator(getString(R.string.tab_dish),
+ 						res.getDrawable(R.drawable.today_selector))
+ 				.setContent(intent);
+ 		tabHost.addTab(spec);
+
+ 		intent = new Intent().setClass(this, CalendarActivityGroup.class);
+ 		spec = tabHost
+ 				.newTabSpec("calendar")
+ 				.setIndicator(getString(R.string.tab_calendar),
+ 						res.getDrawable(R.drawable.calendar_selector))
+ 				.setContent(intent);
+ 		tabHost.addTab(spec);
+
+ 		intent = new Intent().setClass(this, DishListActivityGroup.class);
+ 		spec = tabHost.newTabSpec("list")
+ 				.setIndicator(getString(R.string.tab_dishlist),
+ 						res.getDrawable(R.drawable.list_selector)).setContent(intent);
+ 		tabHost.addTab(spec);
+
+ 		intent = new Intent().setClass(this, SocialActivityGroup.class);
+ 		spec = tabHost.newTabSpec("calc")
+ 				.setIndicator(getString(R.string.tab_calc),
+ 						res.getDrawable(R.drawable.calculator_selector)).setContent(intent);
+ 		tabHost.addTab(spec);
+ 		intent = new Intent().setClass(this, StatisticActivityGroup.class);
+ 		spec = tabHost.newTabSpec("settings")
+ 				.setIndicator(getString(R.string.tab_setting),
+ 						res.getDrawable(R.drawable.settings_selector)).setContent(intent);
+ 		tabHost.addTab(spec);
+
+ 		setTab();
+		
+ 		for(int i=0;i<tabHost.getTabWidget().getChildCount();i++)
+        {
+			tabHost.getTabWidget().getChildAt(i).setBackgroundResource(R.color.tab_color);
+        } 
+					
+		tabHost.getTabWidget().getChildAt(tabHost.getCurrentTab()).setBackgroundResource(R.color.tab_selected_color);
+	}
+   
+	private void setTab() {
+		if(!SaveUtils.isActivated(this)){
+ 			tabHost.setCurrentTab(4);
+ 		}else if((new Date()).getTime() - SaveUtils.getLastAdvShownDate(this) > DateUtils.DAY_IN_MILLIS){
+ 			String id = AdvertsListHelper.getAdvToShow(this);
+ 			if(id.length()> 0){
+ 				AdvertsListHelper.decriceShowNum(this, String.valueOf(id));
+ 				SaveUtils.setLastAdvShownDate((new Date()).getTime(), this);
+ 				SaveUtils.setAdvNameToShow(id, this);
+ 				tabHost.setCurrentTab(4);
+ 			}
+ 		}else{
+ 			tabHost.setCurrentTab(0);
+ 		}
+	}
+
+	public void switchTab(int tab){
+	        tabHost.setCurrentTab(tab);
+	}
+	
+	public void changeSocialTabIndicator(int tab, String additionText){
+		TextView title = (TextView) tabHost.getTabWidget().getChildAt(tab).findViewById(android.R.id.title);
+		if(!"0".equals(additionText)){
+			title.setText(getString(R.string.tab_calc) + " (" +additionText+ ")");
+		}else{
+			title.setText(getString(R.string.tab_calc));
+		}
+
+	}
+
+	public void onTabChanged(String tabId) {
+		// TODO Auto-generated method stub
+		if(tabHost != null){
+			for(int i=0;i<tabHost.getTabWidget().getChildCount();i++)
+	        {
+				tabHost.getTabWidget().getChildAt(i).setBackgroundResource(R.color.tab_color);
+	        } 
+						
+			tabHost.getTabWidget().getChildAt(tabHost.getCurrentTab()).setBackgroundResource(R.color.tab_selected_color);
+			
+		}
+	}
+
+}

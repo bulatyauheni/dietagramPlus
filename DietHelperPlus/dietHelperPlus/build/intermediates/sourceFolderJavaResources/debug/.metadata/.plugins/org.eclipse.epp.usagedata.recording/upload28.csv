@@ -1,0 +1,258 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"social_contact_list.xml: Color value '@color/text_color' must start with #",1370265781045
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/search_button_xml into a drawable",1370265781046
+error,log,,,"social_contact_list.xml: Failed to convert @color/grey_divider into a drawable",1370265781052
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370265852325
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1370265859689
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1370265859765
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1370265862659
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370265870620
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370265879517
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1370265887620
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370265924095
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370265934178
+error,log,,,"Unhandled event loop exception",1370265934186
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370265936824
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370266323005
+activated,view,com.android.ide.eclipse.ddms,21.1.0.v201302060044-569685,"com.android.ide.eclipse.ddms.views.LogCatView",1370266329490
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370266338468
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370266359341
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1370266359350
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1370266360507
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370266362679
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370266364706
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370266366112
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370266616541
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1370266621712
+opened,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1370266624173
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1370266624229
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1370266624259
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1370266625834
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1370266642259
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370266651890
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.export",1370266767367
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370266866243
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370266869198
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370267169814
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370267170468
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370267234351
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1370267239804
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370267245720
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370267252734
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370267254724
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370267438326
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370267444824
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1370267447777
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370267447949
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110505-0800,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1370267447954
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1370267447955
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370267452533
+error,log,,,"",1370267465062
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370267465088
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.import",1370267465097
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1370267478034
+error,log,,,"social_contact_list.xml: Failed to convert @color/main_color into a drawable",1370267478095
+error,log,,,"social_contact_list.xml: Failed to convert @color/title_color into a drawable",1370267478096
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/back_button_xml into a drawable",1370267478098
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/exit_button_xml into a drawable",1370267478102
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/settings_button_xml into a drawable",1370267478108
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/settings_button_xml into a drawable",1370267478111
+error,log,,,"social_contact_list.xml: Failed to convert @color/header_color into a drawable",1370267478114
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/selected_tab into a drawable",1370267478116
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/noselected_tab into a drawable",1370267478120
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/noselected_tab into a drawable",1370267478124
+error,log,,,"social_contact_list.xml: Failed to convert @color/header_color into a drawable",1370267478127
+error,log,,,"social_contact_list.xml: Failed to convert @color/header_color into a drawable",1370267478130
+error,log,,,"social_contact_list.xml: Failed to convert @color/header_color into a drawable",1370267478133
+error,log,,,"social_contact_list.xml: Color value '@color/grey' must start with #",1370267478135
+error,log,,,"social_contact_list.xml: Failed to convert @color/header_color into a drawable",1370267478138
+error,log,,,"social_contact_list.xml: Color value '@color/grey' must start with #",1370267478141
+error,log,,,"social_contact_list.xml: Failed to convert @color/light_grey into a drawable",1370267478144
+error,log,,,"social_contact_list.xml: Color value '@color/dark_grey' must start with #",1370267478147
+error,log,,,"social_contact_list.xml: Failed to convert @color/light_grey into a drawable",1370267478149
+error,log,,,"social_contact_list.xml: Color value '@color/dark_grey' must start with #",1370267478151
+error,log,,,"social_contact_list.xml: Failed to convert @color/light_grey into a drawable",1370267478153
+error,log,,,"social_contact_list.xml: Color value '@color/text_color' must start with #",1370267478156
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/search_button_xml into a drawable",1370267478158
+error,log,,,"social_contact_list.xml: Failed to convert @color/grey_divider into a drawable",1370267478178
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1370267478252
+closed,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1370267478252
+error,log,,,"social_contact_list.xml: Failed to convert @color/main_color into a drawable",1370267485912
+error,log,,,"social_contact_list.xml: Failed to convert @color/title_color into a drawable",1370267485913
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/back_button_xml into a drawable",1370267485915
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/exit_button_xml into a drawable",1370267485919
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/settings_button_xml into a drawable",1370267485925
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/settings_button_xml into a drawable",1370267485929
+error,log,,,"social_contact_list.xml: Failed to convert @color/header_color into a drawable",1370267485933
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/selected_tab into a drawable",1370267485935
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/noselected_tab into a drawable",1370267485939
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/noselected_tab into a drawable",1370267485943
+error,log,,,"social_contact_list.xml: Failed to convert @color/header_color into a drawable",1370267485946
+error,log,,,"social_contact_list.xml: Failed to convert @color/header_color into a drawable",1370267485948
+error,log,,,"social_contact_list.xml: Failed to convert @color/header_color into a drawable",1370267485952
+error,log,,,"social_contact_list.xml: Color value '@color/grey' must start with #",1370267485954
+error,log,,,"social_contact_list.xml: Failed to convert @color/header_color into a drawable",1370267485957
+error,log,,,"social_contact_list.xml: Color value '@color/grey' must start with #",1370267485958
+error,log,,,"social_contact_list.xml: Failed to convert @color/light_grey into a drawable",1370267485960
+error,log,,,"social_contact_list.xml: Color value '@color/dark_grey' must start with #",1370267485963
+error,log,,,"social_contact_list.xml: Failed to convert @color/light_grey into a drawable",1370267485964
+error,log,,,"social_contact_list.xml: Color value '@color/dark_grey' must start with #",1370267485967
+error,log,,,"social_contact_list.xml: Failed to convert @color/light_grey into a drawable",1370267485968
+error,log,,,"social_contact_list.xml: Color value '@color/text_color' must start with #",1370267485971
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/search_button_xml into a drawable",1370267485972
+error,log,,,"social_contact_list.xml: Failed to convert @color/grey_divider into a drawable",1370267485978
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1370267491250
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.refresh",1370267493498
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1370267498892
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370267498974
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370267508750
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1370267508768
+closed,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1370267508768
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1370267517290
+error,log,,,"Error while loading editor",1370267525107
+opened,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1370267525108
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1370267525142
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370267534418
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370267537728
+closed,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370267538000
+stopped,bundle,org.eclipse.m2e.logback.configuration,1.0.100.20110804-1717,"org.eclipse.m2e.logback.configuration",1370267539059
+stopped,bundle,org.eclipse.m2e.discovery,1.0.100.20110804-1717,"org.eclipse.m2e.discovery",1370267539097
+stopped,bundle,org.eclipse.m2e.refactoring,1.0.100.20110804-1717,"org.eclipse.m2e.refactoring",1370267539097
+stopped,bundle,org.eclipse.m2e.editor,1.0.100.20110804-1717,"org.eclipse.m2e.editor",1370267539134
+stopped,bundle,org.eclipse.m2e.editor.xml,1.0.100.20110804-1717,"org.eclipse.m2e.editor.xml",1370267539134
+stopped,bundle,org.eclipse.m2e.jdt,1.0.100.20110804-1717,"org.eclipse.m2e.jdt",1370267539136
+stopped,bundle,org.eclipse.m2e.launching,1.0.100.20110804-1717,"org.eclipse.m2e.launching",1370267539170
+stopped,bundle,org.eclipse.m2e.usagedata,1.0.100.20110804-1717,"org.eclipse.m2e.usagedata",1370267539170
+stopped,bundle,overlay.com.android.ide.eclipse.adt.overlay,16.0.1.v201112150204-238534,"overlay.com.android.ide.eclipse.adt.overlay",1370267539198
+stopped,bundle,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.adt",1370267539198
+stopped,bundle,org.eclipse.linuxtools.cdt.libhover,1.1.0.201108301805,"org.eclipse.linuxtools.cdt.libhover",1370267539244
+stopped,bundle,org.eclipse.cdt,8.0.0.201109151620,"org.eclipse.cdt",1370267539279
+stopped,bundle,org.eclipse.cdt.doc.user,5.1.0.201109151620,"org.eclipse.cdt.doc.user",1370267539331
+stopped,bundle,org.eclipse.ui.cheatsheets,3.4.100.v20110425,"org.eclipse.ui.cheatsheets",1370267539403
+stopped,bundle,org.eclipse.help.ui,3.5.101.r37_20110819,"org.eclipse.help.ui",1370267539422
+stopped,bundle,org.eclipse.help.webapp,3.6.0.v20110518,"org.eclipse.help.webapp",1370267539509
+stopped,bundle,org.eclipse.epp.mpc.ui,1.1.1.I20110907-0947,"org.eclipse.epp.mpc.ui",1370267539509
+stopped,bundle,org.eclipse.epp.usagedata.ui,1.3.1.R201106061540,"org.eclipse.epp.usagedata.ui",1370267539531
+stopped,bundle,org.eclipse.ui.intro.universal,3.2.500.v20110510,"org.eclipse.ui.intro.universal",1370267539652
+stopped,bundle,org.eclipse.ui.intro,3.4.100.v20110425,"org.eclipse.ui.intro",1370267539693
+stopped,bundle,org.eclipse.help.base,3.6.1.v201109091335,"org.eclipse.help.base",1370267539739
+stopped,bundle,org.eclipse.equinox.http.jetty,2.0.100.v20110502,"org.eclipse.equinox.http.jetty",1370267539781
+stopped,bundle,org.eclipse.m2e.core.ui,1.0.100.20110804-1717,"org.eclipse.m2e.core.ui",1370267539811
+stopped,bundle,org.eclipse.m2e.core,1.0.100.20110804-1717,"org.eclipse.m2e.core",1370267539815
+stopped,bundle,org.eclipse.mylyn.ide.ant,3.6.0.v20110608-1400,"org.eclipse.mylyn.ide.ant",1370267539855
+stopped,bundle,org.eclipse.ant.ui,3.5.100.v20110510,"org.eclipse.ant.ui",1370267539872
+stopped,bundle,org.eclipse.ant.launching,1.0.100.v20110506,"org.eclipse.ant.launching",1370267539900
+stopped,bundle,org.eclipse.compare.win32,1.0.200.I20110510-0800,"org.eclipse.compare.win32",1370267539924
+stopped,bundle,org.eclipse.egit.mylyn.ui,1.1.0.201109151100-r,"org.eclipse.egit.mylyn.ui",1370267539969
+stopped,bundle,org.eclipse.egit.ui,1.1.0.201109151100-r,"org.eclipse.egit.ui",1370267539969
+stopped,bundle,org.eclipse.equinox.p2.ui.sdk,1.0.200.v20110502-1955,"org.eclipse.equinox.p2.ui.sdk",1370267540013
+stopped,bundle,org.eclipse.mylyn.java.tasks,3.6.0.v20110608-1400,"org.eclipse.mylyn.java.tasks",1370267540013
+stopped,bundle,org.eclipse.mylyn.java.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.java.ui",1370267540013
+stopped,bundle,org.eclipse.jdt.junit,3.7.0.v20110505-0800,"org.eclipse.jdt.junit",1370267540013
+stopped,bundle,org.eclipse.jdt.apt.ui,3.3.300.v20110305-1450,"org.eclipse.jdt.apt.ui",1370267540036
+stopped,bundle,org.eclipse.jdt.debug.ui,3.6.1.v20110803_r371,"org.eclipse.jdt.debug.ui",1370267540036
+stopped,bundle,org.eclipse.wb.swing.databinding,1.1.0.r37x201109091143,"org.eclipse.wb.swing.databinding",1370267540056
+stopped,bundle,org.eclipse.wb.core.databinding,1.1.0.r37x201109091012,"org.eclipse.wb.core.databinding",1370267540080
+stopped,bundle,org.eclipse.wb.swing.FormLayout,1.1.0.r37x201109091143,"org.eclipse.wb.swing.FormLayout",1370267540132
+stopped,bundle,org.eclipse.wb.swing.MigLayout,1.1.0.r37x201109091143,"org.eclipse.wb.swing.MigLayout",1370267540154
+stopped,bundle,org.eclipse.wb.swing.java6,1.1.0.r37x201109091143,"org.eclipse.wb.swing.java6",1370267540221
+activated,perspective,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.JavaPerspective",1370267573027
+started,bundle,org.eclipse.osgi,3.7.1.R37x_v20110808-1106,"org.eclipse.osgi",1370267573028
+started,bundle,org.eclipse.equinox.simpleconfigurator,1.0.200.v20110502-1955,"org.eclipse.equinox.simpleconfigurator",1370267573028
+started,bundle,com.ibm.icu,4.4.2.v20110208,"com.ibm.icu",1370267573029
+started,bundle,org.eclipse.compare.core,3.5.200.I20110208-0800,"org.eclipse.compare.core",1370267573029
+started,bundle,org.eclipse.core.contenttype,3.4.100.v20110423-0524,"org.eclipse.core.contenttype",1370267573030
+started,bundle,org.eclipse.core.databinding.observable,1.4.0.I20110222-0800,"org.eclipse.core.databinding.observable",1370267573031
+started,bundle,org.eclipse.core.expressions,3.4.300.v20110228,"org.eclipse.core.expressions",1370267573031
+started,bundle,org.eclipse.core.filebuffers,3.5.200.v20110505-0800,"org.eclipse.core.filebuffers",1370267573032
+started,bundle,org.eclipse.core.filesystem,1.3.100.v20110423-0524,"org.eclipse.core.filesystem",1370267573032
+started,bundle,org.eclipse.core.jobs,3.5.100.v20110404,"org.eclipse.core.jobs",1370267573033
+started,bundle,org.eclipse.core.net,1.2.100.I20110511-0800,"org.eclipse.core.net",1370267573034
+started,bundle,org.eclipse.core.resources,3.7.100.v20110510-0712,"org.eclipse.core.resources",1370267573090
+started,bundle,org.eclipse.core.runtime,3.7.0.v20110110,"org.eclipse.core.runtime",1370267573091
+started,bundle,org.eclipse.core.runtime.compatibility,3.2.100.v20100505,"org.eclipse.core.runtime.compatibility",1370267573092
+started,bundle,org.eclipse.core.runtime.compatibility.auth,3.2.200.v20110110,"org.eclipse.core.runtime.compatibility.auth",1370267573093
+started,bundle,org.eclipse.core.variables,3.2.500.v20110511,"org.eclipse.core.variables",1370267573094
+started,bundle,org.eclipse.debug.core,3.7.0.v20110518,"org.eclipse.debug.core",1370267573130
+started,bundle,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui",1370267573172
+started,bundle,org.eclipse.egit.core,1.1.0.201109151100-r,"org.eclipse.egit.core",1370267573203
+started,bundle,org.eclipse.egit.ui,1.1.0.201109151100-r,"org.eclipse.egit.ui",1370267573260
+started,bundle,org.eclipse.emf.common,2.7.0.v20110912-0920,"org.eclipse.emf.common",1370267573263
+started,bundle,org.eclipse.epp.mpc.ui,1.1.1.I20110907-0947,"org.eclipse.epp.mpc.ui",1370267573265
+started,bundle,org.eclipse.epp.usagedata.gathering,1.3.1.R201106061540,"org.eclipse.epp.usagedata.gathering",1370267573266
+started,bundle,org.eclipse.epp.usagedata.recording,1.3.1.R201106061540,"org.eclipse.epp.usagedata.recording",1370267573268
+started,bundle,org.eclipse.equinox.app,1.3.100.v20110321,"org.eclipse.equinox.app",1370267573270
+started,bundle,org.eclipse.equinox.common,3.6.0.v20110523,"org.eclipse.equinox.common",1370267573271
+started,bundle,org.eclipse.equinox.ds,1.3.1.R37x_v20110701,"org.eclipse.equinox.ds",1370267573273
+started,bundle,org.eclipse.equinox.event,1.2.100.v20110502,"org.eclipse.equinox.event",1370267573275
+started,bundle,org.eclipse.equinox.p2.core,2.1.0.v20110502-1955,"org.eclipse.equinox.p2.core",1370267573276
+started,bundle,org.eclipse.equinox.p2.directorywatcher,1.0.300.v20110502-1955,"org.eclipse.equinox.p2.directorywatcher",1370267573278
+started,bundle,org.eclipse.equinox.p2.engine,2.1.0.v20110511,"org.eclipse.equinox.p2.engine",1370267573279
+started,bundle,org.eclipse.equinox.p2.metadata,2.1.0.v20110510,"org.eclipse.equinox.p2.metadata",1370267573280
+started,bundle,org.eclipse.equinox.p2.metadata.repository,1.2.0.v20110511-1359,"org.eclipse.equinox.p2.metadata.repository",1370267573281
+started,bundle,org.eclipse.equinox.p2.operations,2.1.0.v20110511-1821,"org.eclipse.equinox.p2.operations",1370267573282
+started,bundle,org.eclipse.equinox.p2.reconciler.dropins,1.1.100.v20110510,"org.eclipse.equinox.p2.reconciler.dropins",1370267573283
+started,bundle,org.eclipse.equinox.p2.repository,2.1.0.v20110601,"org.eclipse.equinox.p2.repository",1370267573284
+started,bundle,org.eclipse.equinox.p2.ui.sdk.scheduler,1.0.100.v20110502-1955,"org.eclipse.equinox.p2.ui.sdk.scheduler",1370267573285
+started,bundle,org.eclipse.equinox.p2.updatechecker,1.1.200.v20110502-1955,"org.eclipse.equinox.p2.updatechecker",1370267573286
+started,bundle,org.eclipse.equinox.preferences,3.4.1.R37x_v20110725,"org.eclipse.equinox.preferences",1370267573287
+started,bundle,org.eclipse.equinox.registry,3.5.101.R37x_v20110810-1611,"org.eclipse.equinox.registry",1370267573288
+started,bundle,org.eclipse.equinox.security,1.1.1.R37x_v20110822-1018,"org.eclipse.equinox.security",1370267573316
+started,bundle,org.eclipse.equinox.util,1.0.300.v20110502,"org.eclipse.equinox.util",1370267573317
+started,bundle,org.eclipse.help,3.5.100.v20110426,"org.eclipse.help",1370267573323
+started,bundle,org.eclipse.jdt.core,3.7.1.v_B76_R37x,"org.eclipse.jdt.core",1370267573324
+started,bundle,org.eclipse.jdt.core.manipulation,1.4.0.v20110505-0800,"org.eclipse.jdt.core.manipulation",1370267573325
+started,bundle,org.eclipse.jdt.launching,3.6.1.v20110803_r371,"org.eclipse.jdt.launching",1370267573326
+started,bundle,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui",1370267573332
+started,bundle,org.eclipse.jface,3.7.0.I20110522-1430,"org.eclipse.jface",1370267573333
+started,bundle,org.eclipse.jgit,1.1.0.201109151100-r,"org.eclipse.jgit",1370267573334
+started,bundle,org.eclipse.jsch.core,1.1.300.I20110514-0800,"org.eclipse.jsch.core",1370267573335
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.201.r371_v20110824-0800,"org.eclipse.ltk.core.refactoring",1370267573346
+started,bundle,org.eclipse.ltk.ui.refactoring,3.6.0.v20110505-0800,"org.eclipse.ltk.ui.refactoring",1370267573347
+started,bundle,org.eclipse.m2e.core,1.0.100.20110804-1717,"org.eclipse.m2e.core",1370267573347
+started,bundle,org.eclipse.m2e.logback.configuration,1.0.100.20110804-1717,"org.eclipse.m2e.logback.configuration",1370267573347
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.6.2.v20110903-0100,"org.eclipse.mylyn.bugzilla.core",1370267573348
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.bugzilla.ui",1370267573349
+started,bundle,org.eclipse.mylyn.commons.identity,0.8.0.v20110608-1400,"org.eclipse.mylyn.commons.identity",1370267573349
+started,bundle,org.eclipse.mylyn.commons.net,3.6.0.v20110608-1400,"org.eclipse.mylyn.commons.net",1370267573349
+started,bundle,org.eclipse.mylyn.commons.ui,3.6.1.v20110720-0100,"org.eclipse.mylyn.commons.ui",1370267573350
+started,bundle,org.eclipse.mylyn.context.core,3.6.1.v20110720-0100,"org.eclipse.mylyn.context.core",1370267573351
+started,bundle,org.eclipse.mylyn.context.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.context.ui",1370267573359
+started,bundle,org.eclipse.mylyn.monitor.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.monitor.ui",1370267573360
+started,bundle,org.eclipse.mylyn.tasks.ui,3.6.2.v20110826-0100,"org.eclipse.mylyn.tasks.ui",1370267573375
+started,bundle,org.eclipse.mylyn.team.ui,3.6.1.v20110825-0100,"org.eclipse.mylyn.team.ui",1370267573376
+started,bundle,org.eclipse.search,3.7.0.v20110505-0800,"org.eclipse.search",1370267573384
+started,bundle,org.eclipse.team.core,3.6.0.I20110525-0800,"org.eclipse.team.core",1370267573390
+started,bundle,org.eclipse.team.ui,3.6.100.I20110525-0800,"org.eclipse.team.ui",1370267573391
+started,bundle,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui",1370267573392
+started,bundle,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console",1370267573393
+started,bundle,org.eclipse.ui.editors,3.7.0.v20110517-0800,"org.eclipse.ui.editors",1370267573393
+started,bundle,org.eclipse.ui.forms,3.5.100.v20110425,"org.eclipse.ui.forms",1370267573426
+started,bundle,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.ide",1370267573458
+started,bundle,org.eclipse.ui.net,1.2.100.I20110511-0800,"org.eclipse.ui.net",1370267573459
+started,bundle,org.eclipse.ui.views,3.6.0.I20110412-0800,"org.eclipse.ui.views",1370267573460
+started,bundle,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"org.eclipse.ui.workbench",1370267573461
+started,bundle,org.eclipse.ui.workbench.texteditor,3.7.0.v20110505-0800,"org.eclipse.ui.workbench.texteditor",1370267573488
+started,bundle,org.eclipse.update.configurator,3.3.100.v20100512,"org.eclipse.update.configurator",1370267573489
+started,bundle,org.eclipse.update.core,3.2.500.v20110330,"org.eclipse.update.core",1370267573510
+started,bundle,org.eclipse.update.scheduler,3.2.300.v20100512,"org.eclipse.update.scheduler",1370267573511
+started,bundle,org.eclipse.wb.discovery.core,1.1.0.r37x201109091028,"org.eclipse.wb.discovery.core",1370267573512
+started,bundle,org.eclipse.wb.discovery.ui,1.1.0.r37x201109091028,"org.eclipse.wb.discovery.ui",1370267573513
+started,bundle,org.eclipse.wst.common.frameworks,1.2.101.v201107192200,"org.eclipse.wst.common.frameworks",1370267573514
+started,bundle,org.eclipse.wst.common.project.facet.core,1.4.200.v201103170332,"org.eclipse.wst.common.project.facet.core",1370267573515
+started,bundle,org.eclipse.wst.common.uriresolver,1.1.401.v201004280700,"org.eclipse.wst.common.uriresolver",1370267573538
+started,bundle,org.eclipse.wst.dtd.ui,1.0.600.v201103171359,"org.eclipse.wst.dtd.ui",1370267573539
+started,bundle,org.eclipse.wst.internet.cache,1.0.400.v201004280700,"org.eclipse.wst.internet.cache",1370267573540
+started,bundle,org.eclipse.wst.sse.core,1.1.601.v201108151912,"org.eclipse.wst.sse.core",1370267573554
+started,bundle,org.eclipse.wst.sse.ui,1.3.1.v201108191312,"org.eclipse.wst.sse.ui",1370267573555
+started,bundle,org.eclipse.wst.validation,1.2.302.v201107140600,"org.eclipse.wst.validation",1370267573555
+started,bundle,org.eclipse.wst.xml.core,1.1.601.v201108302147,"org.eclipse.wst.xml.core",1370267573556
+started,bundle,org.eclipse.wst.xml.ui,1.1.201.v201108151912,"org.eclipse.wst.xml.ui",1370267573557
+started,bundle,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.adt",1370267573557
+started,bundle,com.android.ide.eclipse.traceview,16.0.1.v201112150204-238534,"com.android.ide.eclipse.traceview",1370267573558
+started,bundle,org.eclipse.cdt.codan.ui.cxx,2.0.0.201109151620,"org.eclipse.cdt.codan.ui.cxx",1370267573558
+started,bundle,com.android.ide.eclipse.ddms,21.1.0.v201302060044-569685,"com.android.ide.eclipse.ddms",1370267573586
+started,bundle,com.questoid.sqlitebrowser,1.2.0,"com.questoid.sqlitebrowser",1370267573587
+os,sysinfo,,,"win32",1370267573589
+arch,sysinfo,,,"x86",1370267573589
+ws,sysinfo,,,"win32",1370267573589

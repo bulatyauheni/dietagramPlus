@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:cacheColorHint="#00000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/advRowLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:maxLines="3"
+                android:text="TextView"
+                android:textColor="@color/red"
+                android:textSize="15dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewOffer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip" />
+
+            <LinearLayout
+                android:id="@+id/imageLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imageViewAdv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                    android:id="@+id/linearLayoutBtnAdv"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_grey"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:visibility="visible" >
+
+                    <TextView
+                        android:id="@+id/textViewGoToUrl"
+                        android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_margin="10dip"
+	                    android:textColor="@color/dark_grey"
+	                    android:textSize="15dip"
+	                    android:textStyle="bold" 
+	                    android:gravity="center_horizontal|center_vertical"
+                        android:text="@string/users_notfound"
+                        >
+                    </TextView>
+             </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

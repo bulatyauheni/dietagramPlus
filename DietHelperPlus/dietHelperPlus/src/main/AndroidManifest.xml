@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bulat.diet.helper_plus"
+    android:installLocation="auto"
+    android:versionCode="73"
+    android:versionName="2.8.0">
+
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/icon_m"
+        android:label="@string/app_name"
+        android:name=".DietaGramPlusApp">
+        <receiver android:name=".reciver.CaloryAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="bulatplus.intent" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/appwidget_info" />
+        </receiver>
+        <receiver android:name=".reciver.CaloryAppWidgetProvider56">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="bulatplus.intent" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/appwidget_info56" />
+        </receiver>
+
+        <activity
+            android:name=".activity.StartActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dm.zbar.android.scanner.ZBarScannerActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.DietHelperActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.DishActivityGroup"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.DishActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.VkActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.DishListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.AddTodayDishActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.AddTodayFitnesActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.StatisticExportActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.RecepyListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.AddRecepyActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.RecepyActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+
+
+        <activity
+            android:name=".activity.StatisticImportActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+
+        <activity
+            android:name=".activity.BaseImportActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+
+        <activity
+            android:name=".activity.BaseExportActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+
+        <activity
+            android:name=".activity.DataBaseImportActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+
+        <activity
+            android:name=".activity.DataBaseExportActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+
+        <activity
+            android:name=".activity.SocialUserNewsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.CalendarActivityGroup"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.CalendarActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.TemplateDayActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.TemplateActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.NewTemplateActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+
+        <activity
+            android:name=".activity.DishListActivityGroup"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.AddDishActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.AddFitnesActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.SocialActivityGroup"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.SocialFavoriteUserListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.SocialNewsListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.SocialFollowersListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.Info"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.SelectStatisticsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.Statistics"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.StatisticFCPActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.About"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.WeightChartActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity android:name=".activity.SocialUserListActivity"></activity>
+        <activity
+            android:name=".activity.SocialDishActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.SocialCalendarActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.MessagesActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.ChatActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.StatisticActivityGroup"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.SportListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"></activity>
+
+        <provider
+            android:name=".db.DishProvider"
+            android:authorities="bulat.diet.helper_plus.db.DishProvider" />
+    </application>
+
+</manifest>

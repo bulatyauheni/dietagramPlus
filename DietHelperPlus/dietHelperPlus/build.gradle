@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "bulat.diet.helper_plus"
+        minSdkVersion 9
+        targetSdkVersion 9
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_5
+            targetCompatibility JavaVersion.VERSION_1_5
+        }
+        // Enabling multidex support.
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':zBarScannerActivity')
+    compile    files('libs/androidvksdk.jar')
+    compile    files('libs/opencsv-2.4.jar')
+    compile   'com.google.android.gms:play-services:8.3.0'
+    provided  'com.google.code.gson:gson:2.3'
+    provided  files('libs/ion-1.2.7.jar')
+    compile    files('libs/gcm.jar')
+}

@@ -1,0 +1,247 @@
+-injars 'F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'D:\ANDRIC\sdk\build-tools\23.0.1\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontwarn
+-printconfiguration 'F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep class bulat.diet.helper_plus.DietaGramPlusApp {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class bulat.diet.helper_plus.reciver.CaloryAppWidgetProvider {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.reciver.CaloryAppWidgetProvider56 {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.StartActivity {
+    <init>();
+}
+
+-keep class com.dm.zbar.android.scanner.ZBarScannerActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.DietHelperActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.DishActivityGroup {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.DishActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.VkActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.LoginActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.DishListActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.AddTodayDishActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.AddTodayFitnesActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.StatisticExportActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.RecepyListActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.AddRecepyActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.RecepyActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.StatisticImportActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.BaseImportActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.BaseExportActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.DataBaseImportActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.DataBaseExportActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.SocialUserNewsActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.CalendarActivityGroup {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.CalendarActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.TemplateDayActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.TemplateActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.NewTemplateActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.DishListActivityGroup {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.AddDishActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.AddFitnesActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.SocialActivityGroup {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.SettingsActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.SocialFavoriteUserListActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.SocialNewsListActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.SocialFollowersListActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.Info {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.SelectStatisticsActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.Statistics {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.StatisticFCPActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.About {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.WeightChartActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.SocialUserListActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.SocialDishActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.SocialCalendarActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.MessagesActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.ChatActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.StatisticActivityGroup {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.activity.SportListActivity {
+    <init>();
+}
+
+-keep class bulat.diet.helper_plus.db.DishProvider {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.AdActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementContentProvider {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementService {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}

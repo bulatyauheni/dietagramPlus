@@ -1,0 +1,414 @@
+[
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\add_dish.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\add_dish.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\user_name_change_dialog.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\user_name_change_dialog.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\today_header_dish_list_row.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\today_header_dish_list_row.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\change_weight_dialog.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\change_weight_dialog.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\statistics.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\statistics.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\social_today_dish_list_row.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\social_today_dish_list_row.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\statistics_list.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\statistics_list.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\user_name_dialog.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\user_name_dialog.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\statistics_list_item.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\statistics_list_item.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\social_news_row.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\social_news_row.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\start.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\start.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\statistics_export.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\statistics_export.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_chooser_dialog.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\layout\\mr_media_route_chooser_dialog.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\social_contact_followers_list.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\social_contact_followers_list.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\update_weight_dialog.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\update_weight_dialog.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\locations_list_row.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\locations_list_row.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\user_chart_dialog.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\user_chart_dialog.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_list_item.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\layout\\mr_media_route_list_item.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\social_contacts_list_row.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\social_contacts_list_row.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\fitnes_list.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\fitnes_list.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\widjet.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\widjet.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\days_list.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\days_list.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\dish_list_row.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\dish_list_row.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\search_param_dialog.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\search_param_dialog.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\statistics_weight.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\statistics_weight.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\social_today_list.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\social_today_list.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\social_header_dish_list_row.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\social_header_dish_list_row.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\temlpate_list_row.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\temlpate_list_row.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\number_picker.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\number_picker.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\social_calendar_list_row.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\social_calendar_list_row.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_controller_material_dialog_b.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\layout\\mr_media_route_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\social_contact_list.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\social_contact_list.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\statistics_import.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\statistics_import.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\add_today_dish.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\add_today_dish.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\social_messages_list_row.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\social_messages_list_row.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\social_user_list.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\social_user_list.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\about.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\about.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\number_picker_pref.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\number_picker_pref.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\recepy_name_dialog.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\recepy_name_dialog.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\statistics_fcp.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\statistics_fcp.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\number_picker_fitnes.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\number_picker_fitnes.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\social_user_list_row.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\social_user_list_row.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\social_user_news_list.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\social_user_news_list.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\social_news_list.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\social_news_list.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\recepy_list.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\recepy_list.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\add_recepy.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\add_recepy.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\settings.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\settings.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\setting_main.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\setting_main.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\number_picker_pref_fitnes.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\number_picker_pref_fitnes.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\template_list.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\template_list.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\calculator.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\calculator.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\add_fitnes.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\add_fitnes.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\user_email_dialog.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\user_email_dialog.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\social_calendar_list.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\social_calendar_list.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\today_list.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\today_list.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\social_messages_list.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\social_messages_list.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\days_list_row.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\days_list_row.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\new_template_list.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\new_template_list.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\fitnes_list_row.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\fitnes_list_row.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\add_coment_dialog.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\add_coment_dialog.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\dish_list.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\dish_list.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\add_today_fitnes.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\add_today_fitnes.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\widjet56.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\widjet56.xml"
+    },
+    {
+        "merged": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\build\\intermediates\\res\\merged\\debug\\layout\\today_dish_list_row.xml",
+        "source": "F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\res\\layout\\today_dish_list_row.xml"
+    }
+]

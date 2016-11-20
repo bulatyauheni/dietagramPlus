@@ -1,0 +1,351 @@
+package bulat.diet.helper_ru.activity;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.Locale;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.view.KeyEvent;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.inputmethod.InputMethodManager;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemSelectedListener;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Spinner;
+import android.widget.TextView;
+import android.widget.TextView.OnEditorActionListener;
+import bulat.diet.helper_ru.R;
+import bulat.diet.helper_ru.db.TodayDishHelper;
+import bulat.diet.helper_ru.item.DishType;
+import bulat.diet.helper_ru.item.TodayDish;
+import bulat.diet.helper_ru.utils.SaveUtils;
+import bulat.diet.helper_ru.utils.SocialUpdater;
+
+public class AddTodayDishActivity extends Activity {
+	public static final String DISH_NAME = "dish_name";
+	public static final String DISH_CALORISITY = "dish_calorisity";
+	public static final String DISH_CATEGORY = "dish_category";
+	public static final String DISH_TIME = "dish_time";
+	public static final String DISH_ABSOLUTE_CALORISITY = "dish_absolute_calorisity";
+	public static final String TITLE = "title_header";
+	public static final String DISH_WEIGHT = "dish_weight";
+	public static final String DISH_TYPE = "dish_type";
+	public static final String ID = "id";
+	public static final String ADD = "add_dish";
+	public static final String DISH_PROTEIN = "DISH_PROTEIN";
+	public static final String DISH_STAT_TYPE = "DISH_STAT_TYPE";
+	private String bodyweight;
+	TextView dishCaloricityVTW;
+	EditText weightView;
+	TextView dishNameTW;
+	Button okbutton;
+	Button changebutton;
+	Button nobutton;
+	int dc = 0;
+	String id = null;
+	int flag_add = 0;
+	Integer category;
+	String currDate;
+	InputMethodManager imm;
+	private String parentName;
+	Spinner spinnerTime;
+	private String timeValue;
+	private String type;
+
+	// public static final String DISH_NAME = "dish_name";
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		View viewToLoad = LayoutInflater.from(this.getParent()).inflate(
+				R.layout.add_today_dish, null);
+		TextView header = (TextView) viewToLoad
+				.findViewById(R.id.textViewTitle);
+		weightView = (EditText) viewToLoad.findViewById(R.id.timepicker_input);
+		dishNameTW = (TextView) viewToLoad.findViewById(R.id.textViewDishName);
+		dishCaloricityVTW = (TextView) viewToLoad
+				.findViewById(R.id.textCaloricityValue);
+		Bundle extras = getIntent().getExtras();
+		String dn = extras.getString(DISH_NAME);
+		parentName = extras.getString(DishActivity.PARENT_NAME);
+		int weight = extras.getInt(DISH_WEIGHT);
+		dc = extras.getInt(DISH_CALORISITY);
+		type = extras.getString(DISH_TYPE);
+		category = extras.getInt(DISH_CATEGORY);
+		flag_add = extras.getInt(ADD);
+		id = extras.getString(ID);
+		bodyweight = extras.getString(DishActivity.BODYWEIGHT);
+		// set header
+		String title = extras.getString(TITLE);
+		header.setText(title);
+		if (title == null && flag_add == 0) {
+			header.setText(getString(R.string.edit_today_dish));
+		}
+		Button backButton = (Button) viewToLoad.findViewById(R.id.buttonBack);
+		backButton.setOnClickListener(new OnClickListener() {			
+			public void onClick(View v) {								 
+				  try {
+					  ((DishActivityGroup)AddTodayDishActivity.this.getParent()).getFirst();						
+					} catch (Exception e) {
+     					((CalendarActivityGroup)AddTodayDishActivity.this.getParent()).pop(2);	
+					}
+			}			
+		});	
+		// set name of dish
+		dishNameTW.setText(dn);
+//set time spiner
+		spinnerTime = (Spinner) viewToLoad.findViewById(R.id.SpinnerPartOfDay);
+		ArrayList<DishType> time = new ArrayList<DishType>();
+		time.add(new DishType( 0, getString(R.string.time_breakfast)));
+		time.add(new DishType( 1, getString(R.string.time_branch)));
+		time.add(new DishType( 2, getString(R.string.time_dinner)));
+		time.add(new DishType( 3, getString(R.string.time_lanch)));
+		time.add(new DishType( 4, getString(R.string.time_supper)));
+		ArrayAdapter<DishType>  adapter = new ArrayAdapter<DishType>(this, android.R.layout.simple_spinner_item, time);		
+		adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+		spinnerTime.setAdapter(adapter);	
+		spinnerTime.setSelection(SaveUtils.getLastTime(this));
+		spinnerTime.setOnItemSelectedListener(spinnerListener);
+		//bug in 2.1.6
+		timeValue = extras.getString(DISH_TIME);
+		if(timeValue != null){			
+			int timeValueint = Integer.valueOf(timeValue);			
+			spinnerTime.setSelection(timeValueint);			
+		}
+		
+
+
+		// set weight
+		weightView.addTextChangedListener(searchEditTextWatcher);
+		weightView.setOnEditorActionListener(onEditListener);
+		if (weight == 0) {
+			weightView.setText(String.valueOf(100));
+		} else {
+			weightView.setText(String.valueOf(weight));
+		}
+		// set caloriity
+		dishCaloricityVTW.setText(String.valueOf(dc
+				* Integer.valueOf(weightView.getText().toString()) / 100));
+
+		okbutton = (Button) viewToLoad.findViewById(R.id.buttonYes);
+		okbutton.setOnClickListener(new OnClickListener() {
+
+			public void onClick(View v) {
+				StartActivity.checkCalendar(AddTodayDishActivity.this);
+				if (!"".endsWith(weightView.getText().toString())) {
+					if (flag_add == 1) {
+						SimpleDateFormat sdf = new SimpleDateFormat(
+								"EEE dd MMMM",new Locale(getString(R.string.locale)));
+						Date curentDateandTime;
+						try {
+							curentDateandTime = sdf.parse(currDate);
+
+							Date nowDate = new Date();
+							curentDateandTime.setYear(nowDate.getYear());
+							TodayDish td=new TodayDish(Float.parseFloat(bodyweight.toString().split(" ")[0]), 
+									dishNameTW.getText().toString(),
+									String.valueOf(spinnerTime.getSelectedItemId()), 
+									dc, 
+									category.toString(), 
+									Integer.parseInt(weightView.getText().toString()),
+									Integer.parseInt(dishCaloricityVTW.getText().toString()),
+									currDate,
+									curentDateandTime.getTime(),
+									0,
+									type
+									);
+
+							td.setId(TodayDishHelper.addNewDish(td,AddTodayDishActivity.this));
+							if (0!=SaveUtils.getUserUnicId(AddTodayDishActivity.this)) {
+								new SocialUpdater(AddTodayDishActivity.this, td,false).execute();
+							}
+						} catch (ParseException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+					} else {
+						if (id != null) {
+							TodayDish td=new TodayDish(id, 
+									dishNameTW.getText().toString(),
+									String.valueOf(spinnerTime.getSelectedItemId()),
+									dc,
+									"",
+									Integer.parseInt(weightView.getText().toString()),
+									Integer.parseInt(dishCaloricityVTW.getText().toString()),
+									currDate);
+							TodayDishHelper.updateDish(td,AddTodayDishActivity.this);
+							if (0!=SaveUtils.getUserUnicId(AddTodayDishActivity.this)) {
+								new SocialUpdater(AddTodayDishActivity.this, td,true).execute();
+							}
+						}
+					}
+					if (CalendarActivityGroup.class.toString().equals(
+							parentName)) {
+						CalendarActivityGroup activityStack = (CalendarActivityGroup) getParent();
+						activityStack.pop(2);
+					} else {
+						try {
+							DishActivityGroup activityStack = (DishActivityGroup) getParent();
+							activityStack.getFirst();
+						} catch (Exception e) {
+							CalendarActivityGroup activityStack = (CalendarActivityGroup) getParent();
+							activityStack.pop(2);
+						}
+					}
+
+				} else {
+					// weightView.setBackgroundColor(Color.RED);
+				}
+				Intent i = new Intent();
+				i.setAction(BaseActivity.CUSTOM_INTENT);
+				AddTodayDishActivity.this.sendBroadcast(i);
+			}
+		});
+		nobutton = (Button) viewToLoad.findViewById(R.id.buttonNo);
+		nobutton.setOnClickListener(new OnClickListener() {
+
+			public void onClick(View v) {
+				if (CalendarActivityGroup.class.toString().equals(parentName)) {
+					CalendarActivityGroup activityStack = (CalendarActivityGroup) getParent();
+					activityStack.pop(2);
+				} else {
+					try {
+						DishActivityGroup activityStack = (DishActivityGroup) getParent();
+						activityStack.getFirst();
+					} catch (Exception e) {
+						CalendarActivityGroup activityStack = (CalendarActivityGroup) getParent();
+						activityStack.pop(2);
+					}
+				}
+			}
+		});
+
+		changebutton = (Button) viewToLoad.findViewById(R.id.buttonChangeDish);
+		changebutton.setOnClickListener(new OnClickListener() {
+
+			public void onClick(View v) {
+				Intent intent = new Intent();
+				intent.putExtra(DishActivity.DATE, currDate);
+				intent.putExtra(ID, id);
+				intent.putExtra(DishActivity.PARENT_NAME, parentName);
+				intent.setClass(getParent(), DishListActivity.class);
+				if (CalendarActivityGroup.class.toString().equals(parentName)) {
+					CalendarActivityGroup activityStack = (CalendarActivityGroup) getParent();
+					activityStack.push("DishListActivityCalendar", intent);
+				} else {
+					try {
+						DishActivityGroup activityStack = (DishActivityGroup) getParent();
+						activityStack.push("DishListActivity", intent);
+					} catch (Exception e) {
+						e.printStackTrace();
+						CalendarActivityGroup activityStack = (CalendarActivityGroup) getParent();
+						activityStack.push("DishListActivityCalendar", intent);
+					}
+				}
+			}
+		});
+
+		currDate = extras.getString(DishActivity.DATE);
+		setContentView(viewToLoad);
+	}
+
+	@Override
+	protected void onDestroy() {
+		// TODO Auto-generated method stub
+		super.onDestroy();
+	}
+
+	@Override
+	protected void onPause() {
+
+		super.onPause();
+		imm.hideSoftInputFromWindow(weightView.getWindowToken(), 0);
+	}
+
+	@Override
+	protected void onResume() {
+		// TODO Auto-generated method stub
+		imm = (InputMethodManager) AddTodayDishActivity.this
+				.getSystemService(Context.INPUT_METHOD_SERVICE);
+		spinnerTime.setSelection(SaveUtils.getLastTime(this));
+		if(timeValue != null){			
+			int timeValueint = Integer.valueOf(timeValue);			
+			spinnerTime.setSelection(timeValueint);			
+		}
+		super.onResume();
+	}
+
+	@Override
+	protected void onStop() {
+		// TODO Auto-generated method stub
+		super.onStop();
+	}
+
+	private OnEditorActionListener onEditListener = new OnEditorActionListener() {
+
+		public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+			imm.hideSoftInputFromWindow(v.getWindowToken(), 0);
+			try{
+				dishCaloricityVTW.setText(String.valueOf(dc
+								* Integer.valueOf(weightView.getText().toString()) / 100));
+			}catch (Exception e) {
+				dishCaloricityVTW.setText("0");
+				e.printStackTrace();
+			}
+			return false;
+		}
+	};
+
+	private TextWatcher searchEditTextWatcher = new TextWatcher() {
+
+		public void onTextChanged(CharSequence s, int start, int before,
+				int count) {
+		}
+
+		public void beforeTextChanged(CharSequence s, int start, int count,
+				int after) {
+		}
+
+		public void afterTextChanged(Editable s) {
+			try {
+				if (!"".endsWith(weightView.getText().toString())) {
+
+					dishCaloricityVTW.setText(String.valueOf(dc
+							* Integer.valueOf(weightView.getText().toString())
+							/ 100));
+					// weightView.setBackgroundColor(Color.WHITE);
+				} else {
+					// weightView.setBackgroundColor(Color.RED);
+				}
+			} catch (Exception e) {
+				dishCaloricityVTW.setText("0");
+			}
+		}
+	};
+	private OnItemSelectedListener spinnerListener = new OnItemSelectedListener(){
+
+		public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2,
+				long arg3) {
+			SaveUtils.saveLastTime((int)(
+					((DishType)spinnerTime.getSelectedItem()).getTypeKey()), AddTodayDishActivity.this);
+	
+			//saveAll();					
+		}
+
+		public void onNothingSelected(AdapterView<?> arg0) {
+			// TODO Auto-generated method stub
+			
+		}		
+	};
+}

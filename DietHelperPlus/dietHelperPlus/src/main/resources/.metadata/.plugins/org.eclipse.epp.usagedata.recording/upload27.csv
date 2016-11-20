@@ -1,0 +1,276 @@
+what,kind,bundleId,bundleVersion,description,time
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1370014779901
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1370014779962
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1370014787935
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1370014790462
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.saveAll",1370014798955
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370014799202
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370014801274
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370014812575
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370014815404
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370014868872
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370014884042
+activated,perspective,com.android.ide.eclipse.ddms,21.1.0.v201302060044-569685,"com.android.ide.eclipse.ddms.Perspective",1370014887076
+activated,view,com.questoid.sqlitebrowser,1.2.0,"com.questoid.sqlitebrowser.view.sqliteBrowserView",1370014887090
+activated,view,com.android.ide.eclipse.ddms,21.1.0.v201302060044-569685,"com.android.ide.eclipse.ddms.views.FileExplorerView",1370014890377
+closed,view,com.questoid.sqlitebrowser,1.2.0,"com.questoid.sqlitebrowser.view.sqliteBrowserView",1370014890526
+opened,view,com.questoid.sqlitebrowser,1.2.0,"com.questoid.sqlitebrowser.view.sqliteBrowserView",1370014890738
+activated,view,com.questoid.sqlitebrowser,1.2.0,"com.questoid.sqlitebrowser.view.sqliteBrowserView",1370014890745
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370014899683
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370014930424
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370014930434
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370014944752
+activated,perspective,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.DebugPerspective",1370014944791
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1370014944820
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.StepOver",1370014947989
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.StepOver",1370014948715
+activated,view,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.DebugView",1370014953092
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.Resume",1370014953159
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370014956852
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370014960099
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1370014961698
+activated,view,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.DebugView",1370014963531
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.Resume",1370014963640
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.Resume",1370014966961
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.Resume",1370014971488
+activated,perspective,com.android.ide.eclipse.ddms,21.1.0.v201302060044-569685,"com.android.ide.eclipse.ddms.Perspective",1370014973699
+activated,view,com.android.ide.eclipse.ddms,21.1.0.v201302060044-569685,"com.android.ide.eclipse.ddms.views.FileExplorerView",1370014977153
+closed,view,com.questoid.sqlitebrowser,1.2.0,"com.questoid.sqlitebrowser.view.sqliteBrowserView",1370014977286
+opened,view,com.questoid.sqlitebrowser,1.2.0,"com.questoid.sqlitebrowser.view.sqliteBrowserView",1370014977539
+activated,view,com.questoid.sqlitebrowser,1.2.0,"com.questoid.sqlitebrowser.view.sqliteBrowserView",1370014977547
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015025015
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015025252
+activated,view,com.android.ide.eclipse.ddms,21.1.0.v201302060044-569685,"com.android.ide.eclipse.ddms.views.LogCatView",1370015027893
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1370015074333
+activated,perspective,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.JavaPerspective",1370015074336
+activated,view,org.eclipse.search,3.7.0.v20110505-0800,"org.eclipse.search.ui.views.SearchView",1370015074345
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1370015075907
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1370015090386
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.cut",1370015096851
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1370015111619
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1370015119575
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015120056
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015122065
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015130769
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015137524
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015153613
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015155531
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015157521
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015167662
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015170056
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015171539
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015172886
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015174181
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015175115
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015192066
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1370015205895
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1370015207277
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1370015212247
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1370015225450
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015230482
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015233530
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015246866
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015258295
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015259504
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015644302
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1370015683332
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1370015688073
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015692945
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015696644
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015758230
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015784846
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.cut",1370015802083
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1370015806798
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.cut",1370015812418
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1370015815126
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1370015816369
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015819859
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015825263
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015829281
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015831475
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370015849213
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370246313108
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1370246315043
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1370246323422
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1370246323484
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370246328431
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370246333002
+error,log,,,"Unhandled event loop exception",1370246333034
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370246336956
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370246346547
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370246346794
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370247053396
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1370247061301
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1370247061301
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370247067831
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370247070618
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370247085972
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370247242321
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1370247249522
+opened,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1370247279354
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1370247279450
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1370247310250
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1370247318268
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1370247362774
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370247367064
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370247367977
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370247368948
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370247369855
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370247384427
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370247386404
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370247387992
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370247402311
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1370247416841
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1370247474873
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1370247479600
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1370247482395
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1370247504927
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1370247513209
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1370247521046
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370247731036
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370247731263
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370247777172
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370247983847
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370247987365
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370248024712
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370248036970
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370249266027
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1370249270363
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1370249274174
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1370249276944
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1370249301287
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1370249304165
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1370249326572
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1370249354541
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1370249356903
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1370249359994
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1370249371514
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1370249371680
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.undo",1370249373050
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.undo",1370249377256
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.redo",1370249382262
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1370249385399
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1370249388109
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1370249389129
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1370249391650
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1370249393911
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.undo",1370249395059
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1370249395794
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1370249397711
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1370249407663
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1370249413188
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1370249416324
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1370249418352
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1370249442760
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1370249444139
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370249609897
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370249613483
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370249622766
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370249638492
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1370249647517
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1370249649335
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1370249653779
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1370249654898
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1370249656007
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370249891553
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370250071982
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370250073748
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370250076828
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370250100678
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370250578089
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370250582119
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370250583980
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370250584625
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370250602730
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1370250643683
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1370250645641
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1370250648109
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1370250649103
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1370250660990
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1370250663794
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1370250664910
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1370250665828
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1370250670874
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370250675911
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370250928908
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370250929807
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370250944898
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1370250947456
+activated,editor,com.android.ide.eclipse.adt,16.0.1.v201112150204-238534,"com.android.ide.eclipse.editors.layout.LayoutEditor",1370250949880
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370250995548
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370251001386
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370251006128
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370251011879
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370265484130
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1370265486388
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370265491780
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370265646623
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.refresh",1370265655974
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370265664075
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370265679546
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370265709699
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370265718178
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110505-0800,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1370265718199
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1370265718199
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.saveAll",1370265720168
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370265727477
+error,log,,,"Unhandled event loop exception during blocked modal context.",1370265731262
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1370265731380
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1370265731421
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1370265731441
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1370265731468
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1370265731477
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370265731544
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110505-0800,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1370265731548
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1370265731548
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370265738233
+error,log,,,"",1370265759160
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370265759190
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.import",1370265759200
+started,bundle,org.eclipse.wst.server.core,1.1.303.v20110816_1717,"org.eclipse.wst.server.core",1370265759463
+error,log,,,"social_contact_list.xml: Failed to convert @color/main_color into a drawable",1370265760599
+error,log,,,"social_contact_list.xml: Failed to convert @color/title_color into a drawable",1370265760600
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/back_button_xml into a drawable",1370265760604
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/exit_button_xml into a drawable",1370265760609
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/settings_button_xml into a drawable",1370265760617
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/settings_button_xml into a drawable",1370265760623
+error,log,,,"social_contact_list.xml: Failed to convert @color/header_color into a drawable",1370265760627
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/selected_tab into a drawable",1370265760629
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/noselected_tab into a drawable",1370265760633
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/noselected_tab into a drawable",1370265760637
+error,log,,,"social_contact_list.xml: Failed to convert @color/header_color into a drawable",1370265760640
+error,log,,,"social_contact_list.xml: Failed to convert @color/header_color into a drawable",1370265760642
+error,log,,,"social_contact_list.xml: Failed to convert @color/header_color into a drawable",1370265760647
+error,log,,,"social_contact_list.xml: Color value '@color/grey' must start with #",1370265760650
+error,log,,,"social_contact_list.xml: Failed to convert @color/header_color into a drawable",1370265760653
+error,log,,,"social_contact_list.xml: Color value '@color/grey' must start with #",1370265760655
+error,log,,,"social_contact_list.xml: Failed to convert @color/light_grey into a drawable",1370265760657
+error,log,,,"social_contact_list.xml: Color value '@color/dark_grey' must start with #",1370265760660
+error,log,,,"social_contact_list.xml: Failed to convert @color/light_grey into a drawable",1370265760662
+error,log,,,"social_contact_list.xml: Color value '@color/dark_grey' must start with #",1370265760664
+error,log,,,"social_contact_list.xml: Failed to convert @color/light_grey into a drawable",1370265760666
+error,log,,,"social_contact_list.xml: Color value '@color/text_color' must start with #",1370265760669
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/search_button_xml into a drawable",1370265760671
+error,log,,,"social_contact_list.xml: Failed to convert @color/grey_divider into a drawable",1370265760679
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1370265760917
+error,log,,,"social_contact_list.xml: Failed to convert @color/main_color into a drawable",1370265780974
+error,log,,,"social_contact_list.xml: Failed to convert @color/title_color into a drawable",1370265780975
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/back_button_xml into a drawable",1370265780976
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/exit_button_xml into a drawable",1370265780979
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/settings_button_xml into a drawable",1370265780985
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/settings_button_xml into a drawable",1370265780989
+error,log,,,"social_contact_list.xml: Failed to convert @color/header_color into a drawable",1370265780992
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/selected_tab into a drawable",1370265780994
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/noselected_tab into a drawable",1370265780999
+error,log,,,"social_contact_list.xml: Failed to convert @drawable/noselected_tab into a drawable",1370265781003
+error,log,,,"social_contact_list.xml: Failed to convert @color/header_color into a drawable",1370265781006
+error,log,,,"social_contact_list.xml: Failed to convert @color/header_color into a drawable",1370265781007
+error,log,,,"social_contact_list.xml: Failed to convert @color/header_color into a drawable",1370265781011
+error,log,,,"social_contact_list.xml: Color value '@color/grey' must start with #",1370265781028
+error,log,,,"social_contact_list.xml: Failed to convert @color/header_color into a drawable",1370265781031
+error,log,,,"social_contact_list.xml: Color value '@color/grey' must start with #",1370265781032
+error,log,,,"social_contact_list.xml: Failed to convert @color/light_grey into a drawable",1370265781034
+error,log,,,"social_contact_list.xml: Color value '@color/dark_grey' must start with #",1370265781037
+error,log,,,"social_contact_list.xml: Failed to convert @color/light_grey into a drawable",1370265781038
+error,log,,,"social_contact_list.xml: Color value '@color/dark_grey' must start with #",1370265781041
+error,log,,,"social_contact_list.xml: Failed to convert @color/light_grey into a drawable",1370265781042

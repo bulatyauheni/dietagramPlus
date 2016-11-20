@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 	<string name="locale">ru</string>
+ 	<string name="localebg">bg</string>
+ 	<string name="localepl">pl</string>
+ 	 	<string name="localeen">en</string>
+    <string name="app_name">Calorie Counter PLUS</string>
+     <string name="tab_dish">Сегодня</string>
+     <string name="tab_calendar">История</string>
+      <string name="tab_dishlist">Список</string>
+       <string name="tab_calc">Сеть</string>
+       <string name="tab_setting">Инфо</string>
+       <string name="tab_mode">Параметры</string>
+       <string name="tab_statistic">Статистика</string>
+       <string name="tab_about">От автора</string> 
+       <string name="add_today_dish">Добавить блюдо</string>
+       <string name="edit_today_dish">Редактировать блюдо</string>
+       <string name="add_dish">Добавить блюдо</string>
+       <string name="edit_dish">Редактировать блюдо</string>
+       <string name="about_header">Автор программы</string>
+	<string name="tab_calendar_header">Мой календарь</string>
+	
+	
+	<!-- labels --> 
+	<string name="Meat">Мясо, рыба, яйца, бобовые</string>
+	<string name="Diery">Молочные продукты</string>
+	<string name="Sweet">Жиры и сладости</string>
+	<string name="Fruit">Фрукты и овощи</string>
+	<string name="Bakery">Хлеб, крупы, макароны, картофель</string>
+	
+	<!-- Dish list  -->
+	<string name="loading">Идёт поиск...</string>
+	<string name="loading_base">Установка базы продуктов...</string>
+	<string name="update_base">Обновление базы продуктов...</string>
+	<string name="bad_search">Ничего не найдено :(</string>
+	
+	<string name="idealCheet">Идеальный баланс:</string>
+	<string name="yourCheet">Ваш баланс:</string>
+	<string name="yes">Да</string>
+	<string name="no">Нет</string>
+	<string name="dish_list">Список блюд</string>
+	<string name="avg_label">Среднесуточное потребление калорий:</string>
+	<string name="parameters_header">Задайте ваши параметры</string>
+	<string name="total">Всего: </string>
+	<string name="limit">Лимит: </string>
+	<string name="dish_name">Наименование</string>
+	<string name="name">Название:</string>
+	<string name="indicator">Эффект</string>
+	<string name="portion_size">Вес порции (в граммах):</string>
+	<string name="fitnes_time">Время занятия (в минутах):</string>
+	<string name="kcal_day">ккал/день</string>
+	<string name="caloricity">Калорийность (ккал/100г):</string>
+	<string name="date">Дата</string>
+	<string name="information">Информация</string>
+	<string name="gram">г</string>
+	<string name="gram_full">грамм</string>
+	<string name="santimetr">см</string>
+	<string name="kcal">ккал</string>
+	<string name="maintain">Для поддержки веса:</string>
+	<string name="losing">Для потери веса:</string>
+	<string name="age">Возраст</string>
+	<string name="age_colon">Возраст:</string>
+	<string name="sex">Пол</string>
+	<string name="weight">Вес(кг)</string>
+	<string name="weight_fitnes">Ваш вес(кг)</string>
+	<string name="high">Рост(см)</string>
+	<string name="weight_colon">Ваш вес(кг): </string>
+	<string name="high_colon">Рост(см): </string>
+	<string name="activity">Уровень активности</string>
+	<string name="amoutnt_of_calory">Количество калорий</string>
+	<string name="amoutnt_of_burn_calory">Сожжено калорий</string>
+	<!-- dialogs --> 
+	<string name="dialog_ok">OK</string>
+	<string name="remove_dialog">Вы уверены?</string>
+	<string name="save_prove">Параметры успешно сохранены</string>
+	<string name="welcome">Вас приветсвует Счётчик Калорий\t\nЭто приложение позволяет рассчитать ваше оптимальное дневное потребление калорий и контролировать ваш дневной рацион питания.\t\n Пожалуйста, задайте Ваши параметры.</string>
+	<string name="tip">Пожайлуйста, задайте сначала Ваши параметры и нажмите на кнопку OK внизу старницы.</string>
+	<string name="culculated_parameters">Введите ваши значения</string>
+	<string name="qutstion">Чего Вам не хватает в приложении?</string>
+	
+	<string name="statistics_parameters">Статистические данные</string>
+	<string name="target_settings:">Выбор режима:</string>
+	<string name="mode">Режим питания:</string>
+	<string name="underweight">Вес ниже нормы</string>
+	<string name="normal_weight">Вес в норме</string>
+	<string name="overweight">Избыточный вес</string>
+	<string name="obese">Ожирение</string>
+	<string name="losing_weight">Потеря веса</string>
+	<string name="keeping_weight">Поддержание веса</string>
+	<string name="gaining_weight">Набор веса</string>
+	<string name="empty_list_label">Нажмите здесь чтобы начать заполнение...</string>
+	<string name="total_caloricity">Потребление: </string>
+	<string name="total_weight">Вес пищи: </string>
+	<string name="level_1">Сидячий образ жизни</string>
+	<string name="level_2">Занятия спортом 1-3 раза в неделю</string>
+	<string name="level_3">Занятия спортом 3-5 раз в неделю</string>
+	<string name="level_4">Занятия спортом 6-7 раз в неделю</string>
+	<string name="level_5">Очень большая ежедневная физическая нагрузка</string>
+	<string name="male">Мужчина</string>
+	<string name="female">Женщина</string>
+	<string name="calorie_day">калорий/день</string>
+	<string name="search_in_all">Поиск блюда ...</string>
+	<string name="disonect">Нет интернет соединения</string>
+	<string name="today_fitnes">Активность</string>
+	<string name="edit_today_fitnes">Изменить активность</string>
+	
+	<string name="body_weight">Ваш вес:</string>
+	<string name="kgram">кг</string>
+	
+	<!-- Social -->
+	<string name="tab_social_header">Сообщество</string>
+	<string name="tab_social_calendar_header">История</string>
+	<string name="search_parameters_title">Параметры поиска</string>
+	<string name="any">любой</string>
+	<string name="any_midle">любое</string>
+	<string name="user_weight">Вес:</string>
+	<string name="loading_social">Идёт загрузка...</string>
+	<string name="time">Время:</string>
+	<string name="time_breakfast">Завтрак</string>
+	<string name="time_branch">Поздний завтрак</string>	
+	<string name="time_dinner">Обед</string>
+	<string name="time_lanch">Полдник</string>
+	<string name="time_supper">Ужин</string>
+	<string name="time_active">Дневная активность</string>		
+	<string name="header_in_label">Получено: </string>	
+	<string name="header_out_label">Потрачено: </string>	
+	<string name="username_label">Введите Ваш псевдоним:</string>	
+	<string name="username">Имя пользователя:</string>	
+	<string name="first_name">Имя</string>	
+	<string name="username_hello_label">Здесь Вы сможете наблюдать за режимом питания других людей и возможно найдёте друзей по диете. Для того чтобы Вас могли видеть другие пользователи введите свое имя или псевдним.</string>	
+	<string name="username_dialog_title">Регистрация пользователя</string>
+	<string name="username_change_dialog_title">Изменение имени</string>
+	<string name="change_weight_dialog_title">Изменение веса</string>
+	<string name="change_weight_label">Здесь Вы можете обновить текущие данные о Вашем весе.</string>		
+	<string name="update_weight_label">Здесь Вы можете изменть данные о Вашем весе за конкретный день.</string>	
+		
+	<string name="username_dialog_registred">Вы зарегистрированы</string>
+	<string name="username_dialog_notregistred">Произошёл сбой, попробуйте позже</string>
+	<string name="contacts_list">Список контактов</string>
+	<string name="newContactMessage">Новый контакт установлен</string>
+	<string name="enter_message">Введите сообщение</string>
+	<string name="sport_level">Спортивность</string>
+	<string name="conversation">Общение</string>
+	<string name="user_history">История пользователя</string>
+	<string name="user_weight_history">Посмотреть график изменения веса</string>
+	<string name="user_new_messages_label">Новых сообщений:</string>
+	<string name="users_notfound">Пользователей с такими параметрами не найдено, нажмите здесь чтобы изменить параметры поиска</string>
+	<string name="statistic_food">Пищевой баланс</string>
+	<string name="statistic_other">Другое</string>
+	<string name="statistic_weight">Статистика изменения веса</string>
+	<string name="statistic_FCP">Баланс Б.Ж.У.</string>
+	<string name="statistic_weight_empty">Вес ещё не изменялся</string>
+	<string name="users_calendar_empty">Календарь пользователя пуст</string>
+	<string name="user_chart_dialog">График изменения веса</string>
+	<string name="contacts_header">Нажмите здесь чтобы пополнить список</string>
+	<string name="new_message">Новых сообщений</string>
+	
+	<string name="balance_norm">Нормальный образ жизни</string>
+	<string name="balance_fith">При больших физических нагрузках</string>
+	<string name="balance_clever">Для работников умственного труда</string>
+	
+	
+	<string name="fitnes_burn_label">Сжигает калорий в час (ккал/час):</string>
+	<string name="fitnes_list">Упражнения</string>
+	<string name="fat">Жиры</string>
+	<string name="carbon">Угл.</string>
+	<string name="protein">Белки</string>
+	<string name="energy">Эн.цен.</string>
+	<string name="reset_dialog">Вы хотите удалить всю историю и начать всё заново?</string>
+	<string name="remove_chat_dialog">Вы хотите удалить всю переписку с этим пользователем?</string>
+	<string name="empty_day">Пустой день</string>
+	<string name="balanse_data">Ваш баланс расчитан по данным за последние 30 дней.</string>
+	<string name="consumption">ккал/час</string>
+	<string name="add_fitnes">Добавить активность</string>
+	<string name="add_today_fitnes">Добавить активность</string>
+	<string name="days">История</string>
+	<string name="templates">Шаблоны</string>
+	<string name="save">Сохранить как</string>
+	<string name="load">Загрузить шаблон</string>
+	<string name="savetemplate">Шаблон сохранён</string>
+	<string name="loadtemplate">Шаблон загружен</string>
+	<string name="loadtemplateempty">Загружаемый шаблон пуст</string>
+	<string name="templatesempty">У вас ещё нет шаблонов</string>
+	<string name="template_download">Текущие данные будут потеряны. Вы согласны загрузить шаблон?</string>
+	<string name="template_save">Вы можете сохранить текущие данные как шаблон и использовать его в дальнейшем.</string>
+	<string name="template_name">Введите имя шаблона</string>
+	<string name="tab_template_header">Шаблоны</string>
+	<string name="new_template_header">Шаблон</string>
+	<string name="changename">Изменить имя</string>
+	<string name="choosetemplate">"--Выберите шаблон--"</string>
+	
+	<string name="type_save">Вы можете добавить свою категорию. Внимательно вводите имя категории, редактировать его потом нельзя.</string>
+	<string name="types">Категории</string>
+	<string name="type_name">Введите имя категории</string>
+	
+	<string name="reminder">Вы давно не заполняли счётчик калорий</string>
+	<string name="reminder_title">Напоминание</string>
+	<string name="newmessage">Новое сообщение в Счётчике Калорий!</string>
+	<string name="newmessage_title">Новое сообщение</string>
+	<string name="timeHHMM">Время(ч:м):</string>
+	<string name="timeHHMMFitnes">Время начала:</string>
+	<string name="category">В категорию:</string>
+	<string name="type">Тип:</string>
+	<string name="russian">Русский</string>
+	<string name="bulgarian">Българска</string>
+	<string name="polish">Polska</string>
+	<string name="english">English</string>	
+	
+	<string name="water_label">Вода:</string>
+	
+	<string name="widjet_prot">Б:</string>
+	<string name="widjet_carb">У:</string>
+	<string name="widjet_fat">Ж:</string>
+	<string name="statistic_export_save">Сохранить историю в файл?</string>
+	<string name="statistic_export">Export</string>
+	<string name="statistic_import">Import</string>
+	<string name="saved_history">История сохранена</string>
+	<string name="history_download">Текущие данные будут потеряны. Вы согласны загрузить историю?</string>
+	<string name="empty_dish_search">Нажмите здесь чтобы добавить продукт...</string>
+	
+	<string name="popular">Популярные</string>
+	
+	<string name="complex_list">Рецепты</string>
+	
+	<string name="castom_limit">Задайте ваш лимит</string>
+	<string name="save_limit">Лимит сохранён</string>
+	<string name="surplus">Остаток:</string>
+	
+	<string name="soc_tab_calendar">Календарь пользователя</string>     
+	<string name="soc_tab_messages">Контакты</string>  
+	<string name="soc_tab_search">Поиск</string>  
+	<string name="soc_tab_news">Новости</string>  
+	<string name="soc_start_following">Вы подписались на новости от этого пользователя</string> 
+	<string name="soc_stop_following">Вы не будете получать новости от этого пользователя</string> 
+	<string name="soc_button_favorite">Избранные</string>
+	<string name="soc_button_conversation">Сообщения</string>
+	<string name="soc_button_folovers">Подписчики</string>
+	<string name="soc_coment">Добавление коментария</string>
+	<string name="enter_news">Написать новость</string>
+	<string name="users_notfound2">Таких пользователей ещё нет</string>
+	<string name="users_instruction">Вы ещё не подписаны на новости от других пользователей. Чтобы подписаться нажмите на страничке интересного вам пользователя на кнопку со звездчкой.</string>
+	<string name="users_newslist_empty">Пользователь ещё не писал новостей</string>
+	
+</resources>
