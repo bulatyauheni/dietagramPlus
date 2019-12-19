@@ -1,19 +1,12 @@
 package bulat.diet.helper_plus.activity;
 
-import java.text.DecimalFormat;
-import java.text.SimpleDateFormat;
-import java.util.Collections;
-import java.util.Date;
-import java.util.List;
-import java.util.Locale;
-import java.util.TreeSet;
-
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.text.format.DateUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -23,17 +16,25 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
-import bulat.diet.helper_plus.R;
-import bulat.diet.helper_plus.adapter.DaysAdapter;
-import bulat.diet.helper_plus.db.TodayDishHelper;
-import bulat.diet.helper_plus.item.Day;
-import bulat.diet.helper_plus.utils.SaveUtils;
-import bulat.diet.helper_plus.activity.VkActivity;
 
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.GraphView.GraphViewData;
 import com.jjoe64.graphview.GraphViewSeries;
 import com.jjoe64.graphview.LineGraphView;
+
+import java.text.DecimalFormat;
+import java.text.SimpleDateFormat;
+import java.util.Collections;
+import java.util.Date;
+import java.util.List;
+import java.util.Locale;
+import java.util.TreeSet;
+
+import bulat.diet.helper_plus.R;
+import bulat.diet.helper_plus.adapter.DaysAdapter;
+import bulat.diet.helper_plus.db.TodayDishHelper;
+import bulat.diet.helper_plus.item.Day;
+import bulat.diet.helper_plus.utils.SaveUtils;
 
 public class CalendarActivity extends BaseActivity {
 	protected static final int DIALOG_CHART = 0;
@@ -70,7 +71,22 @@ public class CalendarActivity extends BaseActivity {
 				}
 			}
 		});
-		
+		Button tommorrowButton = (Button) viewToLoad.findViewById(R.id.buttonTommorrow);
+		tommorrowButton.setOnClickListener(new OnClickListener() {
+
+			public void onClick(View v) {
+
+				AlertDialog.Builder builder = null;
+
+				builder = new AlertDialog.Builder(CalendarActivity.this
+						.getParent());
+				builder.setMessage(R.string.tommorrow_dialog)
+						.setPositiveButton(getString(R.string.yes),
+								tommorrowClickListener)
+						.setNegativeButton(getString(R.string.no),
+								tommorrowClickListener).show();
+			}
+		});
 		Button exitButton = (Button) viewToLoad.findViewById(R.id.buttonExit);
 		exitButton.setOnClickListener(new OnClickListener() {
 			
@@ -333,6 +349,38 @@ public class CalendarActivity extends BaseActivity {
 
 		return dialog;
 	}
+
+	DialogInterface.OnClickListener tommorrowClickListener = new DialogInterface.OnClickListener() {
+		public void onClick(DialogInterface dialog, int which) {
+			switch (which) {
+				case DialogInterface.BUTTON_POSITIVE:
+					try {
+						Intent intent = new Intent();
+						Date dateNow = new Date();
+						SimpleDateFormat sdf = new SimpleDateFormat("EEE dd MMMM", new Locale(CalendarActivity.this
+								.getString(R.string.locale)));
+
+						String day = sdf.format(new Date(dateNow.getTime() + DateUtils.DAY_IN_MILLIS));
+						intent.putExtra(AddTodayDishActivity.TITLE,
+								getString(R.string.edit_today_dish));
+						intent.putExtra(DishActivity.DATE, day);
+						intent.putExtra(DishActivity.BACKBTN, true);
+						intent.putExtra(DishActivity.PARENT_NAME,
+								CalendarActivityGroup.class.toString());
+						intent.setClass(getParent(), DishActivity.class);
+						CalendarActivityGroup activityStack = (CalendarActivityGroup) CalendarActivity.this.getParent();
+						activityStack.push("DishDayActivity", intent);
+
+					} catch (Exception e) {
+						e.printStackTrace();
+					}
+					break;
+
+				case DialogInterface.BUTTON_NEGATIVE:
+					break;
+			}
+		}
+	};
 
 	@Override
 	protected void onPause() {

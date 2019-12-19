@@ -1,32 +1,5 @@
 package bulat.diet.helper_plus.activity;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
-import java.util.ArrayList;
-import java.util.Set;
-import java.util.TreeSet;
-
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.StatusLine;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.params.BasicHttpParams;
-import org.apache.http.params.HttpConnectionParams;
-import org.apache.http.params.HttpParams;
-import org.json.JSONArray;
-import org.json.JSONObject;
-
-import com.dm.zbar.android.scanner.ZBarConstants;
-import com.dm.zbar.android.scanner.ZBarScannerActivity;
-import com.jjoe64.graphview.BarGraphView;
-
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.ActivityNotFoundException;
@@ -40,7 +13,6 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.speech.RecognizerIntent;
 import android.text.Editable;
-import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -62,6 +34,30 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
 import android.widget.Toast;
+
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.StatusLine;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.params.BasicHttpParams;
+import org.apache.http.params.HttpConnectionParams;
+import org.apache.http.params.HttpParams;
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.Set;
+import java.util.TreeSet;
+
 import bulat.diet.helper_plus.R;
 import bulat.diet.helper_plus.adapter.DishAdapter;
 import bulat.diet.helper_plus.adapter.DishArrayAdapter;
@@ -104,16 +100,14 @@ public class DishListActivity extends BaseActivity {
 	private Button imageBar;
 	public static final int ZBAR_SCANNER_REQUEST = 2;
 	public static final int ZBAR_QR_SCANNER_REQUEST = 3;
-	
-	static {
-	    System.loadLibrary("iconv");
-	}
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		viewToLoad = LayoutInflater.from(this.getParent()).inflate(
 				R.layout.dish_list, null);
+		setContentView(viewToLoad);
 		header = (TextView) viewToLoad.findViewById(R.id.textViewTitle);
 		spinerLayot = (LinearLayout) viewToLoad.findViewById(R.id.spinerLayout);
 		serchLayout = (RelativeLayout) viewToLoad
@@ -160,11 +154,15 @@ public class DishListActivity extends BaseActivity {
 
 			public void onClick(View v) {
 				if (isCameraAvailable()) {
-		            Intent intent = new Intent(DishListActivity.this, ZBarScannerActivity.class);
-		            getParent().startActivityForResult(intent, ZBAR_SCANNER_REQUEST);
-		        } else {
-		            Toast.makeText(DishListActivity.this, "Rear Facing Camera Unavailable", Toast.LENGTH_SHORT).show();
-		        }
+					Intent intent = new Intent(getParent(),
+							ScannerActivity.class);
+					getParent().startActivityForResult(intent,
+							ZBAR_SCANNER_REQUEST);
+				} else {
+					Toast.makeText(DishListActivity.this,
+							"Rear Facing Camera Unavailable",
+							Toast.LENGTH_SHORT).show();
+				}
 			}
 		});
 		
@@ -285,7 +283,6 @@ public class DishListActivity extends BaseActivity {
 				showDialog(DIALOG_TYPE_NAME);
 			}
 		});
-		setContentView(viewToLoad);
 	}
 	public boolean isCameraAvailable() {
         PackageManager pm = getPackageManager();
@@ -503,6 +500,7 @@ public class DishListActivity extends BaseActivity {
 			} else if (DishListActivityGroup.class.getName().equals(
 					getParent().getClass().getName()) && !"Recepy".equals(parentName)) {
 				try {
+					Dish dish = DishListHelper.getDishById(idView.getText().toString(), getApplicationContext());
 					intent.putExtra(AddTodayDishActivity.ID, idView.getText()
 							.toString());
 					intent.putExtra(AddTodayDishActivity.ADD, 0);
@@ -515,7 +513,7 @@ public class DishListActivity extends BaseActivity {
 					intent.putExtra(AddTodayDishActivity.DISH_PROTEIN, protein
 							.getText().toString());
 					intent.putExtra(AddDishActivity.DISH_TYPE,
-							((int)typeSpinner.getSelectedItemId())
+							dish.getCategory()
 							);
 					intent.putExtra(AddDishActivity.DISH_BALANCETYPE,
 							(balancetypeView.getText().toString())

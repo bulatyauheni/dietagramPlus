@@ -244,4 +244,7 @@
 	<string name="voice_error">Voice input is not possible.</string>	
 	
 		<string name="barcode">Barcode:</string>
+	<string name="water_name">Water</string>
+    <string name="years">years</string>
+    <string name="tommorrow_dialog">Do you want to fill in the data for tomorrow?</string>
 </resources>

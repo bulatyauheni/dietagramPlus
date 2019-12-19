@@ -1,18 +1,5 @@
 package bulat.diet.helper_plus.reciver;
 
-import java.text.DecimalFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.List;
-import java.util.Locale;
-
-import bulat.diet.helper_plus.R;
-import bulat.diet.helper_plus.activity.StartActivity;
-import bulat.diet.helper_plus.db.DishProvider;
-import bulat.diet.helper_plus.db.TodayDishHelper;
-import bulat.diet.helper_plus.item.Day;
-import bulat.diet.helper_plus.utils.SaveUtils;
-
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
@@ -25,6 +12,19 @@ import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.RemoteViews;
+
+import java.text.DecimalFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
+import java.util.Locale;
+
+import bulat.diet.helper_plus.R;
+import bulat.diet.helper_plus.activity.StartActivity;
+import bulat.diet.helper_plus.db.DishProvider;
+import bulat.diet.helper_plus.db.TodayDishHelper;
+import bulat.diet.helper_plus.item.Day;
+import bulat.diet.helper_plus.utils.SaveUtils;
 
 public class CaloryAppWidgetProvider extends AppWidgetProvider {
 
@@ -108,11 +108,7 @@ public class CaloryAppWidgetProvider extends AppWidgetProvider {
 		Intent intent2 = new Intent(context, StartActivity.class);
 		PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent2, 0);
 		// Get the layout for the App Widget and attach an on-click listener to the button
-		RemoteViews remoteViews;
-		View viewToLoad = LayoutInflater.from(context).inflate(
-				R.layout.widjet, null);
-		remoteViews = new RemoteViews(context.getPackageName(), R.layout.widjet);
-		remoteViews.reapply(context, viewToLoad);
+		RemoteViews remoteViews = new RemoteViews(context.getPackageName(), R.layout.widjet);
 		remoteViews.setOnClickPendingIntent(R.id.buttonAdd, pendingIntent);
 		remoteViews.setOnClickPendingIntent(R.id.buttonFitnes, pendingIntent);
 		remoteViews.setTextViewText(R.id.widget_inlabel, context.getString(R.string.total));

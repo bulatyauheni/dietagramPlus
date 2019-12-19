@@ -1,34 +1,27 @@
 package bulat.diet.helper_plus.utils;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
-import java.util.ArrayList;
-import java.util.List;
+import android.content.Context;
+import android.os.AsyncTask;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.StatusLine;
-import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicHeader;
-import org.apache.http.params.BasicHttpParams;
-import org.apache.http.params.HttpConnectionParams;
-import org.apache.http.params.HttpParams;
 import org.apache.http.protocol.HTTP;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+
 import bulat.diet.helper_plus.item.TodayDish;
-import android.content.Context;
-import android.os.AsyncTask;
 
 
 public class RecepyUpdater extends AsyncTask<Void, Void, Void> {
@@ -65,7 +58,7 @@ public class RecepyUpdater extends AsyncTask<Void, Void, Void> {
         	    Parent.put("userid", userid);
         	    
         	    HttpClient client = new DefaultHttpClient();
-        	    HttpPost post = new HttpPost("http://calorycman.net/server.php");
+        	    HttpPost post = new HttpPost("http://old.dietagram.ru/server.php");
         	    StringEntity se = new StringEntity(Parent.toString());  //new ByteArrayEntity(json.toString().getBytes(            "UTF8"))
         	    se.setContentType(new BasicHeader(HTTP.CONTENT_TYPE, "application/json"));
         	    post.setHeader("Accept", "application/json");

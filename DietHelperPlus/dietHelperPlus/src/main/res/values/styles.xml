@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AlertDialogTitle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="AlertDialogMessage">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Button" >
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+
+    <style name="TradeDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:padding">0dp</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="CommonLabel">
+        <item name="android:textSize">18dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+    <style name="CommonLabelEditable" parent="CommonLabel">
+        <item name="android:drawableRight">@drawable/ic_edit</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:minWidth">65dp</item>
+        <item name="android:background">@drawable/border_button_neitral</item>
+        <item name="android:tint">@color/header_color</item>
+    </style>
+
+    <style name="SwitchTextAppearance">
+        <item name="textColor">@color/light_green</item>
+        <item name="textColorHighlight">@color/white</item>
+        <item name="textColorHint">@color/white</item>
+        <item name="textColorLink">@color/white</item>
+        <item name="textSize">14dp</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="SwitchStyle">
+        <item name="track">@drawable/switch_track</item>
+        <item name="thumb">@drawable/switch_selector</item>
+        <item name="switchTextAppearanceAttrib">@style/SwitchTextAppearance</item>
+        <item name="pushStyle">false</item>
+        <item name="textOnThumb">true</item>
+        <item name="thumbExtraMovement">0dp</item>
+        <item name="thumbTextPadding">8dp</item>
+        <item name="trackTextPadding">8dp</item>
+        <item name="switchMinWidth">29dp</item>
+        <item name="switchMinHeight">5dp</item>
+        <item name="switchPadding">1dp</item>
+    </style>
+
+    <style name="datepicker" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/grey</item>
+        <item name="colorAccent">@color/grey</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textColorPrimary">@color/green</item>
+        <item name="android:colorControlNormal" tools:targetApi="lollipop">@color/grey</item>
+
+    </style>
+</resources>

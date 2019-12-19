@@ -1,11 +1,4 @@
 package bulat.diet.helper_plus.db;
-import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
-
 import android.content.ContentResolver;
 import android.content.ContentUris;
 import android.content.ContentValues;
@@ -13,6 +6,14 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.text.format.DateUtils;
+
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
+
 import bulat.diet.helper_plus.db.DishProvider.DatabaseHelper;
 import bulat.diet.helper_plus.item.Day;
 import bulat.diet.helper_plus.item.TodayDish;
@@ -260,6 +261,7 @@ public static float getBodyWeightByDate(long date, Context context) {
 		cr.delete(DishProvider.TODAYDISH_CONTENT_URI, where, null);
 		return true;		
 	}
+
 	public static boolean removeDishesByDay(String day, Context context) {
 		
 		ContentResolver cr = context.getContentResolver();
@@ -271,7 +273,13 @@ public static float getBodyWeightByDate(long date, Context context) {
 		return true;		
 	}
 
-	
+	public static boolean removeDishesBelowDate(long dayTime, Context context) {
+		ContentResolver cr = context.getContentResolver();
+		String where = DishProvider.TODAY_DISH_DATE_LONG + " < " +  dayTime  ;
+		cr.delete(DishProvider.TODAYDISH_CONTENT_URI, where, null);
+		return true;
+	}
+
 	public static Cursor getDishesByDate(Context context, String date) {
 		ContentResolver cr = context.getContentResolver();
 		String selection =  DishProvider.TODAY_IS_DAY + " <> " + "1 and "  + DishProvider.TODAY_DISH_DATE + " = " + "?";

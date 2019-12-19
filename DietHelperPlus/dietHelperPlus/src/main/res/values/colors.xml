@@ -31,4 +31,31 @@
 	<color name="carbon">#6777F0</color>
 	<color name="protein">#109611</color>
 	<color name="widget_green">#ff00ff00</color>
+
+	<color name="radio_button_selected_color">#4981A0</color>
+	<color name="radio_button_unselected_color">#e0e0e0</color>
+	<color name="text_color_blue">#47d353</color>
+	<color name="divider">#E1E1E1</color>
+
+
+	<color name="bg_item_normal_state">#47d353</color>
+	<color name="bg_item_dragging_state">#ffffdddd</color>
+	<color name="bg_item_dragging_active_state">#ffff9999</color>
+	<color name="bg_item_swiping_state">#ffB3C9D3</color>
+	<color name="bg_item_swiping_active_state">#ff479ED3</color>
+
+	<color name="bg_group_item_normal_state">#ffB3C9D3</color>
+	<color name="bg_group_item_normal_pressed_state">#ffB3C9D3</color>
+	<color name="bg_group_item_expanded_state">#47d353</color>
+	<color name="bg_group_item_expanded_pressed_state">#47d353</color>
+	<color name="bg_group_item_dragging_state">#47d353</color>
+	<color name="bg_group_item_dragging_active_state">#ffB3C9D3</color>
+	<color name="bg_group_item_swiping_state">#47d353</color>
+	<color name="bg_group_item_swiping_active_state">#ffB3C9D3</color>
+
+	<color name="bg_swipe_item_neutral">@android:color/transparent</color>
+	<color name="bg_swipe_item_pinned">#fff9930d</color>
+	<color name="bg_swipe_group_item_pinned">#fff45f30</color>
+	<color name="unselected_color">#CBC8C5</color>
+
 </resources>

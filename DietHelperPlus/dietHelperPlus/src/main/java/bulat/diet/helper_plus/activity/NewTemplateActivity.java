@@ -1,13 +1,5 @@
 package bulat.diet.helper_plus.activity;
 
-import java.text.DecimalFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Currency;
-import java.util.Date;
-import java.util.Locale;
-
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
@@ -30,11 +22,17 @@ import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.text.DecimalFormat;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.Locale;
+
 import bulat.diet.helper_plus.R;
 import bulat.diet.helper_plus.adapter.TemplateDishAdapter;
 import bulat.diet.helper_plus.db.DishProvider;
 import bulat.diet.helper_plus.db.TemplateDishHelper;
-import bulat.diet.helper_plus.db.TodayDishHelper;
 import bulat.diet.helper_plus.item.DishType;
 import bulat.diet.helper_plus.item.TodayDish;
 import bulat.diet.helper_plus.utils.SaveUtils;
@@ -312,7 +310,12 @@ private OnClickListener saveListener = new OnClickListener() {
 		public void onClick(View v) {			
 			templateSpinner.setSelection(0);
 			flagLoad = true;
-			templateSpinner.performClick();
+			templateSpinner.post(new Runnable(){
+				@Override
+				public void run() {
+					templateSpinner.performClick();
+				}
+			});
 		}
 	};
 	

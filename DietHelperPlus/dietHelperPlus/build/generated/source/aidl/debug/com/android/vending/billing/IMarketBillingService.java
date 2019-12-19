@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\aidl\\DietHelperSport\\bin\\classes\\com\\android\\vending\\billing\\IMarketBillingService.aidl
+ * Original file: F:\\dietagram\\DietHelperPlus\\dietHelperPlus\\src\\main\\aidl\\DietHelperSport\\src\\com\\android\\vending\\billing\\IMarketBillingService.aidl
  */
 package com.android.vending.billing;
 public interface IMarketBillingService extends android.os.IInterface
@@ -35,16 +35,17 @@ return this;
 }
 @Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
 {
+java.lang.String descriptor = DESCRIPTOR;
 switch (code)
 {
 case INTERFACE_TRANSACTION:
 {
-reply.writeString(DESCRIPTOR);
+reply.writeString(descriptor);
 return true;
 }
 case TRANSACTION_sendBillingRequest:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 android.os.Bundle _arg0;
 if ((0!=data.readInt())) {
 _arg0 = android.os.Bundle.CREATOR.createFromParcel(data);
@@ -63,8 +64,11 @@ reply.writeInt(0);
 }
 return true;
 }
-}
+default:
+{
 return super.onTransact(code, data, reply, flags);
+}
+}
 }
 private static class Proxy implements com.android.vending.billing.IMarketBillingService
 {

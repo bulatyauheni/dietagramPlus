@@ -22,7 +22,9 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent" >
-
+
+
+
             <LinearLayout
                 android:id="@+id/linearLayoutActivityLabel"
                 android:layout_width="0px"
@@ -55,7 +57,6 @@
                 android:orientation="horizontal" >
 
                 <LinearLayout
-                    android:id="@+id/linearLayoutSpiner"
                     android:layout_width="0px"
                     android:layout_height="fill_parent"
                     android:layout_weight="1"
@@ -75,7 +76,6 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/linearLayoutSpiner"
                     android:layout_width="0px"
                     android:layout_height="fill_parent"
                     android:layout_weight="1"

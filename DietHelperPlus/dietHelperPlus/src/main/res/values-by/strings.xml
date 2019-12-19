@@ -244,4 +244,7 @@
 	<string name="real_weight">Вага прыгатаванай ежы(г):</string>
 	
 	<string name="barcode">Штрых-код:</string>
+	<string name="water_name">Вада</string>
+    <string name="years">гадоў</string>
+    <string name="tommorrow_dialog">Жадаеце запісаць заўтрашні дзень?</string>
 </resources>

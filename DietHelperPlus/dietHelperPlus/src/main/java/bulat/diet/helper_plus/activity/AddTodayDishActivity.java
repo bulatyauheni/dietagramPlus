@@ -1,18 +1,10 @@
 package bulat.diet.helper_plus.activity;
 
-import java.text.DecimalFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Locale;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.text.format.DateUtils;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -27,11 +19,21 @@ import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
+
+import java.text.DecimalFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Locale;
+
 import bulat.diet.helper_plus.R;
 import bulat.diet.helper_plus.db.TemplateDishHelper;
 import bulat.diet.helper_plus.db.TodayDishHelper;
 import bulat.diet.helper_plus.item.DishType;
 import bulat.diet.helper_plus.item.TodayDish;
+import bulat.diet.helper_plus.reciver.CaloryAppWidgetProvider;
 import bulat.diet.helper_plus.utils.SaveUtils;
 import bulat.diet.helper_plus.utils.SocialUpdater;
 
@@ -429,9 +431,12 @@ public class AddTodayDishActivity extends BaseActivity {
 				} else {
 					// weightView.setBackgroundColor(Color.RED);
 				}
-				Intent i = new Intent();
-				i.setAction(BaseActivity.CUSTOM_INTENT);
-				AddTodayDishActivity.this.sendBroadcast(i);
+				AddTodayDishActivity.this.sendBroadcast(
+						new Intent(AddTodayDishActivity.this,
+								CaloryAppWidgetProvider.class).
+								setAction(BaseActivity.CUSTOM_INTENT));
+
+
 			}
 		});
 		nobutton = (Button) viewToLoad.findViewById(R.id.buttonNo);
@@ -513,7 +518,12 @@ public class AddTodayDishActivity extends BaseActivity {
 				.getSystemService(Context.INPUT_METHOD_SERVICE);
 		spinnerTime.setSelection(SaveUtils.getLastTime(this));
 		if(recepyId == null && !edit){
-			spinnerTime.performClick();
+			spinnerTime.post(new Runnable(){
+				@Override
+				public void run() {
+					spinnerTime.performClick();
+				}
+			});
 		}
 		if (timeMMValue != null) {
 			try {

@@ -1,29 +1,5 @@
 package bulat.diet.helper_plus.activity;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.Locale;
-
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.StatusLine;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.message.BasicHeader;
-import org.apache.http.protocol.HTTP;
-import org.json.JSONArray;
-import org.json.JSONObject;
-
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -47,6 +23,30 @@ import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.StatusLine;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.entity.StringEntity;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.message.BasicHeader;
+import org.apache.http.protocol.HTTP;
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.Locale;
+
 import au.com.bytecode.opencsv.CSVWriter;
 import bulat.diet.helper_plus.R;
 import bulat.diet.helper_plus.adapter.TemplatesAdapter;
@@ -54,8 +54,6 @@ import bulat.diet.helper_plus.db.TemplateDishHelper;
 import bulat.diet.helper_plus.db.TodayDishHelper;
 import bulat.diet.helper_plus.item.TodayDish;
 import bulat.diet.helper_plus.utils.SaveUtils;
-
-import com.jjoe64.graphview.GraphView;
 
 public class TemplateActivity extends BaseActivity {
 	protected static final int DIALOG_CHART = 0;
@@ -383,7 +381,7 @@ public class TemplateActivity extends BaseActivity {
         	    version.put("lastid", SaveUtils.getLastRationId(context));
         	  
         	    HttpClient client = new DefaultHttpClient();
-        	    HttpGet get = new HttpGet("http://calorycman.net/recepy.php?"+"lastid="+SaveUtils.getLastRationId(context)+"&"+"email="+email);
+        	    HttpGet get = new HttpGet("http://old.dietagram.ru/recepy.php?"+"lastid="+SaveUtils.getLastRationId(context)+"&"+"email="+email);
         	    StringEntity se = new StringEntity(Parent.toString());  //new ByteArrayEntity(json.toString().getBytes(            "UTF8"))
         	    se.setContentType(new BasicHeader(HTTP.CONTENT_TYPE, "application/json"));
         	    

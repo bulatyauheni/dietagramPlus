@@ -1,12 +1,13 @@
 package bulat.diet.helper_plus.utils;
 
 
-import java.util.Random;
-
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.preference.PreferenceManager;
+
+import java.util.Random;
+
 import bulat.diet.helper_plus.activity.Info;
 
 public class SaveUtils {
@@ -244,7 +245,7 @@ public class SaveUtils {
 		SharedPreferences preferences = PreferenceManager
 		.getDefaultSharedPreferences(context);
 		
-		return preferences.getInt(AGE, 5);
+		return preferences.getInt(AGE, 15);
 	}
 	
 	
@@ -309,7 +310,7 @@ public class SaveUtils {
 		SharedPreferences preferences = PreferenceManager
 		.getDefaultSharedPreferences(context);
 		
-		return preferences.getInt(ACTIVITY, 0);
+		return preferences.getInt(ACTIVITY, 1);
 	}
 
 	public static void saveMode(int text, Context context){

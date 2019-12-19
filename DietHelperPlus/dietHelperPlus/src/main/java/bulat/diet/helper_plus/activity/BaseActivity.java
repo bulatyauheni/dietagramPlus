@@ -1,7 +1,5 @@
 package bulat.diet.helper_plus.activity;
 
-import java.util.Locale;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -10,7 +8,11 @@ import android.os.Handler;
 import android.os.Message;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import java.util.Locale;
+
 import bulat.diet.helper_plus.R;
+import bulat.diet.helper_plus.reciver.CaloryAppWidgetProvider;
 import bulat.diet.helper_plus.utils.MessagesUpdater;
 import bulat.diet.helper_plus.utils.SaveUtils;
 
@@ -74,9 +76,10 @@ public class BaseActivity extends Activity {
 	protected void onStop() {
 		// TODO Auto-generated method stub
 		super.onStop();
-		Intent i = new Intent();
-		i.setAction(CUSTOM_INTENT);
-		this.sendBroadcast(i);
+		this.sendBroadcast(
+				new Intent(this,
+						CaloryAppWidgetProvider.class).
+						setAction(BaseActivity.CUSTOM_INTENT));
 	}
 	
 	public void checkLimit(int sum){

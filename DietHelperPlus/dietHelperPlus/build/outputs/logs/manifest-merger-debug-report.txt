@@ -1,8 +1,50 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:2:1-246:12
-	xmlns:android
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:2:11-69
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:2:1-253:12
+INJECTED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:2:1-253:12
+INJECTED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:2:1-253:12
+INJECTED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:2:1-253:12
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] C:\Users\User\.gradle\caches\transforms-1\files-1.1\zxing-1.9.8.aar\4459749517b3db05afbd3b1a34510fb0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-8.3.0.aar\f097587d1d9586a2d0ca9f2f980b1038\AndroidManifest.xml:16:1-20:12
+MERGED from [com.shawnlin:number-picker:2.4.4] C:\Users\User\.gradle\caches\transforms-1\files-1.1\number-picker-2.4.4.aar\1d94752f309ad136b5edc5a01b5e57a2\AndroidManifest.xml:2:1-11:12
+MERGED from [me.dm7.barcodescanner:core:1.9.8] C:\Users\User\.gradle\caches\transforms-1\files-1.1\core-1.9.8.aar\1c94ad7b97261a71db6b986c13da844c\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.3.0.aar\e0cf9f63f4de5e77140a87092a7d2d22\AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.android.gms:play-services-analytics:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-analytics-8.3.0.aar\f5a5f339317898e2f41d40393f31bb1b\AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-appindexing:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.3.0.aar\690e0d5a66b39ca58d015d96a6aff620\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-appinvite:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-8.3.0.aar\365910a21ba11baf06a182a0b8aa7039\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-appstate:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-appstate-8.3.0.aar\9439d6f95b0b719b87de4083e24f00a5\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.3.0.aar\623bd18edf7e7304dbf2b997b4a6674f\AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.gms:play-services-cast:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-cast-8.3.0.aar\e96385206b19de47b028321992763e86\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-games:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-games-8.3.0.aar\88d919de29b983cff27409ce6d164cdb\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-drive:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-drive-8.3.0.aar\2c9657e58e4f4aaf9f0bd4159b10e504\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-fitness:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-fitness-8.3.0.aar\c7ebbf2bf4425adb6160a11a8f0664c9\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-gcm:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-gcm-8.3.0.aar\60e0c33e3fff0790140e966c293445ec\AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-wallet:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-wallet-8.3.0.aar\1966d2744de9bbac779e183582fe197e\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-identity:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-identity-8.3.0.aar\e9f94eb22e5f71c474131bec4beb952b\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-location:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-location-8.3.0.aar\7b5b72f2a3d810c8cbfe883b1e6bd8db\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.3.0.aar\37c1a193950ae68baa53c96a98702a49\AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-nearby:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-nearby-8.3.0.aar\776ce76ff453f7fa7ff902af55cb1d0a\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-panorama:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-panorama-8.3.0.aar\10a75549daeb6947ccd10fff24a85d8b\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-plus:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-plus-8.3.0.aar\ca867fdd896454189208e102c7be3970\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-safetynet:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-8.3.0.aar\cbe168ea3281497d4b85232fc8dd4a9b\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-vision:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-vision-8.3.0.aar\57d93b8f407c4f2f90e8102b95662491\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-wearable:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-wearable-8.3.0.aar\7a58fd0a0a480e79845925ad83235ba8\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-base-8.3.0.aar\0b1e12b38027d244ae13379c94993131\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:16:1-47:12
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.3.0.aar\67b8187e2bf4ff0db33db9ac836982d0\AndroidManifest.xml:16:1-26:12
+MERGED from [com.android.support:mediarouter-v7:22.2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-22.2.0.aar\fa0d2beded7cf5c0c1bc78c53d939591\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.0.aar\b0b6e14b7747a73bd8dc500d6b7da749\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\b56d122289deb1b81e9187fd7b54cb7b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\fd90feea0e36838533c78b03fb137dda\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\74306d16a4f84a155b0ea777401963b4\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\e8fe3be0e8763b5506403ca85c2b9ff4\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\5e425ed486e4fade4c54a97e6219da9b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.1.0.aar\8f51fb9c933474c855c13e2d1cdf991a\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.1.0.aar\9e07a1a64ff814068408225461bae960\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\31be1fe9dcd99ccb33f2020ee154dff1\AndroidManifest.xml:17:1-31:12
+INJECTED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:2:1-253:12
+INJECTED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:2:1-253:12
+INJECTED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:2:1-253:12
 	package
 		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:3:5-37
 		INJECTED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml
@@ -11,6 +53,8 @@ ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.x
 		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:6:5-32
 		INJECTED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml
 		INJECTED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
 		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:5:5-29
 		INJECTED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml
@@ -19,130 +63,91 @@ ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.x
 		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:4:5-35
 uses-sdk
 ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:8:5-43
-MERGED from [com.android.support:multidex:1.0.1] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
-MERGED from [DietHelperPlus:zBarScannerActivity:unspecified] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\DietHelperPlus\zBarScannerActivity\unspecified\AndroidManifest.xml:7:5-9:40
-MERGED from [com.google.android.gms:play-services:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-ads:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:23:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-analytics:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-appindexing:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-appinvite:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-appstate:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-auth:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-cast:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:mediarouter-v7:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-drive:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-fitness:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-location:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:26:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-games:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-drive:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-gcm:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-identity:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-location:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:26:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:26:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-nearby:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-panorama:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-plus:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-safetynet:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-vision:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.3.0\AndroidManifest.xml:4:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-wallet:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.3.0\AndroidManifest.xml:19:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-identity:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:26:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-wearable:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+INJECTED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:8:5-43
+INJECTED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:8:5-43
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] C:\Users\User\.gradle\caches\transforms-1\files-1.1\zxing-1.9.8.aar\4459749517b3db05afbd3b1a34510fb0\AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] C:\Users\User\.gradle\caches\transforms-1\files-1.1\zxing-1.9.8.aar\4459749517b3db05afbd3b1a34510fb0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-8.3.0.aar\f097587d1d9586a2d0ca9f2f980b1038\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-8.3.0.aar\f097587d1d9586a2d0ca9f2f980b1038\AndroidManifest.xml:18:5-42
+MERGED from [com.shawnlin:number-picker:2.4.4] C:\Users\User\.gradle\caches\transforms-1\files-1.1\number-picker-2.4.4.aar\1d94752f309ad136b5edc5a01b5e57a2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.shawnlin:number-picker:2.4.4] C:\Users\User\.gradle\caches\transforms-1\files-1.1\number-picker-2.4.4.aar\1d94752f309ad136b5edc5a01b5e57a2\AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.8] C:\Users\User\.gradle\caches\transforms-1\files-1.1\core-1.9.8.aar\1c94ad7b97261a71db6b986c13da844c\AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.8] C:\Users\User\.gradle\caches\transforms-1\files-1.1\core-1.9.8.aar\1c94ad7b97261a71db6b986c13da844c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.3.0.aar\e0cf9f63f4de5e77140a87092a7d2d22\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.3.0.aar\e0cf9f63f4de5e77140a87092a7d2d22\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-analytics:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-analytics-8.3.0.aar\f5a5f339317898e2f41d40393f31bb1b\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-analytics-8.3.0.aar\f5a5f339317898e2f41d40393f31bb1b\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.3.0.aar\690e0d5a66b39ca58d015d96a6aff620\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.3.0.aar\690e0d5a66b39ca58d015d96a6aff620\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-8.3.0.aar\365910a21ba11baf06a182a0b8aa7039\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-8.3.0.aar\365910a21ba11baf06a182a0b8aa7039\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appstate:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-appstate-8.3.0.aar\9439d6f95b0b719b87de4083e24f00a5\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appstate:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-appstate-8.3.0.aar\9439d6f95b0b719b87de4083e24f00a5\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.3.0.aar\623bd18edf7e7304dbf2b997b4a6674f\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.3.0.aar\623bd18edf7e7304dbf2b997b4a6674f\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-cast:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-cast-8.3.0.aar\e96385206b19de47b028321992763e86\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-cast:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-cast-8.3.0.aar\e96385206b19de47b028321992763e86\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-games:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-games-8.3.0.aar\88d919de29b983cff27409ce6d164cdb\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-games:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-games-8.3.0.aar\88d919de29b983cff27409ce6d164cdb\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-drive-8.3.0.aar\2c9657e58e4f4aaf9f0bd4159b10e504\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-drive-8.3.0.aar\2c9657e58e4f4aaf9f0bd4159b10e504\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-fitness:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-fitness-8.3.0.aar\c7ebbf2bf4425adb6160a11a8f0664c9\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-fitness:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-fitness-8.3.0.aar\c7ebbf2bf4425adb6160a11a8f0664c9\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-gcm-8.3.0.aar\60e0c33e3fff0790140e966c293445ec\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-gcm-8.3.0.aar\60e0c33e3fff0790140e966c293445ec\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wallet:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-wallet-8.3.0.aar\1966d2744de9bbac779e183582fe197e\AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-wallet:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-wallet-8.3.0.aar\1966d2744de9bbac779e183582fe197e\AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-identity:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-identity-8.3.0.aar\e9f94eb22e5f71c474131bec4beb952b\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-identity-8.3.0.aar\e9f94eb22e5f71c474131bec4beb952b\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-location-8.3.0.aar\7b5b72f2a3d810c8cbfe883b1e6bd8db\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-location-8.3.0.aar\7b5b72f2a3d810c8cbfe883b1e6bd8db\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.3.0.aar\37c1a193950ae68baa53c96a98702a49\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.3.0.aar\37c1a193950ae68baa53c96a98702a49\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-nearby:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-nearby-8.3.0.aar\776ce76ff453f7fa7ff902af55cb1d0a\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-nearby:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-nearby-8.3.0.aar\776ce76ff453f7fa7ff902af55cb1d0a\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-panorama:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-panorama-8.3.0.aar\10a75549daeb6947ccd10fff24a85d8b\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-panorama:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-panorama-8.3.0.aar\10a75549daeb6947ccd10fff24a85d8b\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-plus-8.3.0.aar\ca867fdd896454189208e102c7be3970\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-plus-8.3.0.aar\ca867fdd896454189208e102c7be3970\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-8.3.0.aar\cbe168ea3281497d4b85232fc8dd4a9b\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-8.3.0.aar\cbe168ea3281497d4b85232fc8dd4a9b\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-vision:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-vision-8.3.0.aar\57d93b8f407c4f2f90e8102b95662491\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-vision:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-vision-8.3.0.aar\57d93b8f407c4f2f90e8102b95662491\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-wearable:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-wearable-8.3.0.aar\7a58fd0a0a480e79845925ad83235ba8\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wearable:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-wearable-8.3.0.aar\7a58fd0a0a480e79845925ad83235ba8\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-base-8.3.0.aar\0b1e12b38027d244ae13379c94993131\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-base-8.3.0.aar\0b1e12b38027d244ae13379c94993131\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.3.0.aar\67b8187e2bf4ff0db33db9ac836982d0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.3.0.aar\67b8187e2bf4ff0db33db9ac836982d0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:mediarouter-v7:22.2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-22.2.0.aar\fa0d2beded7cf5c0c1bc78c53d939591\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:22.2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-22.2.0.aar\fa0d2beded7cf5c0c1bc78c53d939591\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.0.aar\b0b6e14b7747a73bd8dc500d6b7da749\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.0.aar\b0b6e14b7747a73bd8dc500d6b7da749\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\b56d122289deb1b81e9187fd7b54cb7b\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\b56d122289deb1b81e9187fd7b54cb7b\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\fd90feea0e36838533c78b03fb137dda\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\fd90feea0e36838533c78b03fb137dda\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\74306d16a4f84a155b0ea777401963b4\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\74306d16a4f84a155b0ea777401963b4\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\e8fe3be0e8763b5506403ca85c2b9ff4\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\e8fe3be0e8763b5506403ca85c2b9ff4\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\5e425ed486e4fade4c54a97e6219da9b\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\5e425ed486e4fade4c54a97e6219da9b\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.1.0.aar\8f51fb9c933474c855c13e2d1cdf991a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.1.0.aar\8f51fb9c933474c855c13e2d1cdf991a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.1.0.aar\9e07a1a64ff814068408225461bae960\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.1.0.aar\9e07a1a64ff814068408225461bae960\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\31be1fe9dcd99ccb33f2020ee154dff1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\31be1fe9dcd99ccb33f2020ee154dff1\AndroidManifest.xml:21:5-23:58
+INJECTED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:8:5-43
+INJECTED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:8:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.0.aar\b0b6e14b7747a73bd8dc500d6b7da749\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:8:5-43
 		INJECTED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:8:15-40
@@ -150,48 +155,50 @@ MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\
 		INJECTED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml
 uses-feature#android.hardware.camera
 ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:9:5-11:36
-MERGED from [DietHelperPlus:zBarScannerActivity:unspecified] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\DietHelperPlus\zBarScannerActivity\unspecified\AndroidManifest.xml:13:5-60
 	android:required
 		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:11:9-33
-		MERGED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:11:9-33
 	android:name
 		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:10:9-47
 uses-permission#android.permission.CAMERA
 ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:13:5-65
-MERGED from [DietHelperPlus:zBarScannerActivity:unspecified] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\DietHelperPlus\zBarScannerActivity\unspecified\AndroidManifest.xml:11:5-65
 	android:name
 		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:13:22-62
 uses-permission#android.permission.GET_ACCOUNTS
 ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:14:5-71
-MERGED from [com.google.android.gms:play-services-wallet:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.3.0\AndroidManifest.xml:21:5-70
+MERGED from [com.google.android.gms:play-services-wallet:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-wallet-8.3.0.aar\1966d2744de9bbac779e183582fe197e\AndroidManifest.xml:21:5-70
+MERGED from [com.google.android.gms:play-services-wallet:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-wallet-8.3.0.aar\1966d2744de9bbac779e183582fe197e\AndroidManifest.xml:21:5-70
 	android:name
 		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:14:22-68
 uses-permission#android.permission.INTERNET
 ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:15:5-67
-MERGED from [com.google.android.gms:play-services-ads:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.3.0\AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-appinvite:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.3.0\AndroidManifest.xml:19:5-67
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-gcm:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.3.0\AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-wallet:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.3.0\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.3.0.aar\e0cf9f63f4de5e77140a87092a7d2d22\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.3.0.aar\e0cf9f63f4de5e77140a87092a7d2d22\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-analytics-8.3.0.aar\f5a5f339317898e2f41d40393f31bb1b\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-analytics-8.3.0.aar\f5a5f339317898e2f41d40393f31bb1b\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-8.3.0.aar\365910a21ba11baf06a182a0b8aa7039\AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-8.3.0.aar\365910a21ba11baf06a182a0b8aa7039\AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-gcm:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-gcm-8.3.0.aar\60e0c33e3fff0790140e966c293445ec\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-gcm:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-gcm-8.3.0.aar\60e0c33e3fff0790140e966c293445ec\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-wallet:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-wallet-8.3.0.aar\1966d2744de9bbac779e183582fe197e\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-wallet:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-wallet-8.3.0.aar\1966d2744de9bbac779e183582fe197e\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.3.0.aar\37c1a193950ae68baa53c96a98702a49\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.3.0.aar\37c1a193950ae68baa53c96a98702a49\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:21:5-67
 	android:name
 		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:15:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:16:5-79
-MERGED from [com.google.android.gms:play-services-ads:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-analytics:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.3.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:20:5-78
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:20:5-78
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:20:5-78
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-nearby:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.3.0\AndroidManifest.xml:19:5-79
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.3.0.aar\e0cf9f63f4de5e77140a87092a7d2d22\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.3.0.aar\e0cf9f63f4de5e77140a87092a7d2d22\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-analytics-8.3.0.aar\f5a5f339317898e2f41d40393f31bb1b\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-analytics-8.3.0.aar\f5a5f339317898e2f41d40393f31bb1b\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.3.0.aar\37c1a193950ae68baa53c96a98702a49\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.3.0.aar\37c1a193950ae68baa53c96a98702a49\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-nearby:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-nearby-8.3.0.aar\776ce76ff453f7fa7ff902af55cb1d0a\AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-nearby:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-nearby-8.3.0.aar\776ce76ff453f7fa7ff902af55cb1d0a\AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:22:5-79
 	android:name
 		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:16:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
@@ -203,627 +210,598 @@ ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.x
 	android:name
 		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:18:22-77
 application
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:20:5-244:19
-MERGED from [DietHelperPlus:zBarScannerActivity:unspecified] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\DietHelperPlus\zBarScannerActivity\unspecified\AndroidManifest.xml:15:5-20:19
-MERGED from [com.google.android.gms:play-services:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-ads:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:24:5-32:19
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-analytics:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.3.0\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-appindexing:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-appinvite:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.3.0\AndroidManifest.xml:20:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-appstate:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-auth:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\AndroidManifest.xml:20:5-25:19
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-cast:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:mediarouter-v7:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-drive:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-fitness:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-location:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:27:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-games:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-drive:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-gcm:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.3.0\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:26:5-46:19
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-identity:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-location:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:27:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:27:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:26:5-46:19
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-nearby:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.3.0\AndroidManifest.xml:20:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-panorama:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-plus:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-safetynet:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-vision:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.3.0\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-identity:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:27:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-wearable:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.3.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:22.2.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:20:5-251:19
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] C:\Users\User\.gradle\caches\transforms-1\files-1.1\zxing-1.9.8.aar\4459749517b3db05afbd3b1a34510fb0\AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] C:\Users\User\.gradle\caches\transforms-1\files-1.1\zxing-1.9.8.aar\4459749517b3db05afbd3b1a34510fb0\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-8.3.0.aar\f097587d1d9586a2d0ca9f2f980b1038\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-8.3.0.aar\f097587d1d9586a2d0ca9f2f980b1038\AndroidManifest.xml:19:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.8] C:\Users\User\.gradle\caches\transforms-1\files-1.1\core-1.9.8.aar\1c94ad7b97261a71db6b986c13da844c\AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.8] C:\Users\User\.gradle\caches\transforms-1\files-1.1\core-1.9.8.aar\1c94ad7b97261a71db6b986c13da844c\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.3.0.aar\e0cf9f63f4de5e77140a87092a7d2d22\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.3.0.aar\e0cf9f63f4de5e77140a87092a7d2d22\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-analytics:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-analytics-8.3.0.aar\f5a5f339317898e2f41d40393f31bb1b\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-analytics:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-analytics-8.3.0.aar\f5a5f339317898e2f41d40393f31bb1b\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.3.0.aar\690e0d5a66b39ca58d015d96a6aff620\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.3.0.aar\690e0d5a66b39ca58d015d96a6aff620\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-8.3.0.aar\365910a21ba11baf06a182a0b8aa7039\AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-8.3.0.aar\365910a21ba11baf06a182a0b8aa7039\AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-appstate:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-appstate-8.3.0.aar\9439d6f95b0b719b87de4083e24f00a5\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appstate:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-appstate-8.3.0.aar\9439d6f95b0b719b87de4083e24f00a5\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.3.0.aar\623bd18edf7e7304dbf2b997b4a6674f\AndroidManifest.xml:20:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.3.0.aar\623bd18edf7e7304dbf2b997b4a6674f\AndroidManifest.xml:20:5-25:19
+MERGED from [com.google.android.gms:play-services-cast:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-cast-8.3.0.aar\e96385206b19de47b028321992763e86\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-cast:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-cast-8.3.0.aar\e96385206b19de47b028321992763e86\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-games:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-games-8.3.0.aar\88d919de29b983cff27409ce6d164cdb\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-games:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-games-8.3.0.aar\88d919de29b983cff27409ce6d164cdb\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-drive-8.3.0.aar\2c9657e58e4f4aaf9f0bd4159b10e504\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-drive-8.3.0.aar\2c9657e58e4f4aaf9f0bd4159b10e504\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-fitness:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-fitness-8.3.0.aar\c7ebbf2bf4425adb6160a11a8f0664c9\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-fitness:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-fitness-8.3.0.aar\c7ebbf2bf4425adb6160a11a8f0664c9\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gcm:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-gcm-8.3.0.aar\60e0c33e3fff0790140e966c293445ec\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-gcm:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-gcm-8.3.0.aar\60e0c33e3fff0790140e966c293445ec\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-identity-8.3.0.aar\e9f94eb22e5f71c474131bec4beb952b\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-identity-8.3.0.aar\e9f94eb22e5f71c474131bec4beb952b\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-location:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-location-8.3.0.aar\7b5b72f2a3d810c8cbfe883b1e6bd8db\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-location:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-location-8.3.0.aar\7b5b72f2a3d810c8cbfe883b1e6bd8db\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.3.0.aar\37c1a193950ae68baa53c96a98702a49\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.3.0.aar\37c1a193950ae68baa53c96a98702a49\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-nearby:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-nearby-8.3.0.aar\776ce76ff453f7fa7ff902af55cb1d0a\AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-nearby:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-nearby-8.3.0.aar\776ce76ff453f7fa7ff902af55cb1d0a\AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-panorama:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-panorama-8.3.0.aar\10a75549daeb6947ccd10fff24a85d8b\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-panorama:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-panorama-8.3.0.aar\10a75549daeb6947ccd10fff24a85d8b\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-plus-8.3.0.aar\ca867fdd896454189208e102c7be3970\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-plus-8.3.0.aar\ca867fdd896454189208e102c7be3970\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-8.3.0.aar\cbe168ea3281497d4b85232fc8dd4a9b\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-8.3.0.aar\cbe168ea3281497d4b85232fc8dd4a9b\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-vision:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-vision-8.3.0.aar\57d93b8f407c4f2f90e8102b95662491\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-vision-8.3.0.aar\57d93b8f407c4f2f90e8102b95662491\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-wearable:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-wearable-8.3.0.aar\7a58fd0a0a480e79845925ad83235ba8\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-wearable:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-wearable-8.3.0.aar\7a58fd0a0a480e79845925ad83235ba8\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.3.0.aar\67b8187e2bf4ff0db33db9ac836982d0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.3.0.aar\67b8187e2bf4ff0db33db9ac836982d0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:mediarouter-v7:22.2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-22.2.0.aar\fa0d2beded7cf5c0c1bc78c53d939591\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:22.2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-22.2.0.aar\fa0d2beded7cf5c0c1bc78c53d939591\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.0.aar\b0b6e14b7747a73bd8dc500d6b7da749\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.0.aar\b0b6e14b7747a73bd8dc500d6b7da749\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\b56d122289deb1b81e9187fd7b54cb7b\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\b56d122289deb1b81e9187fd7b54cb7b\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\fd90feea0e36838533c78b03fb137dda\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\fd90feea0e36838533c78b03fb137dda\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\74306d16a4f84a155b0ea777401963b4\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\74306d16a4f84a155b0ea777401963b4\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\e8fe3be0e8763b5506403ca85c2b9ff4\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\e8fe3be0e8763b5506403ca85c2b9ff4\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\5e425ed486e4fade4c54a97e6219da9b\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\5e425ed486e4fade4c54a97e6219da9b\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.1.0.aar\8f51fb9c933474c855c13e2d1cdf991a\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.1.0.aar\8f51fb9c933474c855c13e2d1cdf991a\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.1.0.aar\9e07a1a64ff814068408225461bae960\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.1.0.aar\9e07a1a64ff814068408225461bae960\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\31be1fe9dcd99ccb33f2020ee154dff1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\31be1fe9dcd99ccb33f2020ee154dff1\AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:22:9-41
+	android:appComponentFactory
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:26:9-53
+	android:allowTaskReparenting
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:25:9-45
 	android:icon
 		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:21:9-40
+	android:theme
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:24:9-65
+	android:networkSecurityConfig
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:27:9-69
 	android:name
 		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:23:9-41
-receiver#bulat.diet.helper_plus.reciver.CaloryAppWidgetProvider
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:24:9-33:20
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:24:19-66
-intent-filter#android.appwidget.action.APPWIDGET_UPDATE+android.intent.action.USER_PRESENT+bulatplus.intent
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:25:13-29:29
-action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:26:17-84
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:26:25-81
-action#android.intent.action.USER_PRESENT
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:27:17-77
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:27:25-74
-action#bulatplus.intent
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:28:17-59
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:28:25-56
-meta-data#android.appwidget.provider
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:30:13-32:58
-	android:resource
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:32:17-55
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:31:17-58
-receiver#bulat.diet.helper_plus.reciver.CaloryAppWidgetProvider56
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:34:9-43:20
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:34:19-68
-activity#bulat.diet.helper_plus.activity.StartActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:45:9-54:20
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:48:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:47:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:46:13-51
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:49:13-53:29
-action#android.intent.action.MAIN
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:50:17-69
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:50:25-66
-category#android.intent.category.LAUNCHER
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:52:17-77
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:52:27-74
-activity#com.dm.zbar.android.scanner.ZBarScannerActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:55:9-58:53
-MERGED from [DietHelperPlus:zBarScannerActivity:unspecified] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\DietHelperPlus\zBarScannerActivity\unspecified\AndroidManifest.xml:16:9-19:53
-	android:screenOrientation
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:58:13-50
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:57:13-45
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:56:13-75
-activity#bulat.diet.helper_plus.activity.DietHelperActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:59:9-62:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:62:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:61:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:60:13-56
-activity#bulat.diet.helper_plus.activity.DishActivityGroup
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:63:9-66:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:66:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:65:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:64:13-55
-activity#bulat.diet.helper_plus.activity.DishActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:67:9-70:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:70:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:69:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:68:13-50
-activity#bulat.diet.helper_plus.activity.VkActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:71:9-74:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:74:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:73:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:72:13-48
-activity#bulat.diet.helper_plus.activity.LoginActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:75:9-78:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:78:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:77:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:76:13-51
-activity#bulat.diet.helper_plus.activity.DishListActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:79:9-82:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:82:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:81:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:80:13-54
-activity#bulat.diet.helper_plus.activity.AddTodayDishActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:83:9-86:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:86:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:85:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:84:13-58
-activity#bulat.diet.helper_plus.activity.AddTodayFitnesActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:87:9-90:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:90:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:89:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:88:13-60
-activity#bulat.diet.helper_plus.activity.StatisticExportActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:91:9-94:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:94:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:93:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:92:13-61
-activity#bulat.diet.helper_plus.activity.RecepyListActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:95:9-98:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:98:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:97:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:96:13-56
-activity#bulat.diet.helper_plus.activity.AddRecepyActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:99:9-102:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:102:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:101:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:100:13-55
-activity#bulat.diet.helper_plus.activity.RecepyActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:103:9-106:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:106:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:105:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:104:13-52
-activity#bulat.diet.helper_plus.activity.StatisticImportActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:109:9-112:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:112:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:111:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:110:13-61
-activity#bulat.diet.helper_plus.activity.BaseImportActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:114:9-117:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:117:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:116:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:115:13-56
-activity#bulat.diet.helper_plus.activity.BaseExportActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:119:9-122:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:122:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:121:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:120:13-56
-activity#bulat.diet.helper_plus.activity.DataBaseImportActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:124:9-127:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:127:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:126:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:125:13-60
-activity#bulat.diet.helper_plus.activity.DataBaseExportActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:129:9-132:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:132:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:131:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:130:13-60
-activity#bulat.diet.helper_plus.activity.SocialUserNewsActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:134:9-137:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:137:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:136:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:135:13-60
-activity#bulat.diet.helper_plus.activity.CalendarActivityGroup
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:138:9-141:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:141:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:140:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:139:13-59
-activity#bulat.diet.helper_plus.activity.CalendarActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:142:9-145:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:145:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:144:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:143:13-54
-activity#bulat.diet.helper_plus.activity.TemplateDayActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:146:9-149:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:149:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:148:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:147:13-57
-activity#bulat.diet.helper_plus.activity.TemplateActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:150:9-153:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:153:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:152:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:151:13-54
-activity#bulat.diet.helper_plus.activity.NewTemplateActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:154:9-157:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:157:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:156:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:155:13-57
-activity#bulat.diet.helper_plus.activity.DishListActivityGroup
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:159:9-162:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:162:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:161:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:160:13-59
-activity#bulat.diet.helper_plus.activity.AddDishActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:163:9-166:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:166:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:165:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:164:13-53
-activity#bulat.diet.helper_plus.activity.AddFitnesActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:167:9-170:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:170:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:169:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:168:13-55
-activity#bulat.diet.helper_plus.activity.SocialActivityGroup
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:171:9-174:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:174:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:173:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:172:13-57
-activity#bulat.diet.helper_plus.activity.SettingsActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:175:9-178:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:178:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:177:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:176:13-54
-activity#bulat.diet.helper_plus.activity.SocialFavoriteUserListActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:179:9-182:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:182:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:181:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:180:13-68
-activity#bulat.diet.helper_plus.activity.SocialNewsListActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:183:9-186:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:186:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:185:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:184:13-60
-activity#bulat.diet.helper_plus.activity.SocialFollowersListActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:187:9-190:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:190:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:189:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:188:13-65
-activity#bulat.diet.helper_plus.activity.Info
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:191:9-194:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:194:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:193:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:192:13-42
-activity#bulat.diet.helper_plus.activity.SelectStatisticsActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:195:9-198:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:198:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:197:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:196:13-62
-activity#bulat.diet.helper_plus.activity.Statistics
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:199:9-202:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:202:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:201:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:200:13-48
-activity#bulat.diet.helper_plus.activity.StatisticFCPActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:203:9-206:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:206:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:205:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:204:13-58
-activity#bulat.diet.helper_plus.activity.About
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:207:9-210:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:210:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:209:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:208:13-43
-activity#bulat.diet.helper_plus.activity.WeightChartActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:211:9-214:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:214:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:213:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:212:13-57
-activity#bulat.diet.helper_plus.activity.SocialUserListActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:215:9-78
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:215:19-66
-activity#bulat.diet.helper_plus.activity.SocialDishActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:216:9-219:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:219:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:218:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:217:13-56
-activity#bulat.diet.helper_plus.activity.SocialCalendarActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:220:9-223:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:223:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:222:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:221:13-60
-activity#bulat.diet.helper_plus.activity.MessagesActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:224:9-227:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:227:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:226:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:225:13-54
-activity#bulat.diet.helper_plus.activity.ChatActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:228:9-231:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:231:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:230:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:229:13-50
-activity#bulat.diet.helper_plus.activity.StatisticActivityGroup
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:232:9-235:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:235:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:234:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:233:13-60
-activity#bulat.diet.helper_plus.activity.SportListActivity
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:236:9-239:57
-	android:label
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:239:13-45
-	android:configChanges
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:238:13-63
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:237:13-55
-provider#bulat.diet.helper_plus.db.DishProvider
-ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:241:9-243:76
-	android:authorities
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:243:13-73
-	android:name
-		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:242:13-44
-activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:26:9-29:64
-	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:28:13-122
-	android:theme
-		ADDED from [com.google.android.gms:play-services-ads:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:29:13-61
-	android:name
-		ADDED from [com.google.android.gms:play-services-ads:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:27:13-65
-activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
-ADDED from [com.google.android.gms:play-services-ads:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:30:9-31:52
-	android:theme
-		ADDED from [com.google.android.gms:play-services-ads:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:31:13-50
-	android:name
-		ADDED from [com.google.android.gms:play-services-ads:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:30:19-91
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:22:13-58
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:23:13-66
-activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\AndroidManifest.xml:21:9-24:46
-	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\AndroidManifest.xml:22:19-78
-	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\AndroidManifest.xml:24:19-43
-	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\AndroidManifest.xml:23:19-52
-	android:name
-		ADDED from [com.google.android.gms:play-services-auth:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\AndroidManifest.xml:21:19-72
-uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:22:5-24:33
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:22:5-24:33
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:22:5-24:33
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:22:5-24:33
+uses-library#org.apache.http.legacy
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:28:9-87
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:24:8-31
-	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:23:8-40
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.android.gms:play-services-gcm:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.3.0\AndroidManifest.xml:21:5-82
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:28:61-85
 	android:name
-		ADDED from [com.google.android.gms:play-services-gcm:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.3.0\AndroidManifest.xml:21:22-79
-uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:24:5-67
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:28:23-60
+receiver#bulat.diet.helper_plus.reciver.CaloryAppWidgetProvider
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:30:9-39:20
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:24:22-65
-provider#com.google.android.gms.measurement.AppMeasurementContentProvider
-ADDED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:28:7-31:37
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:28:7-31:37
-	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:31:11-35
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:30:19-66
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE+action:name:android.intent.action.USER_PRESENT+action:name:bulatplus.intent
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:31:13-35:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:32:17-84
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:32:25-81
+action#android.intent.action.USER_PRESENT
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:33:25-74
+action#bulatplus.intent
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:34:17-59
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:34:25-56
+meta-data#android.appwidget.provider
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:36:13-38:58
+	android:resource
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:38:17-55
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:37:17-58
+receiver#bulat.diet.helper_plus.reciver.CaloryAppWidgetProvider56
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:40:9-49:20
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:40:19-68
+activity#bulat.diet.helper_plus.activity.StartActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:51:9-60:20
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:54:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:53:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:52:13-51
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:55:13-59:29
+action#android.intent.action.MAIN
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:56:17-69
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:56:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:58:17-77
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:58:27-74
+activity#com.dm.zbar.android.scanner.ZBarScannerActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:61:9-64:53
+	android:screenOrientation
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:64:13-50
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:63:13-45
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:62:13-75
+activity#bulat.diet.helper_plus.activity.DietHelperActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:65:9-68:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:68:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:67:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:66:13-56
+activity#bulat.diet.helper_plus.activity.DishActivityGroup
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:69:9-72:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:72:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:71:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:70:13-55
+activity#bulat.diet.helper_plus.activity.DishActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:73:9-76:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:76:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:75:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:74:13-50
+activity#bulat.diet.helper_plus.activity.ScannerActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:77:9-62
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:77:19-59
+activity#bulat.diet.helper_plus.activity.VkActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:78:9-81:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:81:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:80:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:79:13-48
+activity#bulat.diet.helper_plus.activity.LoginActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:82:9-85:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:85:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:84:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:83:13-51
+activity#bulat.diet.helper_plus.activity.DishListActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:86:9-89:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:89:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:88:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:87:13-54
+activity#bulat.diet.helper_plus.activity.AddTodayDishActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:90:9-93:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:93:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:92:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:91:13-58
+activity#bulat.diet.helper_plus.activity.AddTodayFitnesActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:94:9-97:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:97:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:96:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:95:13-60
+activity#bulat.diet.helper_plus.activity.StatisticExportActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:98:9-101:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:101:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:100:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:99:13-61
+activity#bulat.diet.helper_plus.activity.RecepyListActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:102:9-105:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:105:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:104:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:103:13-56
+activity#bulat.diet.helper_plus.activity.AddRecepyActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:106:9-109:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:109:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:108:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:107:13-55
+activity#bulat.diet.helper_plus.activity.RecepyActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:110:9-113:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:113:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:112:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:111:13-52
+activity#bulat.diet.helper_plus.activity.StatisticImportActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:116:9-119:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:119:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:118:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:117:13-61
+activity#bulat.diet.helper_plus.activity.BaseImportActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:121:9-124:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:124:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:123:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:122:13-56
+activity#bulat.diet.helper_plus.activity.BaseExportActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:126:9-129:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:129:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:128:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:127:13-56
+activity#bulat.diet.helper_plus.activity.DataBaseImportActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:131:9-134:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:134:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:133:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:132:13-60
+activity#bulat.diet.helper_plus.activity.DataBaseExportActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:136:9-139:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:139:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:138:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:137:13-60
+activity#bulat.diet.helper_plus.activity.SocialUserNewsActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:141:9-144:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:144:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:143:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:142:13-60
+activity#bulat.diet.helper_plus.activity.CalendarActivityGroup
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:145:9-148:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:148:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:147:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:146:13-59
+activity#bulat.diet.helper_plus.activity.CalendarActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:149:9-152:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:152:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:151:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:150:13-54
+activity#bulat.diet.helper_plus.activity.TemplateDayActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:153:9-156:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:156:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:155:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:154:13-57
+activity#bulat.diet.helper_plus.activity.TemplateActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:157:9-160:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:160:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:159:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:158:13-54
+activity#bulat.diet.helper_plus.activity.NewTemplateActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:161:9-164:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:164:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:163:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:162:13-57
+activity#bulat.diet.helper_plus.activity.DishListActivityGroup
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:166:9-169:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:169:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:168:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:167:13-59
+activity#bulat.diet.helper_plus.activity.AddDishActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:170:9-173:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:173:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:172:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:171:13-53
+activity#bulat.diet.helper_plus.activity.AddFitnesActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:174:9-177:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:177:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:176:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:175:13-55
+activity#bulat.diet.helper_plus.activity.SocialActivityGroup
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:178:9-181:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:181:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:180:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:179:13-57
+activity#bulat.diet.helper_plus.activity.SettingsActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:182:9-185:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:185:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:184:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:183:13-54
+activity#bulat.diet.helper_plus.activity.SocialFavoriteUserListActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:186:9-189:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:189:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:188:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:187:13-68
+activity#bulat.diet.helper_plus.activity.SocialNewsListActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:190:9-193:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:193:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:192:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:191:13-60
+activity#bulat.diet.helper_plus.activity.SocialFollowersListActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:194:9-197:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:197:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:196:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:195:13-65
+activity#bulat.diet.helper_plus.activity.Info
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:198:9-201:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:201:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:200:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:199:13-42
+activity#bulat.diet.helper_plus.activity.SelectStatisticsActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:202:9-205:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:205:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:204:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:203:13-62
+activity#bulat.diet.helper_plus.activity.Statistics
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:206:9-209:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:209:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:208:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:207:13-48
+activity#bulat.diet.helper_plus.activity.StatisticFCPActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:210:9-213:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:213:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:212:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:211:13-58
+activity#bulat.diet.helper_plus.activity.About
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:214:9-217:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:217:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:216:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:215:13-43
+activity#bulat.diet.helper_plus.activity.WeightChartActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:218:9-221:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:221:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:220:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:219:13-57
+activity#bulat.diet.helper_plus.activity.SocialUserListActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:222:9-78
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:222:19-66
+activity#bulat.diet.helper_plus.activity.SocialDishActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:223:9-226:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:226:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:225:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:224:13-56
+activity#bulat.diet.helper_plus.activity.SocialCalendarActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:227:9-230:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:230:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:229:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:228:13-60
+activity#bulat.diet.helper_plus.activity.MessagesActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:231:9-234:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:234:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:233:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:232:13-54
+activity#bulat.diet.helper_plus.activity.ChatActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:235:9-238:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:238:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:237:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:236:13-50
+activity#bulat.diet.helper_plus.activity.StatisticActivityGroup
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:239:9-242:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:242:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:241:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:240:13-60
+activity#bulat.diet.helper_plus.activity.SportListActivity
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:243:9-246:57
+	android:label
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:246:13-45
+	android:configChanges
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:245:13-63
+	android:name
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:244:13-55
+provider#bulat.diet.helper_plus.db.DishProvider
+ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:248:9-250:76
 	android:authorities
-		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:29:11-76
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:250:13-73
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:30:11-90
-receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:33:7-39:18
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:33:7-39:18
-	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:35:11-33
+		ADDED from F:\dietagram\DietHelperPlus\dietHelperPlus\src\main\AndroidManifest.xml:249:13-44
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.3.0.aar\e0cf9f63f4de5e77140a87092a7d2d22\AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.3.0.aar\e0cf9f63f4de5e77140a87092a7d2d22\AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.3.0.aar\e0cf9f63f4de5e77140a87092a7d2d22\AndroidManifest.xml:29:13-61
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:34:11-83
-intent-filter#com.google.android.gms.measurement.UPLOAD
-ADDED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:36:9-38:25
-action#com.google.android.gms.measurement.UPLOAD
-ADDED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:37:11-77
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.3.0.aar\e0cf9f63f4de5e77140a87092a7d2d22\AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.3.0.aar\e0cf9f63f4de5e77140a87092a7d2d22\AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.3.0.aar\e0cf9f63f4de5e77140a87092a7d2d22\AndroidManifest.xml:31:13-50
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:37:19-75
-service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:41:7-44:37
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:41:7-44:37
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.3.0.aar\e0cf9f63f4de5e77140a87092a7d2d22\AndroidManifest.xml:30:19-91
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.3.0.aar\623bd18edf7e7304dbf2b997b4a6674f\AndroidManifest.xml:21:9-24:46
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.3.0.aar\623bd18edf7e7304dbf2b997b4a6674f\AndroidManifest.xml:23:19-52
 	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:44:11-35
-	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:43:11-33
+		ADDED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.3.0.aar\623bd18edf7e7304dbf2b997b4a6674f\AndroidManifest.xml:24:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.3.0.aar\623bd18edf7e7304dbf2b997b4a6674f\AndroidManifest.xml:22:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:42:11-82
+		ADDED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.3.0.aar\623bd18edf7e7304dbf2b997b4a6674f\AndroidManifest.xml:21:19-72
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-gcm-8.3.0.aar\60e0c33e3fff0790140e966c293445ec\AndroidManifest.xml:21:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-gcm-8.3.0.aar\60e0c33e3fff0790140e966c293445ec\AndroidManifest.xml:21:22-79
 uses-permission#android.permission.USE_CREDENTIALS
-ADDED from [com.google.android.gms:play-services-wallet:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.3.0\AndroidManifest.xml:22:5-73
+ADDED from [com.google.android.gms:play-services-wallet:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-wallet-8.3.0.aar\1966d2744de9bbac779e183582fe197e\AndroidManifest.xml:22:5-73
 	android:name
-		ADDED from [com.google.android.gms:play-services-wallet:8.3.0] F:\dietagram\DietHelperPlus\dietHelperPlus\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.3.0\AndroidManifest.xml:22:22-71
+		ADDED from [com.google.android.gms:play-services-wallet:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-wallet-8.3.0.aar\1966d2744de9bbac779e183582fe197e\AndroidManifest.xml:22:22-71
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.3.0.aar\37c1a193950ae68baa53c96a98702a49\AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.3.0.aar\37c1a193950ae68baa53c96a98702a49\AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.3.0.aar\37c1a193950ae68baa53c96a98702a49\AndroidManifest.xml:24:8-31
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:24:22-65
+provider#com.google.android.gms.measurement.AppMeasurementContentProvider
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:28:7-31:37
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:29:11-76
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:31:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:30:11-90
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:33:7-39:18
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:35:11-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:34:11-83
+intent-filter#action:name:com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:36:9-38:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:37:11-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:37:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:41:7-44:37
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:43:11-33
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:44:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.3.0.aar\bb02515a9f94d1bb9d92fe57980f92b5\AndroidManifest.xml:42:11-82
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.3.0.aar\67b8187e2bf4ff0db33db9ac836982d0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.3.0.aar\67b8187e2bf4ff0db33db9ac836982d0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.3.0.aar\67b8187e2bf4ff0db33db9ac836982d0\AndroidManifest.xml:22:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\b56d122289deb1b81e9187fd7b54cb7b\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\fd90feea0e36838533c78b03fb137dda\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\fd90feea0e36838533c78b03fb137dda\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\74306d16a4f84a155b0ea777401963b4\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\74306d16a4f84a155b0ea777401963b4\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\e8fe3be0e8763b5506403ca85c2b9ff4\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\e8fe3be0e8763b5506403ca85c2b9ff4\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\5e425ed486e4fade4c54a97e6219da9b\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\5e425ed486e4fade4c54a97e6219da9b\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\31be1fe9dcd99ccb33f2020ee154dff1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\31be1fe9dcd99ccb33f2020ee154dff1\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\b56d122289deb1b81e9187fd7b54cb7b\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\b56d122289deb1b81e9187fd7b54cb7b\AndroidManifest.xml:26:9-47

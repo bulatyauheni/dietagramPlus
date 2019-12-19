@@ -231,4 +231,7 @@
 	<string name="voice_error">Гласово въвеждане не е възможно.</string>	
 	
 	<string name="barcode">Barcode:</string>
-  </resources>
+    <string name="water_name">Вода</string>
+    <string name="years">години</string>
+    <string name="tommorrow_dialog">Имате желание да се запишете на сутрин?</string>
+</resources>

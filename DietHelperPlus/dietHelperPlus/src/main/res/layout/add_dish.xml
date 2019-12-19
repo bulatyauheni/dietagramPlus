@@ -364,7 +364,7 @@
                 android:id="@+id/typeLayout"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:visibility="visible" >
+                android:visibility="gone" >
 
                 <TextView
                     android:id="@+id/textViewLoading1"
@@ -386,7 +386,8 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
-                    android:layout_margin="5dip" >
+                    android:layout_margin="5dip"
+                    android:visibility="gone">
                 </Spinner>
             </LinearLayout>
             </LinearLayout>

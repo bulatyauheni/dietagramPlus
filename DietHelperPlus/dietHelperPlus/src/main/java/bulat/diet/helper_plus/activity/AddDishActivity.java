@@ -1,20 +1,5 @@
 package bulat.diet.helper_plus.activity;
 
-import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
-import java.util.ArrayList;
-
-import org.apache.http.HttpResponse;
-import org.apache.http.StatusLine;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.params.BasicHttpParams;
-import org.apache.http.params.HttpConnectionParams;
-import org.apache.http.params.HttpParams;
-
 import android.content.Context;
 import android.graphics.Color;
 import android.os.AsyncTask;
@@ -34,6 +19,23 @@ import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
+
+import org.apache.http.HttpResponse;
+import org.apache.http.StatusLine;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.params.BasicHttpParams;
+import org.apache.http.params.HttpConnectionParams;
+import org.apache.http.params.HttpParams;
+
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.Collections;
+
 import bulat.diet.helper_plus.R;
 import bulat.diet.helper_plus.db.DishListHelper;
 import bulat.diet.helper_plus.item.Dish;
@@ -145,7 +147,7 @@ public class AddDishActivity extends BaseActivity{
 						barcode = dishBarView.getText().toString();
 						
 						category =  ((DishType)typeSpinner.getSelectedItem()).getTypeKey();
-						type = DishListHelper.getDishesTypeByCategory(AddDishActivity.this,((DishType)typeSpinner.getSelectedItem()).getTypeKey());
+						type = DishListHelper.getDishesTypeByCategory(AddDishActivity.this,category);
 						DishListHelper.addNewDish(
 								new Dish(nameView.getText().toString(),
 										nameView.getText().toString(),
@@ -249,7 +251,7 @@ public class AddDishActivity extends BaseActivity{
 		}else{
 			types.addAll(DishListHelper.getAllDishCategories(this));
 		}
-
+		Collections.reverse(types);
 		ArrayAdapter<DishType> adapter = new ArrayAdapter<DishType>(this, android.R.layout.simple_spinner_item, types);
 		
 		adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -258,7 +260,13 @@ public class AddDishActivity extends BaseActivity{
 			if((types.size()-1) < typeKey){
 				typeSpinner.setSelection(0);
 			}else{
-				typeSpinner.setSelection(typeKey);
+				int key = 0;
+				for (DishType type : types) {
+					if (type.getTypeKey() == typeKey) {
+						key = types.indexOf(type);
+					}
+				}
+				typeSpinner.setSelection(key);
 			}
 		}catch (Exception e) {
 			e.printStackTrace();
@@ -334,7 +342,7 @@ public class AddDishActivity extends BaseActivity{
 				} catch (UnsupportedEncodingException e1) {
 					e1.printStackTrace();
 				}
-				
+
 				category =  ((DishType)typeSpinner.getSelectedItem()).getTypeKey();
 				HttpGet httpGet ;
 				if(barcode.length()<5){

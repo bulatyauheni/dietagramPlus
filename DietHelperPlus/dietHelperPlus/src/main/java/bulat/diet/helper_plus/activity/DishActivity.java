@@ -1,14 +1,5 @@
 package bulat.diet.helper_plus.activity;
 
-import java.text.DecimalFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.Locale;
-
-import com.dm.zbar.android.scanner.ZBarConstants;
-
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
@@ -16,9 +7,8 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.database.DataSetObserver;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
-import android.speech.RecognizerIntent;
-import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -33,15 +23,22 @@ import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.text.DecimalFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.Locale;
+
 import bulat.diet.helper_plus.R;
 import bulat.diet.helper_plus.adapter.TodayDishAdapter;
 import bulat.diet.helper_plus.db.DishProvider;
 import bulat.diet.helper_plus.db.TemplateDishHelper;
 import bulat.diet.helper_plus.db.TodayDishHelper;
-import bulat.diet.helper_plus.item.Dish;
 import bulat.diet.helper_plus.item.DishType;
 import bulat.diet.helper_plus.item.TodayDish;
-import bulat.diet.helper_plus.utils.Constants;
+import bulat.diet.helper_plus.utils.CustomAlertDialogBuilder;
 import bulat.diet.helper_plus.utils.SaveUtils;
 import bulat.diet.helper_plus.utils.SocialUpdater;
 
@@ -56,6 +53,7 @@ public class DishActivity extends BaseActivity {
 	Cursor c;
 	TextView header;
 	String parentName = null;
+	private String selectedTemplate = "";
 	int sum;
 	float sumF;
 	float sumC;
@@ -108,12 +106,17 @@ public class DishActivity extends BaseActivity {
 		saveButton.setOnClickListener(saveListener);
 		Button loadButton = (Button) viewToLoad.findViewById(R.id.loadtemplate);
 		loadButton.setOnClickListener(loadListener);
-		
+		Button waterButton = (Button) viewToLoad.findViewById(R.id.buttonWater);
+		waterButton.setOnClickListener(waterTodayListener);
 		
 		setContentView(viewToLoad);
 	}
 
-	
+	@Override
+	public void onBackPressed() {
+		super.onBackPressed();
+	}
+
 	@Override
 	protected void onResume() {
 		//colors
@@ -202,33 +205,7 @@ public class DishActivity extends BaseActivity {
 	@Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		Toast.makeText(this, "Scan Result = " , Toast.LENGTH_SHORT).show();
-        super.onActivityResult(requestCode, resultCode, data);               
-        switch (requestCode) {
-        	case DishListActivity.ZBAR_SCANNER_REQUEST:
-        	case DishListActivity.ZBAR_QR_SCANNER_REQUEST:
-            if (resultCode == RESULT_OK) {
-                Toast.makeText(this, "Scan Result = " + data.getStringExtra(ZBarConstants.SCAN_RESULT), Toast.LENGTH_SHORT).show();
-            } else if(resultCode == RESULT_CANCELED && data != null) {
-                String error = data.getStringExtra(ZBarConstants.ERROR_INFO);
-                if(!TextUtils.isEmpty(error)) {
-                    Toast.makeText(this, error, Toast.LENGTH_SHORT).show();
-                }
-            }
-	        case 1: {	        		 				        
-	            if (resultCode == RESULT_OK && null != data) {
-	 
-	                ArrayList<String> text = data
-	                        .getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);	 
-	                Constants.ST = text.get(0);	  	               
-	            }
-	            
-	            break;
-	        }    
-	        	 
-        }
-
-
-    }
+	}
 /*
 	public void checkLimit(int sum){
 		int mode = SaveUtils.getMode(this);
@@ -347,12 +324,74 @@ private OnClickListener saveListener = new OnClickListener() {
 				Toast.makeText(DishActivity.this, getString(R.string.templatesempty),
 						Toast.LENGTH_LONG).show();
 			}else{
-				templateSpinner.performClick();
+				CustomAlertDialogBuilder bld = new CustomAlertDialogBuilder(DishActivity.this.getParent().getParent());
+				bld.setLayout(R.layout.section_listview_alert_dialog)
+						.setTitle(getString(R.string.choosetemplate))
+						.setListView(new OnClickListener() {
+
+							@Override
+							public void onClick(View v) {
+								if (flagLoad) {
+									flagLoad = false;
+									AlertDialog.Builder builder =
+											null;
+									selectedTemplate = ((TextView) v).getText().toString();
+
+									builder = new AlertDialog.Builder(DishActivity.this.getParent());
+
+									builder.setMessage(R.string.remove_dialog)
+											.setPositiveButton(DishActivity.this.getString(R.string.yes),
+													dialogClickListener)
+											.setNegativeButton(DishActivity.this.getString(R.string.no),
+													dialogClickListener).show();
+
+								}
+							}
+						}, getTemplatesAdapter())
+						.setPositiveButton(R.id.dialogButtonOk, null, new OnClickListener() {
+
+							@Override
+							public void onClick(View v) {
+								Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
+										"mailto", "bulat.yauheni@gmail.com", null));
+								emailIntent.putExtra(Intent.EXTRA_SUBJECT, DishActivity.this.getParent().getString(R.string.app_name));
+								emailIntent.putExtra(Intent.EXTRA_TEXT, "");
+								DishActivity.this.getParent().getParent().startActivity((Intent.createChooser(emailIntent, "Send email...")));
+							}
+						})
+						.setPositiveButtonText(R.string.yes)
+						.setNegativeButton(R.id.dialogButtonCancel, new OnClickListener() {
+
+							@Override
+							public void onClick(View v) {
+								// TODO Auto-generated method stub
+
+							}
+						}).setNegativeButtonText(R.string.no);
+				bld.show();
+				//.setPositiveButtonText(R.string.agree)
+						//.setNegativeButtonText(R.string.disagree);
+
+
 			}
 			
 		}
 	};
-	
+
+	private ArrayAdapter<DishType> getTemplatesAdapter() {
+		ArrayList<DishType> types = new ArrayList<DishType>();
+
+		types.addAll(TemplateDishHelper.getDaysArray(DishActivity.this));
+
+		ArrayAdapter<DishType> adapter2 = new ArrayAdapter<DishType>(
+				DishActivity.this, android.R.layout.simple_dropdown_item_1line, types);
+
+		((ArrayAdapter<DishType>) adapter2)
+				.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
+		//  templateSpinner.setAdapter(adapter2);
+		// templateSpinner.setOnItemSelectedListener(spinnerListener);
+		return adapter2;
+	}
 
 	private void initDishTable(){
 		if (c.getCount() > 0) {
@@ -526,7 +565,7 @@ private OnClickListener saveListener = new OnClickListener() {
 						e.printStackTrace();
 					}
 					try{
-					cTemp = TemplateDishHelper.getDishesByDate( DishActivity.this, ((DishType) templateSpinner.getSelectedItem()).getDescription());
+					cTemp = TemplateDishHelper.getDishesByDate( DishActivity.this, selectedTemplate);
 					if(cTemp.getCount()>0){	
 						if (0!=SaveUtils.getUserUnicId(DishActivity.this)) {
 						//	removeDaySocial(curentDateandTime);

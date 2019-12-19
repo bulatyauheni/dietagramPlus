@@ -236,4 +236,6 @@
 	
 	<string name="barcode">Штрих-код:</string>
 	<string name="water_name">Вода</string>
+    <string name="years">лет</string>
+    <string name="tommorrow_dialog">Вы хотите заполнить данные на завтра?</string>
 </resources>

@@ -1,39 +1,5 @@
 package bulat.diet.helper_plus.activity;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.Locale;
-import java.util.Set;
-import java.util.TreeMap;
-
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.StatusLine;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.json.JSONArray;
-import org.json.JSONObject;
-
-import bulat.diet.helper_plus.R;
-import bulat.diet.helper_plus.adapter.ContactsAdapter;
-import bulat.diet.helper_plus.db.MessagesHelper;
-import bulat.diet.helper_plus.item.DishType;
-import bulat.diet.helper_plus.item.MessageItem;
-import bulat.diet.helper_plus.utils.Constants;
-import bulat.diet.helper_plus.utils.DialogUtils;
-import bulat.diet.helper_plus.utils.NetworkState;
-import bulat.diet.helper_plus.utils.SaveUtils;
-import bulat.diet.helper_plus.utils.SocialUpdater;
-
 import android.app.Dialog;
 import android.content.Intent;
 import android.database.Cursor;
@@ -52,6 +18,40 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.StatusLine;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.Locale;
+import java.util.Set;
+import java.util.TreeMap;
+
+import bulat.diet.helper_plus.R;
+import bulat.diet.helper_plus.adapter.ContactsAdapter;
+import bulat.diet.helper_plus.db.MessagesHelper;
+import bulat.diet.helper_plus.item.DishType;
+import bulat.diet.helper_plus.item.MessageItem;
+import bulat.diet.helper_plus.utils.Constants;
+import bulat.diet.helper_plus.utils.DialogUtils;
+import bulat.diet.helper_plus.utils.NetworkState;
+import bulat.diet.helper_plus.utils.SaveUtils;
+import bulat.diet.helper_plus.utils.SocialUpdater;
 
 public class MessagesActivity extends BaseActivity {
 	private static final int DIALOG_CHANGE_USER_NAME = 3;
@@ -226,7 +226,7 @@ public class MessagesActivity extends BaseActivity {
 		// TODO Auto-generated method stub
 		DietHelperActivity parentActivity;
 		parentActivity = (DietHelperActivity) this.getParent().getParent();
-		parentActivity.changeSocialTabIndicator(3, message);
+		//parentActivity.changeSocialTabIndicator(3, message);
 	}
 
 	private OnItemClickListener usersListOnItemClickListener = new OnItemClickListener() {

@@ -2,9 +2,12 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:switch="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/main_color"
     android:isScrollContainer="true"
-    android:scrollbars="vertical" >
+    android:scrollbars="vertical">
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -36,203 +39,228 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_marginTop="10dip"
+            android:padding="16dp"
             android:background="@color/main_color"
             android:orientation="vertical" >
 
             <LinearLayout
-                android:id="@+id/linearLayoutDishWeight"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal" >
-
                 <LinearLayout
-                    android:id="@+id/linearLayoutMode"
-                    android:layout_width="0px"
-                    android:layout_height="fill_parent"
-                    android:layout_weight="2"
-                    android:orientation="horizontal" >
-
-                    <TextView
-                        android:id="@+id/textViewSex"
-                        android:layout_width="wrap_content"
-                        android:layout_height="fill_parent"
-                        android:layout_alignParentLeft="true"
-                        android:layout_marginLeft="5dp"
-                        android:gravity="center_vertical"
-                        android:text="@string/sex"
-                        android:textColor="@color/text_color" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/linearLayoutCaloricity"
                     android:layout_width="0px"
                     android:layout_height="wrap_content"
-                    android:layout_weight="2"
-                    android:gravity="right"
-                    android:orientation="vertical" >
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
 
-                    <Spinner
-                        android:id="@+id/SpinnerSex"
+                    <bulat.diet.helper_plus.controls.TitledSwitch
+                        android:id="@+id/sex_mode"
+                        style="@style/SwitchStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentStart="true"
+                        android:gravity="center_vertical"
+                        switch:switchTextAppearanceAttrib="@style/SwitchTextAppearance"
+                        switch:textOff="@string/male"
+                        switch:textOn="@string/female" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CommonLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/high" />
+
+                    <TextView
+                        android:id="@+id/SpinnerHeight"
+                        style="@style/CommonLabelEditable"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dip"
-                        android:textColor="@color/text_color" />
+                        android:textColor="@color/text_color"
+                        tools:text="123" />
                 </LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/linearLayoutDishWeight"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:orientation="horizontal" >
-
                 <LinearLayout
                     android:layout_width="0px"
-                    android:layout_height="fill_parent"
-                    android:layout_weight="1"
-                    android:orientation="horizontal" >
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:gravity="left"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
 
                     <TextView
                         android:id="@+id/textViewWeight"
+                        style="@style/CommonLabel"
                         android:layout_width="wrap_content"
                         android:layout_height="fill_parent"
-                        android:layout_marginLeft="5dp"
-                        android:gravity="center_vertical"
-                        android:text="@string/weight"
-                        android:textColor="@color/text_color" />
-                </LinearLayout>
+                        android:text="@string/weight" />
 
-                <LinearLayout
-                    android:layout_width="0px"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.1"
-                    android:gravity="right"
-                    android:orientation="horizontal" >
-
-                    <Spinner
+                    <TextView
                         android:id="@+id/SpinnerWeight"
+                        style="@style/CommonLabelEditable"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dip"
-                        android:textColor="@color/text_color" />
+                        android:drawableTint="@color/bg_group_item_dragging_state"
+                        tools:text="158,7" />
 
-                    <TextView
-                        android:id="@+id/textViewSex"
-                        android:layout_width="wrap_content"
-                        android:layout_height="fill_parent"
-                        android:layout_alignParentLeft="true"
-                        android:gravity="bottom"
-                        android:text=","
-                        android:textColor="@color/text_color" />
-
-                    <Spinner
-                        android:id="@+id/SpinnerWeightDecimal"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="2dip"
-                        android:textColor="@color/text_color" />
                 </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal" >
-
                 <LinearLayout
-                    android:id="@+id/linearLayoutDishWeight"
                     android:layout_width="0px"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="horizontal" >
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.9"
+                    android:gravity="right"
+                    android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/textViewAge"
+                        style="@style/CommonLabel"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_alignParentLeft="true"
-                        android:layout_marginLeft="5dp"
                         android:text="@string/age"
                         android:textColor="@color/text_color" />
 
-                    <Spinner
-                        android:id="@+id/SpinnerAge"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dip"
-                        android:layout_weight="1"
-                        android:textColor="@color/text_color" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0px"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.1"
-                    android:orientation="horizontal" >
-
                     <TextView
-                        android:id="@+id/textViewHeight"
+                        android:id="@+id/SpinnerAge"
+                        style="@style/CommonLabelEditable"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_alignParentLeft="true"
-                        android:layout_marginLeft="5dp"
-                        android:text="@string/high"
-                        android:textColor="@color/text_color" />
-
-                    <Spinner
-                        android:id="@+id/SpinnerHeight"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
                         android:layout_marginLeft="5dip"
-                        android:layout_weight="1"
-                        android:textColor="@color/text_color" />
+                        android:textColor="@color/text_color"
+                        tools:text="25" />
                 </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal" >
+                android:orientation="vertical" >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/label_actrivity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_weight="1"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/light_broun"
+                        android:text="@string/activity" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/label_actrivity"
+                        android:background="@color/light_broun" />
+
+                </RelativeLayout>
+                <bulat.diet.helper_plus.controls.ImagedSelector
+                    android:id="@+id/activityLevelSelector"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" />
 
                 <TextView
                     android:id="@+id/textViewActivity"
-                    android:layout_width="wrap_content"
+                    style="@style/CommonLabel"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
+                    android:gravity="center"
                     android:layout_marginLeft="5dp"
                     android:text="@string/activity"
-                    android:textColor="@color/text_color" />
+                    android:textSize="14sp"
+                    android:textColor="@color/unselected_color"
+                    />
 
-                <Spinner
-                    android:id="@+id/SpinnerActivity"
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/label_mode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_weight="1"
+                        android:paddingRight="10dp"
+                        android:text="@string/mode"
+                        android:textColor="@color/light_broun"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/label_mode"
+                        android:background="@color/light_broun" />
+
+                </RelativeLayout>
+                <bulat.diet.helper_plus.controls.ImagedSelector
+                    android:id="@+id/dietaModeSelector"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    app:custom_layout="@layout/dieta_modes_selector" />
+
+                <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="14dp"
-                    android:layout_weight="1"
-                    android:textColor="@color/text_color" />
-            </LinearLayout>
+                    android:orientation="horizontal">
 
+                    <TextView
+                        android:id="@+id/textViewMode"
+                        style="@style/CommonLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/mode"
+                        android:textSize="14sp"
+                        android:textColor="@color/unselected_color" />
+                </LinearLayout>
+            </LinearLayout>
             <LinearLayout
-                android:id="@+id/linearLayoutCaloricity"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical" >
 
                 <LinearLayout
-                    android:id="@+id/linearLayoutCaloricity"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal" >
 
                     <LinearLayout
-                        android:id="@+id/linearLayoutCaloricity"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="5"
                         android:orientation="vertical" >
 
                         <TextView
-                            android:id="@+id/textViewlabel"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignBottom="@+id/textViewLoading"
@@ -264,13 +292,13 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/linearLayoutCaloricity"
+
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal" >
 
                     <LinearLayout
-                        android:id="@+id/linearLayoutCaloricity"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -297,7 +325,7 @@
                         android:visibility="gone" >
 
                         <LinearLayout
-                            android:id="@+id/linearLayoutCaloricity"
+
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -316,7 +344,7 @@
                         </LinearLayout>
 
                         <LinearLayout
-                            android:id="@+id/linearLayoutCaloricity"
+
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="0.8"
@@ -333,7 +361,7 @@
 	                            android:textColor="@color/text_color" />
                         </LinearLayout>
                         <LinearLayout
-                            android:id="@+id/linearLayoutCaloricity"
+
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -361,20 +389,18 @@
                     android:visibility="visible" >
 
                     <LinearLayout
-                        android:id="@+id/linearLayoutCaloricity"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal" >
 
                         <LinearLayout
-                            android:id="@+id/linearLayoutCaloricity"
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:orientation="vertical" >
 
                             <TextView
-                                android:id="@+id/textViewlabel"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_alignBottom="@+id/textViewLoading"
@@ -385,7 +411,7 @@
                         </LinearLayout>
 
                         <LinearLayout
-                            android:id="@+id/linearLayoutCaloricity"
+
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -406,20 +432,18 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/linearLayoutCaloricity"
+
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal" >
 
                         <LinearLayout
-                            android:id="@+id/linearLayoutCaloricity"
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:orientation="vertical" >
 
                             <TextView
-                                android:id="@+id/textViewlabel"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_alignBottom="@+id/textViewLoading"
@@ -430,7 +454,7 @@
                         </LinearLayout>
 
                         <LinearLayout
-                            android:id="@+id/linearLayoutCaloricity"
+
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -450,46 +474,6 @@
                         </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/linearLayoutMode"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_marginBottom="5dip"
-            android:orientation="horizontal" >
-
-            <LinearLayout
-                android:id="@+id/linearLayoutMode"
-                android:layout_width="0px"
-                android:layout_height="fill_parent"
-                android:layout_weight="2"
-                android:orientation="horizontal" >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginLeft="5dp"
-                    android:layout_weight="2.03"
-                    android:text="@string/mode"
-                    android:textColor="@color/red" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/linearLayoutCaloricity"
-                android:layout_width="0px"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:gravity="right"
-                android:orientation="vertical" >
-
-                <Spinner
-                    android:id="@+id/SpinnerMode"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/text_color" />
             </LinearLayout>
         </LinearLayout>
 

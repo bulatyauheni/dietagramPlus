@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;GPSTracker.java&apos; to &apos;AllergyMap/src/bulat.allergymap.location.service&apos;&#x0D;&#x0A;- Original project: &apos;AndroidGPSTracking&apos;&#x0D;&#x0A;- Destination element: &apos;AllergyMap/src/bulat.allergymap.location.service&apos;&#x0D;&#x0A;- Original element: &apos;com.example.gpstracking.GPSTracker.java&apos;" description="Copy compilation unit" destination="=AllergyMap/src&lt;bulat.allergymap.location.service" element1="/src&lt;com.example.gpstracking{GPSTracker.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1379235554149" units="1" version="1.0"/>
-</session>

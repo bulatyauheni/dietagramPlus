@@ -1,32 +1,8 @@
 package bulat.diet.helper_plus.activity;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Locale;
-import java.util.regex.Pattern;
-
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.StatusLine;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.params.BasicHttpParams;
-import org.apache.http.params.HttpConnectionParams;
-import org.apache.http.params.HttpParams;
-
 import android.accounts.Account;
 import android.accounts.AccountManager;
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -42,14 +18,38 @@ import android.util.Patterns;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ImageView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.AdapterView.OnItemClickListener;
+
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.StatusLine;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.params.BasicHttpParams;
+import org.apache.http.params.HttpConnectionParams;
+import org.apache.http.params.HttpParams;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.Locale;
+import java.util.regex.Pattern;
+
 import bulat.diet.helper_plus.R;
 import bulat.diet.helper_plus.adapter.BaseLoader;
 import bulat.diet.helper_plus.adapter.LocalsArrayAdapter;
-import bulat.diet.helper_plus.adapter.UserArrayAdapter;
 import bulat.diet.helper_plus.db.DishListHelper;
 import bulat.diet.helper_plus.db.TodayDishHelper;
 import bulat.diet.helper_plus.item.DishType;
@@ -113,11 +113,11 @@ public class StartActivity extends Activity{
 			getBaseContext().getResources().updateConfiguration(config,
 			      getBaseContext().getResources().getDisplayMetrics());
 			sliptask = new SleepTask();	
-			sliptask.execute();
+			sliptask.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
 			
 			//register user	
 			 if(0==SaveUtils.getUserAdvId(this)){			 				
-		    	  new RegisterTask().execute();	    	 
+		    	  new RegisterTask().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
 		     }
 		}
 	}
@@ -150,13 +150,14 @@ public class StartActivity extends Activity{
 				showDialog(DIALOG_DOWNLOAD_PROGRESS);
 			}
 		}
+		@SuppressLint("WrongThread")
 		@Override
 		protected Void doInBackground(Void... params) {
 			try {
 				//fill db by dishes during first time runing	
 				//SaveUtils.setFirstTime(this, true);
 				if(SaveUtils.isFirstTime(StartActivity.this)){
-					new LoadTask().execute();
+					new LoadTask().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
 					Thread.sleep(SLEEP_TIME_SHOT);
 					int perc = 0;
 					int kVal = 27;
@@ -187,7 +188,7 @@ public class StartActivity extends Activity{
 					}
 					if(DishListHelper.getCount(StartActivity.this)<10){
 						SaveUtils.setNumOfRows(0, StartActivity.this);
-						new LoadTask().execute();
+						new LoadTask().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
 						Thread.sleep(SLEEP_TIME);
 						int perc = 0;
 						while(perc<90){							
@@ -198,7 +199,7 @@ public class StartActivity extends Activity{
 						}
 					}
 					
-					new SocialUpdater(StartActivity.this, true).execute();
+					new SocialUpdater(StartActivity.this, true).executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
 					checkCalendar(StartActivity.this);
 					Thread.sleep(SLEEP_TIME_SHOT);
 				}
@@ -265,12 +266,12 @@ public class StartActivity extends Activity{
 		
 		String lastDate = TodayDishHelper.getLastDate(ctx);
 		Date curentDateandTime = new Date();
-		if(lastDate != null){
-			try{
-				if(Long.valueOf(TodayDishHelper.getLastDateLong(ctx))- (new Date()).getTime()> DateUtils.DAY_IN_MILLIS){
+		if(lastDate != null) {
+			try {
+				if (Long.valueOf(TodayDishHelper.getLastDateLong(ctx)) - (new Date()).getTime() > DateUtils.DAY_IN_MILLIS) {
 					TodayDishHelper.changeLastDate(ctx, TodayDishHelper.getLastDateLong(ctx));
 				}
-			}catch (Exception e) {
+			} catch (Exception e) {
 				e.printStackTrace();
 			}
 			try {
@@ -280,16 +281,19 @@ public class StartActivity extends Activity{
 				e.printStackTrace();
 			}
 			Date nowDate = new Date();
-			if(nowDate.getMonth()==0 && curentDateandTime.getMonth()==11){
-				curentDateandTime.setYear(nowDate.getYear()-1);
-			}else{
+
+			if (nowDate.getMonth() == 0 && curentDateandTime.getMonth() == 11) {
+				curentDateandTime.setYear(nowDate.getYear() - 1);
+			} else {
 				curentDateandTime.setYear(nowDate.getYear());
 			}
-				
+//remove day in history if it is older then 5 years
+			TodayDishHelper.removeDishesBelowDate(nowDate.getTime() - 5 * DateUtils.YEAR_IN_MILLIS, ctx);
+
 			//curentDateandTime = new Date(curentDateandTime.getTime() - 5 * DateUtils.DAY_IN_MILLIS);			
 			if(nowDate.getTime() - curentDateandTime.getTime() > DateUtils.DAY_IN_MILLIS){
 				while(nowDate.getTime() - curentDateandTime.getTime() > DateUtils.DAY_IN_MILLIS){
-					curentDateandTime = new Date(curentDateandTime.getTime() + DateUtils.DAY_IN_MILLIS);					
+					curentDateandTime = new Date(curentDateandTime.getTime() + DateUtils.DAY_IN_MILLIS);
 					TodayDishHelper.addNewDish(new TodayDish("", "", 0, "", 0, 0, sdf.format(curentDateandTime), curentDateandTime.getTime() ,1, ""), ctx);
 				}
 			}
@@ -348,7 +352,7 @@ public class StartActivity extends Activity{
 			case DialogInterface.BUTTON_POSITIVE:
 				try {
 					sliptask = new SleepTask();	
-					sliptask.execute();
+					sliptask.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
 					
 				} catch (Exception e) {
 					e.printStackTrace();

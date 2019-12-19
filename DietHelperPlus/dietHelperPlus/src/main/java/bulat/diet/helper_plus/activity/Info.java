@@ -1,10 +1,8 @@
 package bulat.diet.helper_plus.activity;
 
-import java.util.ArrayList;
-
-import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -13,20 +11,26 @@ import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.LinearLayout;
-import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.Map;
+
 import bulat.diet.helper_plus.R;
+import bulat.diet.helper_plus.controls.ImagedSelector;
+import bulat.diet.helper_plus.controls.TitledSwitch;
 import bulat.diet.helper_plus.item.DishType;
-import bulat.diet.helper_plus.utils.DialogUtils;
+import bulat.diet.helper_plus.utils.CustomAlertDialogBuilder;
+import bulat.diet.helper_plus.utils.CustomBottomAlertDialogBuilder;
 import bulat.diet.helper_plus.utils.SaveUtils;
 import bulat.diet.helper_plus.utils.SocialUpdater;
 
-public class Info extends Activity {
-
-	private Spinner modeSpinner;
+public class Info extends AppCompatActivity {
+	private ImagedSelector modeSpinner;
 	private TextView BMItextView;
 	private TextView BMRtextView;
 	private TextView MetatextView;
@@ -37,21 +41,28 @@ public class Info extends Activity {
 	public static final int MAX_HEIGHT = 210;
 	public static final int MIN_AGE = 8;
 	public static final int MAX_AGE = 90;
-	private Spinner ageSpinner;
-	private Spinner sexSpinner;
-	private Spinner weightSpinner;
-	private Spinner weightSpinnerDec;
-	private Spinner highSpinner;
-	private Spinner activitySpinner;
 	
 	double BMI;
 	int BMR;
 	int META;
 	private CheckBox chkIos;
 	EditText limitET;
+	private TitledSwitch sexSelector;
+	private TextView highSpinner;
+	private TextView weightSelector;
+	private TextView ageSpinner;
+	private TextView textViewMode;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		final ArrayList<String> activity = new ArrayList<String>();
+		activity.add(getString(R.string.level_1));
+		activity.add(getString(R.string.level_2));
+		activity.add(getString(R.string.level_3));
+		activity.add(getString(R.string.level_4));
+		activity.add(getString(R.string.level_5));
+
 		final View viewToLoad = LayoutInflater.from(this.getParent()).inflate(
 				R.layout.settings, null);
 		setContentView(viewToLoad);	
@@ -87,6 +98,10 @@ public class Info extends Activity {
 	 
 		  }
 		});
+		BMItextView = (TextView) findViewById(R.id.textViewBMI);
+		BMRtextView = (TextView) findViewById(R.id.textViewMeta);
+		MetatextView = (TextView) findViewById(R.id.textViewBMR);
+
 		Button saveLimitButton = (Button) viewToLoad.findViewById(R.id.buttonYes);
 		saveLimitButton.setOnClickListener(new OnClickListener() {
 			
@@ -107,34 +122,189 @@ public class Info extends Activity {
 				}
 			}
 		});
-		ageSpinner = (Spinner) findViewById(R.id.SpinnerAge);
-		sexSpinner = (Spinner) findViewById(R.id.SpinnerSex);
-		weightSpinner = (Spinner) findViewById(R.id.SpinnerWeight);
-		weightSpinnerDec = (Spinner) findViewById(R.id.SpinnerWeightDecimal);
-		highSpinner = (Spinner) findViewById(R.id.SpinnerHeight);
-		activitySpinner = (Spinner) findViewById(R.id.SpinnerActivity);
-		
-		BMItextView = (TextView) findViewById(R.id.textViewBMI);
-		BMRtextView = (TextView) findViewById(R.id.textViewMeta);
-		MetatextView = (TextView) findViewById(R.id.textViewBMR);
-		
-		modeSpinner = (Spinner) findViewById(R.id.SpinnerMode);
-		ArrayList<DishType> mode = new ArrayList<DishType>();
-		mode.add(new DishType(0, getString(R.string.losing_weight)));
-		mode.add(new DishType(1, getString(R.string.keeping_weight)));
-		mode.add(new DishType(2, getString(R.string.gaining_weight)));
-		ArrayAdapter<DishType> adapter = new ArrayAdapter<DishType>(this,
-				android.R.layout.simple_spinner_item, mode);
-		adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-		modeSpinner.setAdapter(adapter);		
-		modeSpinner.setSelection(SaveUtils.getMode(this));	
-		modeSpinner.setOnItemSelectedListener(spinnerModeListener);
-	////
-			
-			
+
+		final TextView textViewActivity = (TextView) findViewById(R.id.textViewActivity);
+		ImagedSelector activityLevelSelector = (ImagedSelector) findViewById(R.id.activityLevelSelector);
+		activityLevelSelector.setOnItemSelectListener(new ImagedSelector.ItemSelectedListener() {
+			@Override
+			public void onItemSelected(int position) {
+				SaveUtils.saveActivity((int) position, Info.this);
+				onValuesUpdated();
+				textViewActivity.setText(activity.get(position - 1));
+			}
+		});
+		activityLevelSelector.setSelectedItem(SaveUtils.getActivity(this));
+		ageSpinner = (TextView) findViewById(R.id.SpinnerAge);
+		ageSpinner.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				CustomBottomAlertDialogBuilder bld = new CustomBottomAlertDialogBuilder(Info.this.getParent());
+				bld.setLayout(R.layout.section_alert_dialog_single_picker_one_button)
+						.setFirstPicker(MIN_AGE, MAX_AGE, MIN_AGE + SaveUtils.getAge(Info.this))
+						.setDimensionLabel(getBaseContext().getString(R.string.years))
+						.setMessage(getBaseContext().getString(R.string.age_colon))
+						.setPositiveButton(R.id.dialogButtonOk, new CustomAlertDialogBuilder.DialogValueListener() {
+
+							@Override
+							public void onNewDialogValue(Map<String, String> value) {
+								SaveUtils.saveAge(Integer.parseInt(value.get(CustomAlertDialogBuilder.FIRST_VALUE)) - MIN_AGE, Info.this);
+								ageSpinner.setText(value.get(CustomAlertDialogBuilder.FIRST_VALUE));
+								onValuesUpdated();
+							}
+						}, new OnClickListener() {
+
+							@Override
+							public void onClick(View v) {
+
+							}
+						});
+				bld.show();
+			}
+		});
+		sexSelector = (TitledSwitch) findViewById(R.id.sex_mode);
+		sexSelector.setChecked(SaveUtils.getSex(getBaseContext()) == 1);
+		sexSelector.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+												   @Override
+												   public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+													   if (isChecked) {
+														   SaveUtils.saveSex(1, getBaseContext());
+													   } else {
+														   SaveUtils.saveSex(0, getBaseContext());
+													   }
+													   onValuesUpdated();
+												   }
+											   }
+		);
+		highSpinner = (TextView) findViewById(R.id.SpinnerHeight);
+		highSpinner.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				CustomBottomAlertDialogBuilder bld = new CustomBottomAlertDialogBuilder(Info.this.getParent());
+				bld.setLayout(R.layout.section_alert_dialog_single_picker_one_button)
+						.setFirstPicker(MIN_HEIGHT, MAX_HEIGHT, MIN_HEIGHT + SaveUtils.getHeight(Info.this))
+						.setDimensionLabel(getBaseContext().getString(R.string.santimetr))
+						.setMessage(Info.this.getParent().getString(R.string.high_colon))
+
+						.setPositiveButton(R.id.dialogButtonOk, new CustomAlertDialogBuilder.DialogValueListener() {
+
+							@Override
+							public void onNewDialogValue(Map<String, String> value) {
+								SaveUtils.saveHeight(Integer.parseInt(value.get(CustomAlertDialogBuilder.FIRST_VALUE)) - MIN_HEIGHT, Info.this);
+								highSpinner.setText(value.get(CustomAlertDialogBuilder.FIRST_VALUE));
+								onValuesUpdated();
+							}
+						}, new OnClickListener() {
+
+							@Override
+							public void onClick(View v) {
+
+							}
+						});
+				bld.show();
+			}
+		});
+		weightSelector = (TextView) findViewById(R.id.SpinnerWeight);
+		weightSelector.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				CustomBottomAlertDialogBuilder bld = new CustomBottomAlertDialogBuilder(Info.this.getParent());
+				bld.setLayout(R.layout.section_alert_dialog_picker_one_button)
+						.setFirstPicker(MIN_WEIGHT, MAX_WEIGHT, MIN_WEIGHT + SaveUtils.getWeight(Info.this))
+						.setSecondPicker(0, 9, SaveUtils.getWeightDec(Info.this))
+						.setDimensionLabel(getBaseContext().getString(R.string.kgram))
+						.setMessage(Info.this.getString(R.string.body_weight))
+						.setPositiveButton(R.id.dialogButtonOk, new CustomAlertDialogBuilder.DialogValueListener() {
+							@Override
+							public void onNewDialogValue(Map<String, String> value) {
+								SaveUtils.saveWeight(Integer.parseInt(value.get(CustomAlertDialogBuilder.FIRST_VALUE)) - MIN_WEIGHT, Info.this);
+								SaveUtils.saveWeightDec(Integer.parseInt(value.get(CustomAlertDialogBuilder.SECOND_VALUE)), Info.this);
+								weightSelector.setText(value.get(CustomAlertDialogBuilder.FIRST_VALUE) + ", " + value.get(CustomAlertDialogBuilder.SECOND_VALUE));
+								onValuesUpdated();
+							}
+						}, new OnClickListener() {
+
+							@Override
+							public void onClick(View v) {
+
+							}
+						});
+				bld.show();
+			}
+		});
+
+		textViewMode = (TextView) findViewById(R.id.textViewMode);
+		final ArrayList<String> mode = new ArrayList<String>();
+		mode.add(getString(R.string.losing_weight));
+		mode.add(getString(R.string.keeping_weight));
+		mode.add(getString(R.string.gaining_weight));
+
+		modeSpinner = (ImagedSelector) findViewById(R.id.dietaModeSelector);
+		modeSpinner.setOnItemSelectListener(new ImagedSelector.ItemSelectedListener() {
+			@Override
+			public void onItemSelected(int position) {
+				SaveUtils.saveMode(position-1, Info.this);
+				onValuesUpdated();
+				textViewMode.setText(mode.get(position - 1));
+			}
+		});
+		modeSpinner.setSelectedItem(SaveUtils.getMode(this)+1);
 		setSpinnerValues();
 
 	}
+
+	private void onValuesUpdated() {
+
+		BMI = SaveUtils.getRealWeight(this)/
+				(0.01*((SaveUtils.getHeight(this) + MIN_HEIGHT))*
+						0.01*(SaveUtils.getHeight(this) + MIN_HEIGHT));
+		BMI = Math.round(BMI * 10.0) / 10.0;
+		String addText = "";
+		if(BMI < 18.5 ){
+			addText = getString(R.string.underweight);
+		} else
+		if(BMI < 24.9 ){
+			addText = getString(R.string.normal_weight);
+		} else
+		if(BMI < 29.9 ){
+			addText = getString(R.string.overweight);
+		} else {
+			addText = getString(R.string.obese);
+		}
+
+		BMItextView.setText(String.valueOf(BMI) + " " + addText);//new BigDecimal(BMI).round(new MathContext(1, RoundingMode.HALF_EVEN))) + " " + addText);
+
+
+		BMR = (int)((10*(SaveUtils.getRealWeight(this))) +
+				(6.25*(SaveUtils.getHeight(this) + MIN_HEIGHT)) -
+				(5*(SaveUtils.getAge(this) + MIN_AGE)) - 161 +
+				(SaveUtils.getSex(this) == 1 ? 0 : 166));
+		BMR = (int)BMR;
+		int activity = SaveUtils.getActivity(this);
+		if(activity==1){
+			META = (int)(BMR*1.2);
+		}else if(activity==2){
+			META =(int)( BMR*1.35);
+		}else if(activity==3){
+			META = (int)(BMR*1.55);
+		}else if(activity==4){
+			META = (int)(BMR*1.75);
+		}else if(activity==5){
+			META = (int)(BMR*1.92);
+		}
+		BMRtextView.setText(String.valueOf((int)(META * 0.8)) + " " + getString(R.string.calorie_day));//new BigDecimal(BMR).round(new MathContext(1, RoundingMode.HALF_EVEN))));
+
+		MetatextView.setText(String.valueOf(META) + " " + getString(R.string.calorie_day));//new BigDecimal(BMR).round(new MathContext(1, RoundingMode.HALF_EVEN))));
+
+		saveAll();
+
+		//ageSpinner;
+		//sexSpinner;
+		//weightSpinner;
+		//highSpinner;
+		//activitySpinner
+
+	}
+
 	@Override
 	protected void onDestroy() {
 		// TODO Auto-generated method stub
@@ -149,44 +319,15 @@ public class Info extends Activity {
 	
 	private void setSpinnerValues() {
 		try{
-			DialogUtils.setArraySpinnerValues(ageSpinner,MIN_AGE,MAX_AGE,this);							
-			ageSpinner.setSelection(SaveUtils.getAge(this));
-			ageSpinner.setOnItemSelectedListener(spinnerListener);
-			
-			DialogUtils.setArraySpinnerValues(weightSpinner,MIN_WEIGHT,MAX_WEIGHT,this);						
-			weightSpinner.setSelection(SaveUtils.getWeight(this));	
-			weightSpinner.setOnItemSelectedListener(spinnerListener);
-			
-			DialogUtils.setArraySpinnerValues(weightSpinnerDec,0,10,this);							
-			weightSpinnerDec.setSelection(SaveUtils.getWeightDec(this));	
-			weightSpinnerDec.setOnItemSelectedListener(spinnerListener);
-			
-			DialogUtils.setArraySpinnerValues(highSpinner,MIN_HEIGHT,MAX_HEIGHT,this);						
-			highSpinner.setSelection(SaveUtils.getHeight(this));
-			highSpinner.setOnItemSelectedListener(spinnerListener);
-			
+			ageSpinner.setText("" + (SaveUtils.getAge(this) + MIN_AGE));
+			weightSelector.setText("" + (SaveUtils.getRealWeight(this)));
+			highSpinner.setText("" + (SaveUtils.getHeight(this) + MIN_HEIGHT));
+
 			ArrayList<DishType> genders = new ArrayList<DishType>();
 			genders.add(new DishType( 166, getString(R.string.male)));
 			genders.add(new DishType( 0, getString(R.string.female)));		
 			ArrayAdapter<DishType>  adapter = new ArrayAdapter<DishType>(this, android.R.layout.simple_spinner_item, genders);		
 			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-			sexSpinner.setAdapter(adapter);				
-			sexSpinner.setSelection(SaveUtils.getSex(this));	
-			sexSpinner.setOnItemSelectedListener(spinnerListener);
-
-			ArrayList<DishType> activity = new ArrayList<DishType>();
-			activity.add(new DishType( 1, getString(R.string.level_1)));
-			activity.add(new DishType( 2, getString(R.string.level_2)));
-			activity.add(new DishType( 3, getString(R.string.level_3)));
-			activity.add(new DishType( 4, getString(R.string.level_4)));
-			activity.add(new DishType( 5, getString(R.string.level_5)));		
-			ArrayAdapter<DishType>  adapter2 = new ArrayAdapter<DishType>(this, android.R.layout.simple_spinner_item, activity);		
-			adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-			activitySpinner.setAdapter(adapter2);	
-			
-			activitySpinner.setSelection(SaveUtils.getActivity(this));
-			activitySpinner.setOnItemSelectedListener(spinnerListener);
-			
 		}catch (Exception e) {
 			e.printStackTrace();
 			SaveUtils.saveAge(0, Info.this);
@@ -201,6 +342,7 @@ public class Info extends Activity {
 	protected void onResume() {
 		// TODO Auto-generated method stub
 		super.onResume();
+		setSpinnerValues();
 		try {
 			BMI = Double.parseDouble(SaveUtils.getBMI(this));
 			String addText = "";
@@ -247,62 +389,7 @@ public class Info extends Activity {
 
 		public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2,
 				long arg3) {
-			//BMI 	Weight Status
-			//Below 18.5 	Underweight
-			//18.5 - 24.9 	Normal
-			//25 - 29.9 	Overweight
-			//30.0 & Above 	Obese
-			//Ð”Ð»Ñ� Ð¼ÑƒÐ¶Ñ‡Ð¸Ð½: BMR = [9.99 x Ð²ÐµÑ� (ÐºÐ³)] + [6.25 x Ñ€Ð¾Ñ�Ñ‚ (Ñ�Ð¼)] - [4.92 x Ð²Ð¾Ð·Ñ€Ð°Ñ�Ñ‚ (Ð² Ð³Ð¾Ð´Ð°Ñ…)] + 5
-			//Ð”Ð»Ñ� Ð¶ÐµÐ½Ñ‰Ð¸Ð½: BMR = [9.99 x Ð²ÐµÑ� (ÐºÐ³)] + [6.25 x Ñ€Ð¾Ñ�Ñ‚ (Ñ�Ð¼)] - [4.92 x Ð²Ð¾Ð·Ñ€Ð°Ñ�Ñ‚ (Ð² Ð³Ð¾Ð´Ð°Ñ…)] -161
-			
-			BMI = (((DishType)weightSpinner.getSelectedItem()).getTypeKey() + ((DishType)weightSpinnerDec.getSelectedItem()).getTypeKey()/10)/ 
-					(0.01*((DishType)highSpinner.getSelectedItem()).getTypeKey()*0.01*((DishType)highSpinner.getSelectedItem()).getTypeKey());
-			BMI = Math.round(BMI * 10.0) / 10.0;
-			String addText = "";
-			if(BMI < 18.5 ){
-				addText = getString(R.string.underweight);
-			} else
-			if(BMI < 24.9 ){
-				addText = getString(R.string.normal_weight);
-			} else
-			if(BMI < 29.9 ){
-				addText = getString(R.string.overweight);
-			} else {
-				addText = getString(R.string.obese);
-			}
-			
-			BMItextView.setText(String.valueOf(BMI) + " " + addText);//new BigDecimal(BMI).round(new MathContext(1, RoundingMode.HALF_EVEN))) + " " + addText);
-
-			
-			BMR = (int)((10*(((DishType)weightSpinner.getSelectedItem()).getTypeKey()+((DishType)weightSpinnerDec.getSelectedItem()).getTypeKey()/10)) + 
-					(6.25*((DishType)highSpinner.getSelectedItem()).getTypeKey()) - 
-					(5*((DishType)ageSpinner.getSelectedItem()).getTypeKey()) - 161 + 
-					((DishType)sexSpinner.getSelectedItem()).getTypeKey());
-			BMR = (int)BMR;
-								if(((DishType)activitySpinner.getSelectedItem()).getTypeKey()==1){
-						META = (int)(BMR*1.2);
-						
-					}else if(((DishType)activitySpinner.getSelectedItem()).getTypeKey()==2){
-						META =(int)( BMR*1.35);
-					}else if(((DishType)activitySpinner.getSelectedItem()).getTypeKey()==3){
-						META = (int)(BMR*1.55);
-					}else if(((DishType)activitySpinner.getSelectedItem()).getTypeKey()==4){
-						META = (int)(BMR*1.75); 
-					}else if(((DishType)activitySpinner.getSelectedItem()).getTypeKey()==5){
-						META = (int)(BMR*1.92);
-					}
-			BMRtextView.setText(String.valueOf((int)(META * 0.8)) + " " + getString(R.string.calorie_day));//new BigDecimal(BMR).round(new MathContext(1, RoundingMode.HALF_EVEN))));
-
-			MetatextView.setText(String.valueOf(META) + " " + getString(R.string.calorie_day));//new BigDecimal(BMR).round(new MathContext(1, RoundingMode.HALF_EVEN))));		
-					
-			saveAll();		
-			
-			//ageSpinner;
-			//sexSpinner;
-			//weightSpinner;
-			//highSpinner;
-			//activitySpinner
-			
+			onValuesUpdated();
 		}
 
 		public void onNothingSelected(AdapterView<?> arg0) {
@@ -319,14 +406,6 @@ public class Info extends Activity {
 			SaveUtils.saveBMI(String.valueOf(BMI), Info.this);
 			SaveUtils.saveBMR(String.valueOf((int)(META*0.8)), Info.this);
 			SaveUtils.saveMETA(String.valueOf(META), Info.this);
-			
-			SaveUtils.saveAge((int)ageSpinner.getSelectedItemId(), Info.this);
-			SaveUtils.saveActivity((int)activitySpinner.getSelectedItemId(), Info.this);
-			SaveUtils.saveHeight((int)highSpinner.getSelectedItemId(), Info.this);
-			SaveUtils.saveSex((int)sexSpinner.getSelectedItemId(), Info.this);
-			SaveUtils.saveWeight((int)weightSpinner.getSelectedItemId(), Info.this);
-			SaveUtils.saveWeightDec((int)weightSpinnerDec.getSelectedItemId(), Info.this);
-			
 			//update social profile
 			if(SaveUtils.getUserUnicId(this) != 0){
 				new SocialUpdater(this).execute();

@@ -1,11 +1,5 @@
 package bulat.diet.helper_plus.adapter;
 
-import java.text.DecimalFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Locale;
-
 import android.app.Dialog;
 import android.content.Context;
 import android.database.Cursor;
@@ -19,6 +13,13 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
+
+import java.text.DecimalFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+
 import bulat.diet.helper_plus.R;
 import bulat.diet.helper_plus.activity.CalendarActivity;
 import bulat.diet.helper_plus.activity.CalendarActivityGroup;
@@ -146,7 +147,7 @@ public class DaysAdapter extends CursorAdapter {
 			TextView weightView = (TextView) v
 					.findViewById(R.id.textViewWeightTotal);
 
-			weightView.setText(itemWeight + " "
+			weightView.setText(itemWeight == null ? "0" : itemWeight + " "
 					+ context.getString(R.string.gram));
 
 			TextView bodyweightView = (TextView) v

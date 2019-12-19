@@ -1,9 +1,5 @@
 package bulat.diet.helper_plus.activity;
 
-import java.util.ArrayList;
-import java.util.Stack;
-
-import bulat.diet.helper_plus.utils.Constants;
 import android.app.Activity;
 import android.app.ActivityGroup;
 import android.app.LocalActivityManager;
@@ -12,46 +8,47 @@ import android.os.Bundle;
 import android.speech.RecognizerIntent;
 import android.view.Window;
 
+import java.util.ArrayList;
+import java.util.Stack;
+
+import bulat.diet.helper_plus.utils.Constants;
+
 public class DishListActivityGroup extends ActivityGroup{
 private Stack<String> stack;
 private boolean flag=true;
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {		
-		super.onCreate(savedInstanceState);		
-		
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+
 		if (stack == null) {
 			stack = new Stack<String>();
 		}
 		//String lastLoadDate = SaveUtils.loadLastLoadDate(this);
 		//if (lastLoadDate.length() == 0){
-			
+
 		//} else {
 			push("CalendarActivity", new Intent(this, DishListActivity.class));
 	//	}
-			
+
 	}
-	
+
 	@Override
 		protected void onStart() {
 		super.onStart();
 			// TODO Auto-generated method stub
-			
+
 		}
-	
+
 	@Override
 	protected void onResume() {
-		//boolean firstLaunch = SaveUtils.loadFirstLaunchFlag(this);
-       // if (firstLaunch){
-		if(flag){
+		if (flag && stack.size() == 0) {
 			getFirst();
-		}else{
-			flag=true;
+		} else {
+			flag = true;
 		}
-        	getFirst();  	
-       // }
 		super.onResume();
 	}
-	
+
 	@Override
 	  public void finishFromChild(Activity child) {
 	    pop();
@@ -64,31 +61,37 @@ private boolean flag=true;
 
 	  @Override
 	    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-	        super.onActivityResult(requestCode, resultCode, data);               
+	        super.onActivityResult(requestCode, resultCode, data);
 	        switch (requestCode) {
-	        
-		        case 1: {	        		 				        
+
+		        case 1: {
 		            if (resultCode == RESULT_OK && null != data) {
-		 
+
 		                ArrayList<String> text = data
-		                        .getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);	 
-		                Constants.ST = text.get(0);	  	               
+		                        .getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
+		                Constants.ST = text.get(0);
 		            }
 		            break;
-		        }    
-		        	 
+		        }
+
 	        }
 	        flag=false;
 	       // push("DishListActivity", intent);
 	    }
-	 
+
 
 	  public void push(String id, Intent intent) {
-	    Window window = getLocalActivityManager().startActivity(id, intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
-	    if (window != null) {
-	      stack.push(id);
-	      setContentView(window.getDecorView());
-	    }
+		  Window window = null;
+		  try {
+			  window = getLocalActivityManager().startActivity(id,
+					  intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
+		  }catch (Exception e) {
+			  e.printStackTrace();
+		  }
+		  if (window != null) {
+			  stack.push(id);
+			  setContentView(window.getDecorView());
+		  }
 	  }
 
 	  public void pop() {
@@ -113,7 +116,7 @@ private boolean flag=true;
 					for (int i = 0; i < num; i++) {
 						manager.destroyActivity(stack.pop(), true);
 					}
-					
+
 				}
 
 				if (stack.size() > 0) {
@@ -131,14 +134,14 @@ private boolean flag=true;
 		    while(stack.size()>num) {
 		    	 manager.destroyActivity(stack.pop(), true);
 			}
-		   
+
 		    if (stack.size() > 0) {
 		      Intent lastIntent = manager.getActivity(stack.peek()).getIntent();
 		      Window newWindow = manager.startActivity(stack.peek(), lastIntent);
 		      setContentView(newWindow.getDecorView());
 		    }
 		  }
-	  
+
 	  public void getFirst(){
 		  if(stack.size() > 0){
 			  LocalActivityManager manager = getLocalActivityManager();
@@ -150,11 +153,11 @@ private boolean flag=true;
 		      setContentView(newWindow.getDecorView());
 		  }
 	  }
-	
+
 	  @Override
 		protected void onStop() {
 			//stack = null;
 			super.onStop();
 		}
-	  
+
 }
