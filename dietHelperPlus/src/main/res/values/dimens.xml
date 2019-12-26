@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="radio_button_conner_radius">5dp</dimen>
+    <dimen name="radio_button_stroke_border">1dp</dimen>
+
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="list_item_height">64dp</dimen>
+    <dimen name="list_group_item_height">60dp</dimen>
+
+
+    <dimen name="image_width">300dp</dimen>
+    <dimen name="spacing_normal">16dp</dimen>
+</resources>
